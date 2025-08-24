@@ -27,6 +27,8 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
 - Proponer una solución accesible, portátil y replicable para usuarios con discapacidad motora.
 
 ## Herramientas a utilizar
+- Sensor EEG (OpenBCI o similar): dispositivo de adquisición de señales cerebrales, que actúa como el sensor principal para detectar actividad eléctrica relacionada con parpadeos.
+- Python: lenguaje principal para el procesamiento de señales, desarrollo de algoritmos de detección y control.
 
 ## Referencias
 - [1] T. C. A. R. Gentiletti G., “Interfaz Cerebro-Computadora: Estado del arte y desarrollo en Argentina,” Revista Argentina de Bioingeniería, vol. 13, nº 1, pp. 21–29, 2007.
