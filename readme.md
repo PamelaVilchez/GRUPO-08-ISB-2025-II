@@ -14,9 +14,9 @@ Las BCI basadas en parpadeos ofrecen una alternativa accesible para personas con
 
 | Estudiantes | Contacto | Rol |
 |-------------|----------|----------|
-| Franco Peralta Yauyo | franco.peralta@upch.pe | |
-| Mariel Sánchez Valverde | mariel.sanchez@upch.pe| |
-| Pamela Vilchez Cotrina | pamela.vilchez@upch.pe| |
+| Franco Peralta Yauyo | franco.peralta@upch.pe | Pendiente |
+| Mariel Sánchez Valverde | mariel.sanchez@upch.pe| Pendiente |
+| Pamela Vilchez Cotrina | pamela.vilchez@upch.pe| Pendiente |
 
 ### Aporte de los integrantes
 - Franco Peralta 33.3%
