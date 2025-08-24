@@ -17,7 +17,8 @@ Desarrollar una **Interfaz Cerebro-Computadora (BCI)** basada en **detección en
 | Pamela Vilchez Cotrina | pamela.vilchez@upch.pe|
 
 ## Aporte de los integrantes
-- Franco Peralta 0%
-- Mariel Sánchez 50%
-- Pamela Vilchez 50%
+- Franco Peralta 33.3%
+- Mariel Sánchez 33.3%
+- Pamela Vilchez 33.3%
+
 
