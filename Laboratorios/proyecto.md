@@ -3,8 +3,13 @@
 
 
 ## Problemática a abordar
-Las Interfaces Cerebro-Computadora (BCI) son sistemas computacionales que permiten establecer una conexión directa entre la actividad cerebral de un individuo y su entorno, sin necesidad de utilizar vías nerviosas o musculares convencionales. Estas interfaces surgen como respuesta a la necesidad de crear nuevos canales de comunicación para personas con limitaciones motoras severas, facilitando su interacción con dispositivos mediante señales neurofisiológicas [1].
-Las BCI se fundamentan en la adquisición y procesamiento de señales cerebrales asociadas a procesos cognitivos, utilizando tecnologías como EEG (electroencefalografía), MEG (magnetoencefalografía) o fMRI (imagen por resonancia magnética funcional). Gracias a estos métodos, es posible interpretar intenciones del usuario y traducirlas en comandos que permiten controlar actuadores o sistemas externos, abriendo nuevas posibilidades en el ámbito clínico y de asistencia tecnológica [2].
+
+Las Interfaces Cerebro-Computadora (BCI) son sistemas que permiten establecer una conexión directa entre la actividad cerebral y el entorno, sin necesidad de recurrir a vías nerviosas o musculares convencionales. Estas tecnologías han surgido como alternativas de comunicación y control especialmente dirigidas a personas con limitaciones motoras severas, al traducir señales neurofisiológicas en comandos capaces de interactuar con dispositivos externos [1]. 
+
+En el caso de las BCI basadas en electroencefalografía (EEG), las señales suelen verse contaminadas por artefactos generados por movimientos oculares y parpadeos [2]. En entornos clínicos este fenómeno se descarta por considerarse “ruido”; sin embargo, puede convertirse en una fuente valiosa de control para aplicaciones asistivas. Esto es posible porque el ojo se comporta como un dipolo eléctrico: la córnea presenta carga positiva y la retina negativa. Al mover los ojos en diferentes direcciones, varía la orientación del dipolo, lo que produce cambios de voltaje detectables en electrodos ubicados alrededor de la zona ocular, fenómeno conocido como electrooculografía (EOG). 
+
+De esta manera, un sistema EEG portátil también puede registrar señales EOG, permitiendo identificar en tiempo real parpadeos o movimientos oculares y traducirlos en comandos simples brindando autonomía a personas con limitaciones motoras graves sin necesidad de complejos paradigmas cognitivos o costosos sistemas invasivos.
+
 
 
 
@@ -34,4 +39,5 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
 - [1] T. C. A. R. Gentiletti G., “Interfaz Cerebro-Computadora: Estado del arte y desarrollo en Argentina,” Revista Argentina de Bioingeniería, vol. 13, nº 1, pp. 21–29, 2007.
 - [2] P. F. Camillo S., “P300-based Brain-computer Interface: clinical applications and new possible directions,” en Proceedings of SIMPAR 2010 Workshops. Intl. Conf. on Simulation, Modeling and Programming for Autonomous Robots, Germany, 2010.
 - [3] Naciones Unidas, "Día Internacional de las Personas con Discapacidad", Naciones Unidas, 2025. Disponible en: https://www.un.org/es/observances/day-of-persons-with-disabilities
+
 - [4] Observatorio Nacional de la Discapacidad, Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS), “Discapacidad en cifras”, disponible en: https://observatorio.conadisperu.gob.pe/
