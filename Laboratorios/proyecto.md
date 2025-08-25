@@ -9,7 +9,7 @@ En el caso de las BCI basadas en electroencefalografía (EEG), las señales suel
 De esta manera, un sistema EEG portátil también puede registrar señales EOG, permitiendo identificar en tiempo real parpadeos o movimientos oculares y traducirlos en comandos simples brindando autonomía a personas con limitaciones motoras graves sin necesidad de complejos paradigmas cognitivos o costosos sistemas invasivos.
 
 
-### 📊 Estadísticas
+## 📊 Estadísticas
 
 En la actualidad, más de **1 000 millones de personas** en el mundo enfrenta algún tipo de discapacidad, lo que equivale a 1 de cada 7 personas. De esta población, el 80% reside en países en desarrollo [3]. Nuestro país no es ajeno a esta problemática. Según el Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS), hasta el 31 de julio de 2025 se registran **55 534 personas con discapacidad en Perú** [4].
 
@@ -31,11 +31,11 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
 ## 🛠️ Herramientas a utilizar
 
 - **Hardware**
-- - Open BCI (EEG portátil): adquisición de señales EEG/EOG de manera no invasiva
+  - Open BCI (EEG portátil): adquisición de señales EEG/EOG de manera no invasiva
   - Microcontrolador: módulo encargado de ejecutar los comandos detectados y controlar dispositivos externos.
 
 - **Software**
-- - **Python** (lenguaje de programación): procesamiento de señales, implementación del algoritmo de detección en tiempo real y control de la interfaz.
+ - **Python** (lenguaje de programación): procesamiento de señales, implementación del algoritmo de detección en tiempo real y control de la interfaz.
 
 ## Referencias
 - [1] T. C. A. R. Gentiletti G., “Interfaz Cerebro-Computadora: Estado del arte y desarrollo en Argentina,” Revista Argentina de Bioingeniería, vol. 13, nº 1, pp. 21–29, 2007.
@@ -43,5 +43,6 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
 - [3] Naciones Unidas, "Día Internacional de las Personas con Discapacidad", Naciones Unidas, 2025. Disponible en: https://www.un.org/es/observances/day-of-persons-with-disabilities
 
 - [4] Observatorio Nacional de la Discapacidad, Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS), “Discapacidad en cifras”, disponible en: https://observatorio.conadisperu.gob.pe/
+
 
 
