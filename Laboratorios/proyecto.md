@@ -44,10 +44,18 @@ La detección precisa y automática de la actividad neuronal de las extremidades
 Este artículo presenta un conjunto de datos que contiene 7440 archivos CSV de 60 sujetos de prueba durante tareas motoras y de imaginería motora.
 
 Las tareas motoras y de imaginería motora realizadas por los sujetos de prueba fueron: cerrar la mano izquierda, cerrar la mano derecha, flexión dorsal del pie izquierdo, flexión plantar del pie izquierdo, flexión dorsal del pie derecho, flexión plantar del pie derecho y descanso entre tareas.
-![proceso](Repositorio-Imágenes/MILimb_2a.png)
+
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/f81ee407676b9f5076f90d9550f21e4771a53d5c/Repositorio-Im%C3%A1genes/MILimb_2a.png?raw=true" 
+       alt="MILimb_2a" width="400">
+</p>
 
 Para garantizar la estandarización al registrar señales de EEG en las diferentes regiones de la corteza cerebral, la Sociedad Americana de Electroencefalografía (AES) definió el sistema internacional 10/10 - 64 electrodos, en el cual los electrodos se colocan en el cuero cabelludo con una separación del 10% entre ellos con respecto a las curvas sagital central y coronal central.
-![electrodos](Repositorio-Imágenes/MILimb_1.png)
+
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/f81ee407676b9f5076f90d9550f21e4771a53d5c/Repositorio-Im%C3%A1genes/MILimb_1.png?raw=true" 
+       alt="MILimb_1" width="400">
+</p>
 
 ### 2. BLINKER: Automated extraction of ocular indices from eeg enabling large scale analysis
 Proponen un proceso automatizado (BLINKER) para extraer índices oculares como la frecuencia de parpadeo, la duración del parpadeo y las relaciones entre la velocidad y la amplitud del parpadeo a partir de canales EEG, canales EOG
@@ -64,7 +72,10 @@ Los índices oculares que se pueden extraer fácilmente del EEG son la frecuenci
 
 BLINKER utiliza un umbral para la eliminación de valores atípicos y la selección de la mejor señal para identificar parpadeos. Las señales de los parpadeos tienen forma de carpa y una alta amplitud en relación con la señal de fondo.
 
-![señal de parpadeo](Repositorio-Imágenes/Blinker_2.png)
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/f81ee407676b9f5076f90d9550f21e4771a53d5c/Repositorio-Im%C3%A1genes/Blinker_2.png?raw=true" 
+       alt="Blinker_2" width="400">
+</p>
 
 El toolbox está disponible en https://github.com/VisLab/EEG-Blinks.
 La documentación para el usuario y los ejemplos se encuentran en http://vislab.github.io/EEG-Blinks/.
@@ -74,7 +85,11 @@ La documentación para el usuario y los ejemplos se encuentran en http://vislab.
 Durante el registro de señales de un electroencefalograma se pueden presentar artefactos oculares y musculares, los cuales llegan a esconder la señal cerebral que se desea analizar; es por ello que proponen un algoritmo con interfaz gráfica, implementada en MATLAB, para la detección automática de dichos artefactos para minimizar el tiempo de procesamiento de señales EEG.
 
 La detección se realiza a través del cálculo de la varianza y la curtosis en el dominio de la frecuencia, para el caso de artefactos oculares, y de la varianza en el dominio del tiempo, para el caso de artefactos musculares. Una vez detectados los artefactos, su eliminación se facilitará y permitirá al usuario agilizar el procesamiento de los datos EEG y realizar con éstos un análisis posterior. 
-![gui](Repositorio-Imágenes/algortimo-GUI_1.png)
+
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/f81ee407676b9f5076f90d9550f21e4771a53d5c/Repositorio-Im%C3%A1genes/algortimo-GUI_1.png?raw=true" 
+       alt="algoritmo-GUI_1" width="400">
+</p>
 
 Además, se robustecerá el algoritmo de detección de ambos tipos de artefactos en el dominio del tiempo y frecuencia mediante pruebas con series de datos EEG de pacientes con Epilepsia focalizada y generalizada. 
 
@@ -84,6 +99,7 @@ Además, se robustecerá el algoritmo de detección de ambos tipos de artefactos
 - [3] Naciones Unidas, "Día Internacional de las Personas con Discapacidad", Naciones Unidas, 2025. Disponible en: https://www.un.org/es/observances/day-of-persons-with-disabilities
 
 - [4] Observatorio Nacional de la Discapacidad, Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS), “Discapacidad en cifras”, disponible en: https://observatorio.conadisperu.gob.pe/
+
 
 
 
