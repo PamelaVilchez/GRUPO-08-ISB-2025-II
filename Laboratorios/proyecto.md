@@ -56,7 +56,8 @@ y/o componentes independientes (IC).
 También investigan la dependencia de los índices oculares en función de la tarea en un estudio de tiradores. Además, implementaron el algoritmo en un toolbox de MATLAB de libre acceso llamado BLINKER. Este toolbox se puede aplicar a colecciones de datos sin intervención del usuario y permite descubrir cuáles canales o circuitos integrados capturan los parpadeos.
 
 <p align="center">
-  <img src="[https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/f74cb180f76e8dc8c4c5b0404dbc71500a488587/Repositorio-Im%C3%A1genes/Blinker_1.png](https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/f74cb180f76e8dc8c4c5b0404dbc71500a488587/Repositorio-Im%C3%A1genes/Blinker_1.png)" alt="CONADIS-2025" width="400"> 
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/e05ba2b68a20814ed54fbd8f4a484695f9b1603f/Repositorio-Im%C3%A1genes/Blinker_1.png?raw=true" 
+       alt="Blinker_1" width="400">
 </p>
 
 Los índices oculares que se pueden extraer fácilmente del EEG son la frecuencia de parpadeo, la duración del parpadeo, la relación de desviación de la amplitud del parpadeo, la relación de velocidad de amplitud positiva, la relación de velocidad de amplitud negativa, el porcentaje de tiempo con los ojos cerrados, así como las desviaciones estándar, las tasas de cambio y las relaciones de estas medidas.
@@ -83,6 +84,7 @@ Además, se robustecerá el algoritmo de detección de ambos tipos de artefactos
 - [3] Naciones Unidas, "Día Internacional de las Personas con Discapacidad", Naciones Unidas, 2025. Disponible en: https://www.un.org/es/observances/day-of-persons-with-disabilities
 
 - [4] Observatorio Nacional de la Discapacidad, Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS), “Discapacidad en cifras”, disponible en: https://observatorio.conadisperu.gob.pe/
+
 
 
 
