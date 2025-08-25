@@ -1,16 +1,12 @@
-# Detección en Tiempo Real de Parpadeos Oculares para Control de Dispositivos mediante EEG
+# Uso de Señales EEG/EOG en Sistemas BCI para la Detección de Parpadeos y Movimientos Oculares 
 
-
-
-## Problemática a abordar
+## ⚠️ Problemática a abordar
 
 Las Interfaces Cerebro-Computadora (BCI) son sistemas que permiten establecer una conexión directa entre la actividad cerebral y el entorno, sin necesidad de recurrir a vías nerviosas o musculares convencionales. Estas tecnologías han surgido como alternativas de comunicación y control especialmente dirigidas a personas con limitaciones motoras severas, al traducir señales neurofisiológicas en comandos capaces de interactuar con dispositivos externos [1]. 
 
 En el caso de las BCI basadas en electroencefalografía (EEG), las señales suelen verse contaminadas por artefactos generados por movimientos oculares y parpadeos [2]. En entornos clínicos este fenómeno se descarta por considerarse “ruido”; sin embargo, puede convertirse en una fuente valiosa de control para aplicaciones asistivas. Esto es posible porque el ojo se comporta como un dipolo eléctrico: la córnea presenta carga positiva y la retina negativa. Al mover los ojos en diferentes direcciones, varía la orientación del dipolo, lo que produce cambios de voltaje detectables en electrodos ubicados alrededor de la zona ocular, fenómeno conocido como electrooculografía (EOG). 
 
 De esta manera, un sistema EEG portátil también puede registrar señales EOG, permitiendo identificar en tiempo real parpadeos o movimientos oculares y traducirlos en comandos simples brindando autonomía a personas con limitaciones motoras graves sin necesidad de complejos paradigmas cognitivos o costosos sistemas invasivos.
-
-
 
 
 ### 📊 Estadísticas
@@ -25,22 +21,21 @@ En la actualidad, más de **1 000 millones de personas** en el mundo enfrenta al
 La gráfica evidencia que casi el **60%** de esta población enfrenta una discapacidad severa, condición que suele involucrar limitaciones motoras graves que obliga a muchas personas a depender de terceros para realizar incluso tareas básicas de comunicación o interacción con dispositivos.
 
 
-## Objetivos a alcanzar
-- Detectar parpadeos oculares en tiempo real mediante señales EEG.
-- Traducir estos eventos en comandos para controlar dispositivos electrónicos.
-- Evaluar la precisión, latencia y robustez del sistema en condiciones reales.
-- Proponer una solución accesible, portátil y replicable para usuarios con discapacidad motora.
+## 🎯 Objetivos a alcanzar
 
-## Herramientas a utilizar
+- Desarrollar un sistema BCI no invasivo que utilice un EEG portátil para registrar tanto la actividad cerebral como los artefactos oculares (EOG) asociados a parpadeos y movimientos oculares.
+- Implementar un algoritmo en Python capaz de detectar en tiempo real parpadeos y movimientos oculares, traduciéndolos en comandos simples.
+- Evaluar el desempeño del sistema mediante métricas de precisión, latencia y robustez en escenarios de uso real.
+- Proponer una solución orientada a mejorar la autonomía de personas con discapacidad motora severa.
 
-| **OpenBCI** | adquisición de señales cerebrales |
----------------------------------------------------
-| **Python** | Procesamiento de señales |
------------------------------------------
+## 🛠️ Herramientas a utilizar
 
-- OpenBCI (dispositivo EEG portátil): adquisición de señales cerebrales.
-- Sensor EEG (OpenBCI o similar): dispositivo de adquisición de señales cerebrales, que actúa como el sensor principal para detectar actividad eléctrica relacionada con parpadeos.
-- Python: lenguaje principal para el procesamiento de señales, desarrollo de algoritmos de detección y control.
+- **Hardware**
+- - Open BCI (EEG portátil): adquisición de señales EEG/EOG de manera no invasiva
+  - Microcontrolador: módulo encargado de ejecutar los comandos detectados y controlar dispositivos externos.
+
+- **Software**
+- - **Python** (lenguaje de programación): procesamiento de señales, implementación del algoritmo de detección en tiempo real y control de la interfaz.
 
 ## Referencias
 - [1] T. C. A. R. Gentiletti G., “Interfaz Cerebro-Computadora: Estado del arte y desarrollo en Argentina,” Revista Argentina de Bioingeniería, vol. 13, nº 1, pp. 21–29, 2007.
@@ -48,4 +43,5 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
 - [3] Naciones Unidas, "Día Internacional de las Personas con Discapacidad", Naciones Unidas, 2025. Disponible en: https://www.un.org/es/observances/day-of-persons-with-disabilities
 
 - [4] Observatorio Nacional de la Discapacidad, Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS), “Discapacidad en cifras”, disponible en: https://observatorio.conadisperu.gob.pe/
+
 
