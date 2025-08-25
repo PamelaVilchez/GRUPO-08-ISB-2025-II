@@ -32,6 +32,13 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
 - Proponer una solución accesible, portátil y replicable para usuarios con discapacidad motora.
 
 ## Herramientas a utilizar
+
+| **OpenBCI** | adquisición de señales cerebrales |
+---------------------------------------------------
+| **Python** | Procesamiento de señales |
+-----------------------------------------
+
+- OpenBCI (dispositivo EEG portátil): adquisición de señales cerebrales.
 - Sensor EEG (OpenBCI o similar): dispositivo de adquisición de señales cerebrales, que actúa como el sensor principal para detectar actividad eléctrica relacionada con parpadeos.
 - Python: lenguaje principal para el procesamiento de señales, desarrollo de algoritmos de detección y control.
 
@@ -41,3 +48,4 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
 - [3] Naciones Unidas, "Día Internacional de las Personas con Discapacidad", Naciones Unidas, 2025. Disponible en: https://www.un.org/es/observances/day-of-persons-with-disabilities
 
 - [4] Observatorio Nacional de la Discapacidad, Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS), “Discapacidad en cifras”, disponible en: https://observatorio.conadisperu.gob.pe/
+
