@@ -35,7 +35,7 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
   - Microcontrolador: módulo encargado de ejecutar los comandos detectados y controlar dispositivos externos.
 
 - **Software**
- - **Python** (lenguaje de programación): procesamiento de señales, implementación del algoritmo de detección en tiempo real y control de la interfaz.
+  - **Python** (lenguaje de programación): procesamiento de señales, implementación del algoritmo de detección en tiempo real y control de la interfaz.
 
 ## Referencias
 - [1] T. C. A. R. Gentiletti G., “Interfaz Cerebro-Computadora: Estado del arte y desarrollo en Argentina,” Revista Argentina de Bioingeniería, vol. 13, nº 1, pp. 21–29, 2007.
@@ -43,6 +43,7 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
 - [3] Naciones Unidas, "Día Internacional de las Personas con Discapacidad", Naciones Unidas, 2025. Disponible en: https://www.un.org/es/observances/day-of-persons-with-disabilities
 
 - [4] Observatorio Nacional de la Discapacidad, Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS), “Discapacidad en cifras”, disponible en: https://observatorio.conadisperu.gob.pe/
+
 
 
 
