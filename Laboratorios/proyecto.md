@@ -5,19 +5,23 @@ Las Interfaces Cerebro-Computadora (BCI) son sistemas que permiten establecer un
 
 En el caso de las BCI basadas en electroencefalografía (EEG), las señales suelen verse contaminadas por artefactos generados por movimientos oculares y parpadeos [2]. En entornos clínicos este fenómeno se descarta por considerarse “ruido”; sin embargo, puede convertirse en una fuente valiosa de control para aplicaciones asistivas. Esto es posible porque el ojo se comporta como un dipolo eléctrico: la córnea presenta carga positiva y la retina negativa. Al mover los ojos en diferentes direcciones, varía la orientación del dipolo, lo que produce cambios de voltaje detectables en electrodos ubicados alrededor de la zona ocular, fenómeno conocido como electrooculografía (EOG).
 
-Este proyecto propone una solución basada en un sistema EEG portátil (OpenBCI), capaz de detectar gestos oculares voluntarios —como parpadeos prolongados y guiños laterales— mediante electrodos ubicados cerca de los músculos oculares. El objetivo es permitir al paciente emitir comandos funcionales sin necesidad de movimiento corporal ni contacto físico, tales como:
-- Parpadeo voluntario prolongado → Encendido del televisor
-- Guiño del ojo derecho → Avanzar de canal
-- Guiño del ojo izquierdo → Retroceder de canal
-
-Esta propuesta resulta especialmente relevante para personas con tetraplejia, quienes conservan la capacidad de comunicarse verbalmente pero enfrentan limitaciones físicas que dificultan la interacción directa con dispositivos del entorno. Acciones cotidianas como encender el televisor, cambiar de canal o ajustar el volumen suelen requerir asistencia externa o tecnologías especializadas que no siempre están disponibles o adaptadas a sus necesidades.
+Para personas con tetraplejia, que conservan la capacidad de comunicarse verbalmente pero enfrentan limitaciones físicas severas, acciones cotidianas como encender el televisor, cambiar de canal o ajustar el volumen suelen requerir asistencia externa o tecnologías especializadas que no siempre están disponibles o adaptadas a sus necesidades. Esto limita su autonomía y dificulta la interacción directa con el entorno.
 
 La problemática técnica se centra en:
 - La diferenciación precisa entre gestos voluntarios e involuntarios
 - La adaptación del sistema a distintos niveles de sensibilidad muscular
 - La implementación en tiempo real con bajo costo y alta portabilidad
 
-Al integrar funciones domésticas en un sistema accesible y personalizado, se promueve una experiencia más digna, eficiente y tecnológicamente inclusiva para personas con movilidad reducida.
+### 💡 Propuesta de solución
+Este proyecto propone el desarrollo de un sistema BCI no invasivo basado en EEG portátil (OpenBCI), capaz de registrar simultáneamente señales EEG y EOG mediante electrodos ubicados cerca de los músculos oculares. El sistema estará diseñado para detectar gestos oculares voluntarios —como parpadeos prolongados y guiños laterales— y traducirlos en comandos funcionales sin necesidad de movimiento corporal ni contacto físico.
+
+Los gestos definidos para el control de dispositivos son:
+- Parpadeo voluntario prolongado → Encendido del televisor
+- Guiño del ojo derecho → Avanzar de canal
+- Guiño del ojo izquierdo → Retroceder de canal
+
+Al integrar funciones domésticas en un sistema accesible y personalizado, se busca mejorar la autonomía de personas con movilidad reducida, promoviendo una experiencia más digna, eficiente y tecnológicamente inclusiva. Esta solución aprovecha señales tradicionalmente consideradas como ruido para convertirlas en una vía de interacción intuitiva y práctica con el entorno.
+
 
 ## 📊 Estadísticas
 
