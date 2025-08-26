@@ -1,4 +1,4 @@
-# Uso de Señales EEG/EOG en Sistemas BCI para la Detección de Parpadeos y Movimientos Oculares 
+# Detección de gestos oculares voluntarios mediante EEG para control de dispositivos en personas con tetraplejia
 
 ## ⚠️ Problemática a abordar
 Las Interfaces Cerebro-Computadora (BCI) son sistemas que permiten establecer una conexión directa entre la actividad cerebral y el entorno, sin necesidad de recurrir a vías nerviosas o musculares convencionales. Estas tecnologías han surgido como alternativas de comunicación y control especialmente dirigidas a personas con limitaciones motoras severas, al traducir señales neurofisiológicas en comandos capaces de interactuar con dispositivos externos [1].
@@ -47,6 +47,7 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
   - Microcontrolador: módulo encargado de ejecutar los comandos detectados y controlar dispositivos externos.
 
 - **Software**
+  - Python
 
 
 ## 📚 Estado del Arte
@@ -111,6 +112,8 @@ Además, se robustecerá el algoritmo de detección de ambos tipos de artefactos
 - [3] Naciones Unidas, "Día Internacional de las Personas con Discapacidad", Naciones Unidas, 2025. Disponible en: https://www.un.org/es/observances/day-of-persons-with-disabilities
 
 - [4] Observatorio Nacional de la Discapacidad, Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS), “Discapacidad en cifras”, disponible en: https://observatorio.conadisperu.gob.pe/
+
+
 
 
 
