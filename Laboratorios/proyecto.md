@@ -33,9 +33,7 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
 
 ## 🎯 Objetivos a alcanzar
 
-- Desarrollar un sistema BCI no invasivo que utilice un EEG portátil para registrar tanto la actividad cerebral como los artefactos oculares (EOG) asociados a parpadeos y movimientos oculares.
-- Implementar un algoritmo en Python capaz de detectar en tiempo real parpadeos y movimientos oculares, traduciéndolos en comandos simples.
-- Evaluar el desempeño del sistema mediante métricas de precisión, latencia y robustez en escenarios de uso real.
+- - Desarrollar un sistema BCI no invasivo que utilice un EEG portátil (OpenBCI) para registrar tanto la actividad cerebral como los artefactos oculares (EOG) generados por parpadeos y movimientos oculares voluntarios.
 - Proponer una solución orientada a mejorar la autonomía de personas con discapacidad motora severa.
 
 ## 🛠️ Herramientas a utilizar
@@ -45,7 +43,7 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
   - Microcontrolador: módulo encargado de ejecutar los comandos detectados y controlar dispositivos externos.
 
 - **Software**
-  - Python (lenguaje de programación): procesamiento de señales, implementación del algoritmo de detección en tiempo real y control de la interfaz.
+
 
 ## 📚 Estado del Arte
 ### 1. MILimbEEG: A dataset of EEG signals related to upper and lower limb execution of motor and motor imagery tasks
