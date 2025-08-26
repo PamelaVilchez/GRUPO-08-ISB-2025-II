@@ -33,7 +33,7 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
 
 ## 🎯 Objetivos a alcanzar
 
-- - Desarrollar un sistema BCI no invasivo que utilice un EEG portátil (OpenBCI) para registrar tanto la actividad cerebral como los artefactos oculares (EOG) generados por parpadeos y movimientos oculares voluntarios.
+- Desarrollar un sistema BCI no invasivo que utilice un EEG portátil (OpenBCI) para registrar tanto la actividad cerebral como los artefactos oculares (EOG) generados por parpadeos y movimientos oculares voluntarios.
 - Proponer una solución orientada a mejorar la autonomía de personas con discapacidad motora severa.
 
 ## 🛠️ Herramientas a utilizar
