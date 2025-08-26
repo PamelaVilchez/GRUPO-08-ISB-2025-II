@@ -43,6 +43,7 @@ La gráfica evidencia que casi el **60%** de esta población enfrenta una discap
   - Microcontrolador: módulo encargado de ejecutar los comandos detectados y controlar dispositivos externos.
 
 - **Software**
+  - Python
 
 
 ## 📚 Estado del Arte
@@ -107,6 +108,7 @@ Además, se robustecerá el algoritmo de detección de ambos tipos de artefactos
 - [3] Naciones Unidas, "Día Internacional de las Personas con Discapacidad", Naciones Unidas, 2025. Disponible en: https://www.un.org/es/observances/day-of-persons-with-disabilities
 
 - [4] Observatorio Nacional de la Discapacidad, Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS), “Discapacidad en cifras”, disponible en: https://observatorio.conadisperu.gob.pe/
+
 
 
 
