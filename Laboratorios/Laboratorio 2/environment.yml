@@ -1,0 +1,10 @@
+name: laboratorio2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyterlab
+
