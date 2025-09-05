@@ -44,14 +44,27 @@ En el caso del EMG de superficie (sEMG), se utilizan electrodos colocados sobre 
 Se realizaron dos experimentos de registro de señales EMG: el primero en el bíceps y el segundo en el tríceps. En las siguientes secciones se detalla la ubicación de los electrodos en cada músculo, así como los resultados obtenidos en cada caso.
 
 ## Experimento 1: Bíceps
-### Ubicación de electrodos
+### Esquema de conexión de electrodos
 Para el registro de la señal EMG en el bíceps se empleó el sensor de 3 electrodos de la placa BITalino, siguiendo las recomendaciones del manual de uso.
 
 | ![BITalino_3_electrodos](../../Repositorio-Imágenes/Lab3_3electrodos.png) | ![BITalino_ubicación](../../Repositorio-Imágenes/Lab3_ubicación_electrodos.png) |
 |:---------------------------------------------:|:--------------------------------------------:|
-| Sensor EMG de 3 electrodos | Ubicación de los electrodos |
+| **Sensor EMG de 3 electrodos** | **Esquema de conexión de los electrodos** |
 
+### Comparación de la conexión correcta e incorrecta de los electrodos en el bíceps
+En la se muestra un ejemplo comparativo entre una conexión adecuada y una conexión errónea de los electrodos en el bíceps.
+En la conexión correcta se observa una señal limpia y representativa de la actividad muscular.
+En la conexión incorrecta, debido a una mala colocación de los electrodos, la señal registrada presenta un nivel elevado de ruido, lo cual dificulta el análisis adecuado.
 
+| **Conexión correcta** | **Conexión incorrecta** |
+|:---------------------:|:-----------------------:|
+| ![Conexión correcta](../../Repositorio-Imágenes/Lab3_I02_electrodos_correctos.jpeg) | ![Conexión incorrecta](../../Repositorio-Imágenes/Lab3_I01_electrodos_incorrectos.jpeg) |
+|  | |
+
+| Conexión correcta | Conexión incorrecta |
+|:-----------------:|:-------------------:|
+| ![Conexión correcta](../../Repositorio-Imágenes/Lab3_I02_electrodos_correctos.jpeg) | ![Conexión incorrecta](../../Repositorio-Imágenes/Lab3_I01_electrodos_incorrectos.jpeg) |
+| **Electrodo rojo (+):** bíceps (zona activa)<br> **Electrodo negro (–):** bíceps (zona pasiva)<br> **Electrodo blanco:** espina ilíaca antero-superior (referencia) | **Electrodo rojo (+):** bíceps (zona activa)<br> **Electrodo negro (–):** espina ilíaca antero-superior (referencia)<br> **Electrodo blanco:** bíceps (zona pasiva)|
 
 
 ## Experimento 2: Tríceps
