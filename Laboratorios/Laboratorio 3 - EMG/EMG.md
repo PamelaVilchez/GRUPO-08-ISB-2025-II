@@ -73,6 +73,8 @@ Para el registro de la señal EMG en el bíceps se empleó el sensor de 3 electr
 |:---------------------------------------------:|:--------------------------------------------:|
 | **Sensor EMG de 3 electrodos** | **Esquema de conexión de los electrodos** |
 
+<sub>Fuente: PLUX Wireless Biosignals, "Electromyography (EMG) User Manual" [1].</sub>
+
 
 ## 4.1. Experimento 1: Bíceps
 
@@ -238,6 +240,7 @@ Se evaluó mediante señales EMG en 3 condiciones al músculo tríceps braquial:
 </p>
 
 # 6. Referencias
+[1] PLUX Wireless Biosignals, "Electromyography (EMG) User Manual," Nov. 2021. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/electromyography-emg-user-manual.pdf.
 
 
 
