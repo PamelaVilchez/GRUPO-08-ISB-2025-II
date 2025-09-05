@@ -9,25 +9,11 @@
   - [5.1. Bíceps braquial](#51-bíceps-braquial)  
     - [5.1.1. Señal EMG en reposo](#511-señal-emg-en-reposo)  
     - [5.1.2. Señal EMG de una flexión lenta](#512-señal-emg-de-una-flexión-lenta)  
-      - [Intento 1](#intento-1)  
-      - [Intento 2](#intento-2)  
-      - [Intento 3](#intento-3)  
     - [5.1.3. Señal EMG de una flexión con fuerza opositora](#513-señal-emg-de-una-flexión-con-fuerza-opositora)  
-      - [Intento 1](#intento-1-1)  
-      - [Intento 2](#intento-2-1)  
-      - [Intento 3](#intento-3-1)  
   - [5.2. Tríceps braquial](#52-tríceps-braquial)  
     - [5.2.1. Señal EMG en reposo](#521-señal-emg-en-reposo)  
-    - [5.2.2. Señal EMG de una extensión lenta](#522-señal-emg-de-una-extensión-lenta)  
-      - [Intento 1](#intento-1-2)  
-      - [Intento 2](#intento-2-2)  
-      - [Intento 3](#intento-3-2)  
-    - [5.2.3. Señal EMG de una extensión con fuerza opositora](#523-señal-emg-de-una-extensión-con-fuerza-opositora)  
-      - [Intento 1](#intento-1-3)  
-      - [Intento 2](#intento-2-3)  
-      - [Intento 3](#intento-3-3)  
-
-
+    - [5.2.2. Señal EMG de una extensión lenta](#522-señal-emg-de-una-extensión-lenta)   
+    - [5.2.3. Señal EMG de una extensión con fuerza opositora](#523-señal-emg-de-una-extensión-con-fuerza-opositora)    
 
 # 1. Introduccion
 ### ¿Qué es el EMG? 🧠  
