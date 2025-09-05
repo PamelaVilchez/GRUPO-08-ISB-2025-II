@@ -1,7 +1,10 @@
 # Índice
 - [1. Introduccion](#1-introduccion)
 - [2. Objetivos del laboratorio](#2-objetivos-del-laboratorio)
-- [3. Materiales y equipo](#2-materiales-y-equipo)
+- [3. Materiales y equipo](#3-materiales-y-equipo)
+- [4. Procedimiento](#4-procedimiento)
+- [4.1. Experimento 1: Bíceps ](#4.1.-experimento_1_biceps)
+- [4.2. Experimento 2: Tríceps ](#4.2.-experimento_2_triceps)
 
 
 # 1. Introduccion
