@@ -5,6 +5,28 @@
 - [4. Procedimiento](#4-procedimiento)
 - [4.1. Experimento 1: Bíceps ](#4.1.-experimento_1_biceps)
 - [4.2. Experimento 2: Tríceps ](#4.2.-experimento_2_triceps)
+- - [5. Señales EMG ploteadas en Python](#5-señales-emg-ploteadas-en-python)  
+  - [5.1. Bíceps braquial](#51-bíceps-braquial)  
+    - [5.1.1. Señal EMG en reposo](#511-señal-emg-en-reposo)  
+    - [5.1.2. Señal EMG de una flexión lenta](#512-señal-emg-de-una-flexión-lenta)  
+      - [Intento 1](#intento-1)  
+      - [Intento 2](#intento-2)  
+      - [Intento 3](#intento-3)  
+    - [5.1.3. Señal EMG de una flexión con fuerza opositora](#513-señal-emg-de-una-flexión-con-fuerza-opositora)  
+      - [Intento 1](#intento-1-1)  
+      - [Intento 2](#intento-2-1)  
+      - [Intento 3](#intento-3-1)  
+  - [5.2. Tríceps braquial](#52-tríceps-braquial)  
+    - [5.2.1. Señal EMG en reposo](#521-señal-emg-en-reposo)  
+    - [5.2.2. Señal EMG de una extensión lenta](#522-señal-emg-de-una-extensión-lenta)  
+      - [Intento 1](#intento-1-2)  
+      - [Intento 2](#intento-2-2)  
+      - [Intento 3](#intento-3-2)  
+    - [5.2.3. Señal EMG de una extensión con fuerza opositora](#523-señal-emg-de-una-extensión-con-fuerza-opositora)  
+      - [Intento 1](#intento-1-3)  
+      - [Intento 2](#intento-2-3)  
+      - [Intento 3](#intento-3-3)  
+
 
 
 # 1. Introduccion
@@ -122,8 +144,11 @@ El participante efectuó flexión del brazo derecho contra resistencia externa, 
   <img src="../../Repositorio-Imágenes/Lab3_T_P3_mov1.gif" alt="GIF de prueba" width="500" height="500"/>
 </p>
 
+
 ## 5. Señales EMG ploteadas en Python
 ### 5.1. Bíceps braquial
+Se evaluó mediante señales EMG en 3 condiciones al músculo bíceps braquial: en reposo, en una flexión lenta y controlada del brazo y en una flexión del brazo con una fuerza opositoria. Todas las pruebas fueron realizadas con el sujeto sentado.
+
 #### 5.1.1. Señal EMG en reposo
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/ca914ba22cddb381c5eec58e9d259b6bf0f91dba/Repositorio-Im%C3%A1genes/b_reposo.jpg?raw=true" 
@@ -165,10 +190,12 @@ El participante efectuó flexión del brazo derecho contra resistencia externa, 
 ##### Intento 3: 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/0e16161eaef2cfb8300b67fb8c5c7fd1d10b460b/Repositorio-Im%C3%A1genes/b_movFuerza_3.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 ### 5.2. Tríceps braquial
+Se evaluó mediante señales EMG en 3 condiciones al músculo tríceps braquial: en reposo, en una extensión lenta y controlada del brazo y en una extensión del brazo con una fuerza opositoria. Todas las pruebas fueron realizadas con el sujeto sentado.
+
 #### 5.2.1. Señal EMG en reposo
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/32271e8a3075ca79976df7c07a156c2838aaa4b2/Repositorio-Im%C3%A1genes/t_reposo.jpg?raw=true" 
