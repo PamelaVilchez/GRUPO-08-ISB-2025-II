@@ -3,9 +3,17 @@
 - [2. Objetivos del laboratorio](#2-objetivos-del-laboratorio)
 - [3. Materiales y equipo](#3-materiales-y-equipo)
 - [4. Procedimiento](#4-procedimiento)
-- [4.1. Experimento 1: Bíceps ](#4.1.-experimento_1_biceps)
-- [4.2. Experimento 2: Tríceps ](#4.2.-experimento_2_triceps)
-- - [5. Señales EMG ploteadas en Python](#5-señales-emg-ploteadas-en-python)  
+  - [4.1. Experimento 1: Bíceps ](#4.1.-experimento_1_biceps)
+    - [4.1.1. Conexión correcta de los electrodos en el bíceps](#4.1.1.-conexion_correcta_de_los_electrodos_en_el_biceps)
+    - [4.1.2. Prueba 1](#4.1.2.-prueba_1)
+    - [4.1.3. Prueba 2](#4.1.3.-prueba_1)
+    - [4.1.4. Prueba 3](#4.1.4.-prueba_1)
+  - [4.2. Experimento 2: Tríceps ](#4.2.-experimento_2_triceps)
+    - [4.1.1. Conexión correcta de los electrodos en el tríceps](#4.1.1.-conexion_correcta_de_los_electrodos_en_el_triceps)
+    - [4.1.2. Prueba 1](#4.1.2.-prueba_1)
+    - [4.1.3. Prueba 2](#4.1.3.-prueba_1)
+    - [4.1.4. Prueba 3](#4.1.4.-prueba_1)
+- [5. Señales EMG ploteadas en Python](#5-señales-emg-ploteadas-en-python)  
   - [5.1. Bíceps braquial](#51-bíceps-braquial)  
     - [5.1.1. Señal EMG en reposo](#511-señal-emg-en-reposo)  
     - [5.1.2. Señal EMG de una flexión lenta](#512-señal-emg-de-una-flexión-lenta)  
@@ -108,7 +116,7 @@ Para el registro de la señal EMG en el músculo tríceps se empleó la configur
 - **Electrodo negro (-)**: tríceps (zona pasiva)
 - **Electrodo blanco**: espina ilíaca antero-superior (referencia)
 
-### 4.1.2. Prueba 1
+### 4.2.2. Prueba 1
 Se registró la señal EMG con el participante en condición de reposo, a fin de establecer una línea base para posteriores comparaciones.
 
 <p align="center">
@@ -116,15 +124,15 @@ Se registró la señal EMG con el participante en condición de reposo, a fin de
 </p>
 
 
-### 4.1.3. Prueba 2
-El participante realizó flexión del brazo derecho durante un intervalo de 40 segundos seguido de un período de 30 segundos de reposo. Este procedimiento se repitió en tres ciclos consecutivos.
+### 4.2.3. Prueba 2
+El participante realizó la extensión del brazo derecho durante un intervalo de 40 segundos seguido de un período de 30 segundos de reposo. Este procedimiento se repitió en tres ciclos consecutivos.
 
 <p align="center">
   <img src="../../Repositorio-Imágenes/Lab3_T_P2_mov1.gif" alt="GIF de prueba" width="500" height="500"/>
 </p>
 
-### 4.1.4. Prueba 3
-El participante efectuó flexión del brazo derecho contra resistencia externa, aplicada para impedir el movimiento completo. Posteriormente, se consideró un período de 30 segundos de reposo. Al igual que en la prueba anterior, este protocolo se repitió en tres ciclos consecutivos.
+### 4.2.4. Prueba 3
+El participante efectuó la extensión del brazo derecho contra resistencia externa, aplicada para impedir el movimiento completo. Posteriormente, se consideró un período de 30 segundos de reposo. Al igual que en la prueba anterior, este protocolo se repitió en tres ciclos consecutivos.
 
 <p align="center">
   <img src="../../Repositorio-Imágenes/Lab3_T_P3_mov1.gif" alt="GIF de prueba" width="500" height="500"/>
