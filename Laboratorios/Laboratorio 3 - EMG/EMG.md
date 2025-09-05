@@ -86,9 +86,9 @@ El participante efectuó flexión del brazo derecho contra resistencia externa, 
   <img src="../../Repositorio-Imágenes/Lab3_B_P3_mov2.gif" alt="GIF de prueba" width="500" height="500"/>
 </p>
 
-
 ## 4.2. Experimento 2: Tríceps
-### Ubicación de electrodos
+### Ubicación de electrodos del tríceps
+
 
 
 
