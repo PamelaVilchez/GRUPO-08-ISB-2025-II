@@ -64,6 +64,10 @@ En la conexión incorrecta, debido a una mala colocación de los electrodos, la 
 ### Prueba 1
 Se registró la señal EMG con el participante en condición de reposo, a fin de establecer una línea base para posteriores comparaciones.
 
+<p align="center">
+  <img src="../../Repositorio-Imágenes/Lab3_B_P1_reposo.gif" alt="GIF de prueba" width="400" height="400"/>
+</p>
+
 
 ### Prueba 2
 El participante realizó flexión del brazo derecho durante un intervalo de 40 segundos seguido de un período de 30 segundos de reposo. Este procedimiento se repitió en tres ciclos consecutivos.
