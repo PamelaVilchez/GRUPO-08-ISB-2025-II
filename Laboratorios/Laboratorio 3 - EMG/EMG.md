@@ -35,9 +35,11 @@ En el caso del EMG de superficie (sEMG), se utilizan electrodos colocados sobre 
 
 </div>
 
+<p align="center">
+  <img src="../../Repositorio-Imágenes/Lab3_kit_BITalino.jpeg" alt="Kit BITalino" width="300" height="300"/>
+</p>
 
 
-![Kit BITalino](../../Repositorio-Imágenes/Lab3_kit_BITalino.jpeg)
 
 
 
