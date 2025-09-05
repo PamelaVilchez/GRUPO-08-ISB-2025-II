@@ -22,3 +22,26 @@ En el caso del EMG de superficie (sEMG), se utilizan electrodos colocados sobre 
 - Captura de bioseñales musculares en los movimientos de contracción del bícep y trícep mediante EMG de superficie.  
 - Procesamiento y análisis de datos EMG utilizando la plataforma OpenSignals (r)evolution y Python.
 
+# 3. Materiales
+| Modelo | Descripción | Cantidad |
+|---------|-------------|-----------|
+|(R)EVOLUTION| Kit BITalino | 1 |
+| - | Laptopn | 1 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
