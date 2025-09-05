@@ -64,7 +64,7 @@ En la conexión incorrecta, debido a una mala colocación de los electrodos, la 
 
 | **Conexión correcta** | **Conexión incorrecta** |
 |:----------------------|:------------------------|
-| <img src="../../Repositorio-Imágenes/Lab3_I02_electrodos_correctos.jpeg" alt="Conexión correcta" width="300" height="300"/> | <img src="../../Repositorio-Imágenes/Lab3_I01_electrodos_incorrectos.jpeg" alt="Conexión incorrecta" width="300" height="300"/> |
+| <img src="../../Repositorio-Imágenes/Lab3_I02_electrodos_correctos.jpeg" alt="Conexión correcta" width="400" height="400"/> | <img src="../../Repositorio-Imágenes/Lab3_I01_electrodos_incorrectos.jpeg" alt="Conexión incorrecta" width="300" height="300"/> |
 | - **Electrodo rojo (+):** bíceps (zona activa)<br>- **Electrodo negro (–):** bíceps (zona pasiva)<br>- **Electrodo blanco:** espina ilíaca antero-superior (referencia) | - **Electrodo rojo (+):** bíceps (zona activa)<br>- **Electrodo negro (–):** espina ilíaca antero-superior (referencia)<br>- **Electrodo blanco:** bíceps (zona pasiva) |
 
 
