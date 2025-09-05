@@ -73,11 +73,15 @@ Se registró la señal EMG con el participante en condición de reposo, a fin de
 El participante realizó flexión del brazo derecho durante un intervalo de 40 segundos seguido de un período de 30 segundos de reposo. Este procedimiento se repitió en tres ciclos consecutivos.
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/Lab3_B_P2_mov1.gif" alt="GIF de prueba" width="300" height="300"/>
+  <img src="../../Repositorio-Imágenes/Lab3_B_P2_mov1.gif" alt="GIF de prueba" width="400" height="400"/>
 </p>
 
 ### Prueba 3
 El participante efectuó flexión del brazo derecho contra resistencia externa, aplicada para impedir el movimiento completo. Posteriormente, se consideró un período de 30 segundos de reposo. Al igual que en la prueba anterior, este protocolo se repitió en tres ciclos consecutivos.
+
+<p align="center">
+  <img src="../../Repositorio-Imágenes/Lab3_B_P3_mov2.gif" alt="GIF de prueba" width="400" height="400"/>
+</p>
 
 
 ## Experimento 2: Tríceps
