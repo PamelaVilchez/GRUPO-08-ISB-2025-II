@@ -101,7 +101,7 @@ Para el registro de la señal EMG en el músculo tríceps se empleó la configur
 Se registró la señal EMG con el participante en condición de reposo, a fin de establecer una línea base para posteriores comparaciones.
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/Lab3_B_P1_reposo.gif" alt="GIF de prueba" width="500" height="500"/>
+  <img src="../../Repositorio-Imágenes/Lab3_T_P1_reposo.gif" alt="GIF de prueba" width="500" height="500"/>
 </p>
 
 
