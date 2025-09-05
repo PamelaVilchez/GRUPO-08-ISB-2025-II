@@ -26,13 +26,18 @@ En el caso del EMG de superficie (sEMG), se utilizan electrodos colocados sobre 
 
 # 3. Materiales y equipo
 
+<div align="center">
+
 | Modelo       | Descripción   | Cantidad |
 |:------------:|:-------------:|:--------:|
 | (R)EVOLUTION | Kit BITalino  |    1     |
 | -            | Laptop        |    1     |
 
+</div>
 
-![Kit BITalino](../Repositorio-Imágenes/Lab3_kit_BITalino.jpeg)
+
+
+![Kit BITalino](../../Repositorio-Imagenes/Lab3_kit_BITalino.jpeg)
 
 
 
