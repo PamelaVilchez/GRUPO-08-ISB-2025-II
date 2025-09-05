@@ -1,28 +1,29 @@
 # Índice
-- [1. Introduccion](#1-introduccion)
+- [1. Introducción](#1-introducción)
 - [2. Objetivos del laboratorio](#2-objetivos-del-laboratorio)
 - [3. Materiales y equipo](#3-materiales-y-equipo)
 - [4. Procedimiento](#4-procedimiento)
-  - [4.1. Experimento 1: Bíceps ](#41-experimento_1_biceps)
-    - [4.1.1. Conexión correcta de los electrodos en el bíceps](#4.1.1.-conexion_correcta_de_los_electrodos_en_el_biceps)
-    - [4.1.2. Prueba 1](#4.1.2.-prueba_1)
-    - [4.1.3. Prueba 2](#4.1.3.-prueba_1)
-    - [4.1.4. Prueba 3](#4.1.4.-prueba_1)
-  - [4.2. Experimento 2: Tríceps ](#4.2.-experimento_2_triceps)
-    - [4.2.1. Conexión correcta de los electrodos en el tríceps](#4.1.1.-conexion_correcta_de_los_electrodos_en_el_triceps)
-    - [4.2.2. Prueba 1](#4.2.2.-prueba_1)
-    - [4.2.3. Prueba 2](#4.2.3.-prueba_1)
-    - [4.2.4. Prueba 3](#4.2.4.-prueba_1)
+  - [4.1. Experimento 1: Bíceps](#41-experimento-1-bíceps)
+    - [4.1.1. Conexión correcta de los electrodos en el bíceps](#411-conexión-correcta-de-los-electrodos-en-el-bíceps)
+    - [4.1.2. Prueba 1](#412-prueba-1)
+    - [4.1.3. Prueba 2](#413-prueba-2)
+    - [4.1.4. Prueba 3](#414-prueba-3)
+  - [4.2. Experimento 2: Tríceps](#42-experimento-2-tríceps)
+    - [4.2.1. Conexión correcta de los electrodos en el tríceps](#421-conexión-correcta-de-los-electrodos-en-el-tríceps)
+    - [4.2.2. Prueba 1](#422-prueba-1)
+    - [4.2.3. Prueba 2](#423-prueba-2)
+    - [4.2.4. Prueba 3](#424-prueba-3)
 - [5. Señales EMG ploteadas en Python](#5-señales-emg-ploteadas-en-python)  
-  - [5.1. Bíceps braquial](#5.1-bíceps-braquial)  
-    - [5.1.1. Señal EMG en reposo](#5.1.1.-señal-emg-en-reposo)  
-    - [5.1.2. Señal EMG de una flexión lenta](#5.1.2.-señal-emg-de-una-flexión-lenta)  
-    - [5.1.3. Señal EMG de una flexión con fuerza opositora](#5.1.3.-señal-emg-de-una-flexión-con-fuerza-opositora)  
-  - [5.2. Tríceps braquial](#5.2.-tríceps-braquial)  
-    - [5.2.1. Señal EMG en reposo](#5.2.1.-señal-emg-en-reposo)  
-    - [5.2.2. Señal EMG de una extensión lenta](#5.2.2.-señal-emg-de-una-extensión-lenta)   
-    - [5.2.3. Señal EMG de una extensión con fuerza opositora](#5.2.3.-señal-emg-de-una-extensión-con-fuerza-opositora)
+  - [5.1. Bíceps braquial](#51-bíceps-braquial)  
+    - [5.1.1. Señal EMG en reposo](#511-señal-emg-en-reposo)  
+    - [5.1.2. Señal EMG de una flexión lenta](#512-señal-emg-de-una-flexión-lenta)  
+    - [5.1.3. Señal EMG de una flexión con fuerza opositora](#513-señal-emg-de-una-flexión-con-fuerza-opositora)  
+  - [5.2. Tríceps braquial](#52-tríceps-braquial)  
+    - [5.2.1. Señal EMG en reposo](#521-señal-emg-en-reposo)  
+    - [5.2.2. Señal EMG de una extensión lenta](#522-señal-emg-de-una-extensión-lenta)   
+    - [5.2.3. Señal EMG de una extensión con fuerza opositora](#523-señal-emg-de-una-extensión-con-fuerza-opositora)
 - [6. Referencias](#6-referencias)
+
 
 
 # 1. Introduccion
@@ -236,8 +237,7 @@ Se evaluó mediante señales EMG en 3 condiciones al músculo tríceps braquial:
        alt="MILimb_2a" width="800">
 </p>
 
-
-
+# 6. Referencias
 
 
 
