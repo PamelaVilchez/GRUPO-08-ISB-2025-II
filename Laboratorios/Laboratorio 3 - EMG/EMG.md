@@ -47,7 +47,7 @@ Se realizaron dos experimentos de registro de señales EMG: el primero en el bí
 ### Ubicación de electrodos
 Para el registro de la señal EMG en el bíceps se empleó el sensor de 3 electrodos de la placa BITalino, siguiendo las recomendaciones del manual de uso.
 
-
+| ![BITalino_3_electrodos](../../Repositorio-Imágenes/Lab3_3electrodos.png) | ![BITalino_ubicación](../../Repositorio-Imágenes/Lab3_ubicación_electrodos.png)|
 
 
 
