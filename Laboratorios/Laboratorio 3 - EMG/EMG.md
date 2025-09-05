@@ -21,7 +21,7 @@ En el caso del EMG de superficie (sEMG), se utilizan electrodos colocados sobre 
 
 # 2. Objetivos del laboratorio
 - Configuración precisa del sistema BiTalino para adquisición electromiográfica.  
-- Captura de bioseñales musculares en los movimientos de contracción del bícep y trícep mediante EMG de superficie.  
+- Captura de bioseñales musculares en los movimientos de contracción del bíceps y tríceps mediante EMG de superficie.  
 - Procesamiento y análisis de datos EMG utilizando la plataforma OpenSignals (r)evolution y Python.
 
 # 3. Materiales y equipo
@@ -39,9 +39,21 @@ En el caso del EMG de superficie (sEMG), se utilizan electrodos colocados sobre 
   <img src="../../Repositorio-Imágenes/Lab3_kit_BITalino.jpeg" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
+# 4. Procedimiento
+
+Se realizaron dos experimentos de registro de señales EMG: el primero en el bíceps y el segundo en el tríceps. En las siguientes secciones se detalla la ubicación de los electrodos en cada músculo, así como los resultados obtenidos en cada caso.
+
+## Experimento 1: Bíceps
+### Ubicación de electrodos
+Para el registro de la señal EMG en el bíceps se empleó el sensor de 3 electrodos de la placa BITalino, siguiendo las recomendaciones del manual de uso.
 
 
 
+
+
+
+## Experimento 2: Tríceps
+### Ubicación de electrodos
 
 
 
