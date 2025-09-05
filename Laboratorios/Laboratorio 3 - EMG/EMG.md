@@ -28,7 +28,7 @@
 
 # 1. Introduccion
 ### ¿Qué es el EMG? 🧠  
-El electromiograma (EMG) es una técnica que permite registrar la actividad eléctrica generada por los músculos esqueléticos durante su contracción. Esta actividad proviene de los potenciales de acción que se propagan a lo largo de las fibras musculares cuando son activadas por el sistema nervioso.  
+El electromiograma (EMG) es una técnica que permite registrar la actividad eléctrica generada por los músculos esqueléticos durante su contracción. Esta actividad proviene de los potenciales de acción que se propagan a lo largo de las fibras musculares cuando son activadas por el sistema nervioso [1].  
 En el caso del EMG de superficie (sEMG), se utilizan electrodos colocados sobre la piel para detectar estas señales. Los electrodos no penetran el cuerpo, sino que captan los cambios de voltaje que ocurren justo debajo de la piel, generados por la suma de múltiples unidades motoras activas.
 
 ### ¿Qué permite medir? ⚡  
@@ -75,7 +75,7 @@ Para el registro de la señal EMG en el bíceps se empleó el sensor de 3 electr
 |:---------------------------------------------:|:--------------------------------------------:|
 | **Sensor EMG de 3 electrodos** | **Esquema de conexión de los electrodos** |
 
-<sub>Fuente: PLUX Wireless Biosignals, "Electromyography (EMG) User Manual" [1].</sub>
+<sub>Fuente: PLUX Wireless Biosignals, "Electromyography (EMG) User Manual" [2].</sub>
 
 
 ## 4.1. Experimento 1: Bíceps
@@ -242,7 +242,8 @@ Se evaluó mediante señales EMG en 3 condiciones al músculo tríceps braquial:
 </p>
 
 # 6. Referencias
-[1] PLUX Wireless Biosignals, "Electromyography (EMG) User Manual," Nov. 2021. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/electromyography-emg-user-manual.pdf.
+[1] I. Campanini, A. Merlo, C. Disselhorst-Klug, L. Mesin, S. Muceli, and R. Merletti, “Fundamental concepts of bipolar and high-density surface EMG understanding and teaching for clinical, occupational, and sport applications: Origin, detection, and main errors,” *Sensors*, vol. 22, no. 11, p. 4150, May 2022. [Online]. Available: https://doi.org/10.3390/s22114150
+[2] PLUX Wireless Biosignals, "Electromyography (EMG) User Manual," Nov. 2021. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/electromyography-emg-user-manual.pdf.
 
 
 
