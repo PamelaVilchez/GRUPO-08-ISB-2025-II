@@ -124,39 +124,39 @@ El participante efectuó flexión del brazo derecho contra resistencia externa, 
 #### 5.1.1. Señal EMG en reposo
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/ca914ba22cddb381c5eec58e9d259b6bf0f91dba/Repositorio-Im%C3%A1genes/b_reposo.jpg?raw=true" 
-       alt="b_reposo" width="400">
+       alt="b_reposo" width="800">
 </p>
 
 #### 5.1.2. Señal EMG de una flexión lenta
 ##### Intento 1: 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/8e9858cb175a7c865d1ba4cbba49e16458ba248d/Repositorio-Im%C3%A1genes/b_movLento_1.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 ##### Intento 2: 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/8e9858cb175a7c865d1ba4cbba49e16458ba248d/Repositorio-Im%C3%A1genes/b_movLento_2.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 ##### Intento 3: 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/586d33628c90eef120f201f802813264b4b33aef/Repositorio-Im%C3%A1genes/b_movLento_3.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 #### 5.1.3. Señal EMG de una flexión con fuerza opositora
 ##### Intento 1: 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/f81b73c5c465c5e67649fa4be786b68e783c9dde/Repositorio-Im%C3%A1genes/b_movFuerza_1.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 ##### Intento 2: 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/0e16161eaef2cfb8300b67fb8c5c7fd1d10b460b/Repositorio-Im%C3%A1genes/b_movFuerza_2.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 ##### Intento 3: 
@@ -169,45 +169,45 @@ El participante efectuó flexión del brazo derecho contra resistencia externa, 
 #### 5.2.1. Señal EMG en reposo
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/32271e8a3075ca79976df7c07a156c2838aaa4b2/Repositorio-Im%C3%A1genes/t_reposo.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 #### 5.2.2. Señal EMG de una extensión lenta
 ##### Intento 1: 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/32271e8a3075ca79976df7c07a156c2838aaa4b2/Repositorio-Im%C3%A1genes/t_movLento_1.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 ##### Intento 2: 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/32271e8a3075ca79976df7c07a156c2838aaa4b2/Repositorio-Im%C3%A1genes/t_movLento_2.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 ##### Intento 3: 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/32271e8a3075ca79976df7c07a156c2838aaa4b2/Repositorio-Im%C3%A1genes/t_movLento_3.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 #### 5.2.3. Señal EMG de una extensión con fuerza opositora
 ##### Intento 1: 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/c33a8cac144d59c08ab1c9b7f8a9247191529983/Repositorio-Im%C3%A1genes/t_movFuerza_1.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 ##### Intento 2: 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/1649a04fa9b082d21583c1ec7cac05b0c0fd48d6/Repositorio-Im%C3%A1genes/t_movLento_2.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 ##### Intento 3: 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/1649a04fa9b082d21583c1ec7cac05b0c0fd48d6/Repositorio-Im%C3%A1genes/t_movLento_3.jpg?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="800">
 </p>
 
 
