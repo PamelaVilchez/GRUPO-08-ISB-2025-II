@@ -1,6 +1,8 @@
 # Índice
 - [1. Introduccion](#1-introduccion)
 - [2. Objetivos del laboratorio](#2-objetivos-del-laboratorio)
+- [3. Materiales y equipo](#2-materiales-y-equipo)
+
 
 # 1. Introduccion
 ### ¿Qué es el EMG? 🧠  
@@ -22,11 +24,16 @@ En el caso del EMG de superficie (sEMG), se utilizan electrodos colocados sobre 
 - Captura de bioseñales musculares en los movimientos de contracción del bícep y trícep mediante EMG de superficie.  
 - Procesamiento y análisis de datos EMG utilizando la plataforma OpenSignals (r)evolution y Python.
 
-# 3. Materiales
-| Modelo | Descripción | Cantidad |
-|---------|-------------|-----------|
-|(R)EVOLUTION| Kit BITalino | 1 |
-| - | Laptopn | 1 |
+# 3. Materiales y equipo
+
+| Modelo       | Descripción   | Cantidad |
+|:------------:|:-------------:|:--------:|
+| (R)EVOLUTION | Kit BITalino  |    1     |
+| -            | Laptop        |    1     |
+
+
+![Kit BITalino](../Repositorio-Imágenes/Lab3_kit_BITalino.jpeg)
+
 
 
 
