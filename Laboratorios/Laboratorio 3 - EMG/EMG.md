@@ -7,10 +7,12 @@
 El electromiograma (EMG) es una técnica que permite registrar la actividad eléctrica generada por los músculos esqueléticos durante su contracción. Esta actividad proviene de los potenciales de acción que se propagan a lo largo de las fibras musculares cuando son activadas por el sistema nervioso.  
 En el caso del EMG de superficie (sEMG), se utilizan electrodos colocados sobre la piel para detectar estas señales. Los electrodos no penetran el cuerpo, sino que captan los cambios de voltaje que ocurren justo debajo de la piel, generados por la suma de múltiples unidades motoras activas.
 
-### ¿Para qué sirve? ⚡  
-- Ayuda a entender si un músculo está funcionando bien o no.  
-- Se usa en medicina para detectar problemas nerviosos o musculares.  
-- También sirve en deportes y rehabilitación para ver cómo se activan los músculos.
+### ¿Qué permite medir? ⚡  
+Más allá de simplemente “escuchar” al músculo, el EMG permite:
+- Cuantificar la intensidad de activación muscular.
+- Analizar patrones de reclutamiento neuromuscular.
+- Detectar alteraciones en la propagación de señales musculares.
+- Estimar parámetros como la velocidad de conducción o la ubicación de zonas de inervación.
 
 ### ¿Cómo se hace? 🩺  
 - Se colocan sensores en la piel, cerca del músculo que se quiere estudiar.  
