@@ -56,13 +56,8 @@ En la se muestra un ejemplo comparativo entre una conexión adecuada y una conex
 En la conexión correcta se observa una señal limpia y representativa de la actividad muscular.
 En la conexión incorrecta, debido a una mala colocación de los electrodos, la señal registrada presenta un nivel elevado de ruido, lo cual dificulta el análisis adecuado.
 
-| **Conexión correcta** | **Conexión incorrecta** |
-|:---------------------:|:-----------------------:|
-| ![Conexión correcta](../../Repositorio-Imágenes/Lab3_I02_electrodos_correctos.jpeg) | ![Conexión incorrecta](../../Repositorio-Imágenes/Lab3_I01_electrodos_incorrectos.jpeg) |
-|  | |
-
 | Conexión correcta | Conexión incorrecta |
-|:-----------------:|:-------------------:|
+|:-----------------|:-------------------|
 | ![Conexión correcta](../../Repositorio-Imágenes/Lab3_I02_electrodos_correctos.jpeg) | ![Conexión incorrecta](../../Repositorio-Imágenes/Lab3_I01_electrodos_incorrectos.jpeg) |
 | **Electrodo rojo (+):** bíceps (zona activa)<br> **Electrodo negro (–):** bíceps (zona pasiva)<br> **Electrodo blanco:** espina ilíaca antero-superior (referencia) | **Electrodo rojo (+):** bíceps (zona activa)<br> **Electrodo negro (–):** espina ilíaca antero-superior (referencia)<br> **Electrodo blanco:** bíceps (zona pasiva)|
 
