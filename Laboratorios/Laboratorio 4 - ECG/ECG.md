@@ -9,7 +9,7 @@ Un electrocardiograma (ECG) es un procedimiento sencillo, no invasivo y de rápi
 # 2. Objetivos del laboratorio 
 - Registrar señales ECG en reposo, respiración y ejercicio.
 - Evaluar calidad de señal según acoplamiento electrodo-piel.
-- Usar Python y OpenSignals para análisis automatizado.
+- Usar Python y OpenSignals para análisis de la señal obtenida.
 
 # 3. Materiales y equipo
 # 4. Metodología
