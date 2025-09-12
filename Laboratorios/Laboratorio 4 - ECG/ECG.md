@@ -22,9 +22,9 @@ Para determinar la frecuencia cardíaca, se midieron los **intervalos R-R**, es 
 
 Dado que se trata de un ECG con **ritmo regular**, el cálculo se simplifica aplicando la siguiente fórmula:
 
-\[
-\text{Lpm} = \frac{60}{\text{Intervalo R-R (segundos)}}
-\]
+$$
+\text{Lpm} = \frac{60}{\text{Intervalo R-R (s)}}
+$$
 
 Previo a ello, fue necesario convertir el número de muestras en **segundos**, empleando la frecuencia de muestreo configurada en el BITalino (f = 1000Hz)
 
@@ -57,24 +57,24 @@ El tiempo entre los picos en 10.98s y 11.82s representa un intervalo R-R de 0.84
 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/23fa0260db26d6b7cb8aebdf790c29b613f99553/Repositorio-Im%C3%A1genes/ecg_signal_aire.png?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="700">
 </p>
 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/23fa0260db26d6b7cb8aebdf790c29b613f99553/Repositorio-Im%C3%A1genes/ecg_fft_aire.png?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="700">
 </p>
 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/23fa0260db26d6b7cb8aebdf790c29b613f99553/Repositorio-Im%C3%A1genes/contener_aire_completo.png?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="700">
 </p>
 
 Si evaluáramos los latidos por minuto en su etapa de recuperación tendríamos que el tiempo 34.88s y 35.66s representa un intervalo R-R de 0.78s. Ello equivale a **76.92 latidos por minuto**.
 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/5d5acaea9555da12965dc4d168f32e9bd94f345d/Repositorio-Im%C3%A1genes/otro.png?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="700">
 </p>
 
 #### 5.3. Señal ECG después de actividad aeróbica
@@ -83,12 +83,12 @@ El tiempo entre los picos en 4.06s y 4.68s representa un intervalo R-R de 0.62s.
 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/98d4e2fc6c3d62c4e8e7002e9c6f64ce7a8d5a27/Repositorio-Im%C3%A1genes/ecg_signal_actF.png?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="700">
 </p>
 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/98d4e2fc6c3d62c4e8e7002e9c6f64ce7a8d5a27/Repositorio-Im%C3%A1genes/ecg_fft_actF.png?raw=true" 
-       alt="MILimb_2a" width="400">
+       alt="MILimb_2a" width="700">
 </p>
 
 ##### - Archivos EGC:
