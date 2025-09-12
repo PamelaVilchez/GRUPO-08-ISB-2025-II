@@ -2,7 +2,9 @@
 - [2. Objetivos del laboratorio](#2-objetivos-del-laboratorio)
 - [3. Materiales y equipo](#3-materiales-y-equipo)
 - [4. Metodología](#4-metodología)
-- [5. Referencias](#referencias)
+- [5. Señales ECG ploteadas en Python](#5-señales-ecg-ploteadas-en-python)
+- [6. Conclusiones](#6-conclusiones)
+- [7. Referencias](#referencias)
 
 # 1. Introducción 
 Un electrocardiograma (ECG) es un procedimiento sencillo, no invasivo y de rápida ejecución que registra la actividad eléctrica del corazón. Cada vez que el corazón late, una señal eléctrica recorre el músculo cardíaco, estimulando sus cámaras para que se contraigan y bombeen sangre al cuerpo. El ECG es una herramienta clave para revisar el estado del corazón cuando se sospecha algún problema. Permite detectar alteraciones como arritmias, enfermedades del músculo cardíaco o problemas en las arterias. Su funcionamiento se basa en captar la actividad eléctrica del corazón a través de electrodos colocados en la piel. Además, el electrocardiograma ayuda a que distintos profesionales de salud trabajen juntos para brindar una mejor atención al paciente [1].
@@ -40,12 +42,12 @@ El usuario se encontraba en reposo por lo que este representa su estado basal, a
 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/3aaab43f2e1c31f8cdd6feb53b37c3380c6df669/Repositorio-Im%C3%A1genes/ecg_signal_reposo.png?raw=true" 
-       alt="b_reposo" width="500">
+       alt="b_reposo" width="700">
 </p>
 
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/616b588c18c505bbfa2c30f55ab345c76344f817/Repositorio-Im%C3%A1genes/ecg_fft_reposo.png?raw=true" 
-       alt="b_reposo" width="500">
+       alt="b_reposo" width="700">
 </p>
 
 ### 5.2. Señal ECG conteniendo el aire
