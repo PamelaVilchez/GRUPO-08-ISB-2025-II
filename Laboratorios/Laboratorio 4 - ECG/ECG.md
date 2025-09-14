@@ -169,6 +169,14 @@ El tiempo entre los picos en 4.06s y 4.68s representa un intervalo R-R de 0.62s.
 
 
 # 6. Conclusiones
+- La adquisición de señales ECG mediante el sistema BITalino, empleando la configuración clásica de Einthoven, permitió obtener registros de alta calidad en distintas condiciones fisiológicas. La correcta colocación de los electrodos y el acoplamiento adecuado con la piel fueron determinantes para minimizar interferencias y garantizar una señal estable. El sistema de acondicionamiento analógico previo del BITalino demostró ser eficaz, ya que no fue necesario aplicar filtrado digital adicional durante el procesamiento en Python.
+
+- Los resultados obtenidos evidencian una variabilidad fisiológica coherente en la frecuencia cardíaca del participante. En estado de reposo, se registró una frecuencia de 73.17 latidos por minuto, lo cual representa una línea de base estable. Durante la contención de la respiración, la frecuencia disminuyó ligeramente a 71.42 lpm, reflejando una activación del sistema parasimpático y una reducción del retorno venoso. Posteriormente, en la fase de recuperación, se observó un incremento a 76.92 lpm, lo que indica una normalización progresiva de la función cardíaca. Finalmente, tras la actividad aeróbica, la frecuencia aumentó significativamente a 96.77 lpm, como respuesta esperada al esfuerzo físico sostenido y al incremento de la demanda metabólica.
+
+- El análisis espectral mediante la Transformada Rápida de Fourier permitió identificar la distribución de frecuencias presentes en cada condición. En reposo, predominan componentes de baja frecuencia, mientras que tras el ejercicio se observa una mayor amplitud espectral, lo que refleja la activación fisiológica del sistema cardiovascular. No se detectaron artefactos relevantes ni picos anómalos, lo que valida la calidad del registro y la eficacia del sistema de adquisición.
+
+- En conjunto, el protocolo implementado demuestra ser una herramienta robusta para evaluar la actividad eléctrica cardíaca en condiciones controladas. La integración de Python para el análisis automatizado de señales ECG, junto con la trazabilidad de los datos obtenidos, ofrece un enfoque reproducible y aplicable tanto en investigación biomédica como en entornos clínicos rurales. Este tipo de estudios permite comprender mejor la respuesta del corazón ante distintos estímulos fisiológicos y abre la posibilidad de desarrollar sistemas de monitoreo remoto adaptados a contextos con recursos limitados.
+
 
 # 7. Referencias
  [1]. Y. Sattar and L. Chhabra, “Electrocardiogram,” StatPearls - NCBI Bookshelf, Jun. 05, 2023. https://www.ncbi.nlm.nih.gov/books/NBK549803/
