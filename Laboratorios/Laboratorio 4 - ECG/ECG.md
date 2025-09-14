@@ -36,7 +36,7 @@ Un electrocardiograma (ECG) es un procedimiento sencillo, no invasivo y de rápi
 
 # 4. Procedimiento
 
-Se realizó un experimento de registro de señales ECG. En las siguientes secciones se detalla la ubicación de los electrodos en cada músculo, así como los resultados obtenidos en cada caso.
+Se llevó a cabo un experimento de registro de la señal ECG. A continuación, se describe la colocación de los electrodos y posteriormente se presentan los resultados obtenidos en cada etapa del registro.
 
 **Esquema de conexión de electrodos**
 
@@ -53,7 +53,7 @@ Para el registro de la señal EMG en el bíceps se empleó el sensor de 3 electr
 
 ### 4.1.1. Conexión de los electrodos 
 
-En este experimento, para la obtención de la señal ECG, se realizó la colocación de los electrodos de la siguiente manera: el electrodo rojo se ubicó en la muñeca izquierda, el electrodo negro en la mano derecha, y el electrodo blanco (referencia) se colocó sobre la espina ilíaca antero-superior, con el objetivo de estabilizar la señal y minimizar el ruido presente durante la adquisición.
+En este experimento, para la obtención de la señal ECG, se realizó la colocación de los electrodos de la siguiente manera: el electrodo rojo se ubicó en la muñeca izquierda, el electrodo negro en la muñeca derecha, y el electrodo blanco (referencia) se colocó sobre la espina ilíaca antero-superior, con el objetivo de estabilizar la señal y minimizar el ruido presente durante la adquisición.
 
 <p align="center">
   <img src="../../Repositorio-Imágenes/Lab4_electrodos.jpg" alt="Electrodos" width="500" height="500"/>
@@ -78,7 +78,7 @@ El participante mantuvo la respiración durante 30 segundos y luego descansó po
 El participante llevó a cabo una actividad física aeróbica consistente en subir y bajar escaleras durante un periodo aproximado de 15 minutos. 
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/Lab4_ejercicio.gif" alt="GIF de prueba" width="500" height="500"/>
+  <img src="../../Repositorio-Imágenes/Lab4_ejercicio.gif" alt="GIF de prueba" width="300" height="500"/>
 </p>
 
 Finalizado el ejercicio, se procedió a la colocación de los electrodos y se registró la señal en condición de reposo durante 1 minuto.
@@ -173,3 +173,4 @@ El tiempo entre los picos en 4.06s y 4.68s representa un intervalo R-R de 0.62s.
 
 # 7. Referencias
  [1]. Y. Sattar and L. Chhabra, “Electrocardiogram,” StatPearls - NCBI Bookshelf, Jun. 05, 2023. https://www.ncbi.nlm.nih.gov/books/NBK549803/
+ [2] PLUX Wireless Biosignals, "Electromyography (EMG) User Manual," Nov. 2021. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/electromyography-emg-user-manual.pdf.
