@@ -2,7 +2,7 @@
 - [2. Objetivos del laboratorio](#2-objetivos-del-laboratorio)
 - [3. Materiales y equipo](#3-materiales-y-equipo)
 - [4. Procedimiento](#4-procedimiento)
-  - [4.1. Experimento 1: Bíceps](#41-experimento-1-bíceps)
+  - [4.1. Experimento](#41-experimento)
     - [4.1.1. Conexión de los electrodos](#411-conexión-de-los-electrodos)
     - [4.1.2. Prueba 1](#412-prueba-1)
     - [4.1.3. Prueba 2](#413-prueba-2)
