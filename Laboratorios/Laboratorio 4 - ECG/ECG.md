@@ -36,7 +36,7 @@ Un electrocardiograma (ECG) es un procedimiento sencillo, no invasivo y de rápi
 
 # 4. Procedimiento
 
-Se llevó a cabo un experimento de registro de la señal ECG. A continuación, se describe la colocación de los electrodos y posteriormente se presentan los resultados obtenidos en cada etapa del registro.
+Se llevó a cabo un experimento de registro de la señal electrocardiográfica (ECG). Para ello, se describe en primer lugar la colocación de los electrodos, asegurando un contacto adecuado con la piel para mejorar la calidad del registro. Posteriormente, se realizan las mediciones correspondientes en distintas condiciones fisiológicas del participante y se presentan los resultados obtenidos en cada etapa del procedimiento con el objetivo de evaluar la actividad eléctrica cardíaca en un entorno controlado.
 
 **Esquema de conexión de electrodos**
 
@@ -53,35 +53,34 @@ Para el registro de la señal EMG en el bíceps se empleó el sensor de 3 electr
 
 ### 4.1.1. Conexión de los electrodos 
 
-En este experimento, para la obtención de la señal ECG, se realizó la colocación de los electrodos de la siguiente manera: el electrodo rojo se ubicó en la muñeca izquierda, el electrodo negro en la muñeca derecha, y el electrodo blanco (referencia) se colocó sobre la espina ilíaca antero-superior, con el objetivo de estabilizar la señal y minimizar el ruido presente durante la adquisición.
+En este experimento, para la adquisición de la señal electrocardiográfica (ECG), se utilizó la configuración clásica de Einthoven para la colocación de los electrodos. El electrodo rojo se ubicó en la muñeca izquierda, el electrodo negro en la muñeca derecha y el electrodo blanco (referencia) se colocó sobre la espina ilíaca antero-superior. Esta disposición permite registrar de forma adecuada la actividad eléctrica del corazón al establecer un vector de diferencia de potencial entre ambos brazos, mientras que el electrodo de referencia cumple la función de estabilizar la señal y atenuar el ruido generado por interferencias externas o movimientos del participante. De esta manera, fue posible obtener un registro más claro y confiable, adecuado para el análisis posterior. 
 
 <p align="center">
   <img src="../../Repositorio-Imágenes/Lab4_electrodos.jpg" alt="Electrodos" width="500" height="500"/>
 </p>
 
-
 ### 4.1.2. Prueba 1
-Se registró la señal ECG del participante en condición de reposo, a fin de establecer una línea base para posteriores comparaciones.
+Se registró la señal ECG del participante en condición de reposo, con el objetivo de establecer una línea de base estable y representativa de la actividad cardíaca en ausencia de esfuerzo físico. Esta referencia inicial resulta fundamental, ya que permite realizar comparaciones posteriores y evaluar de manera más precisa las variaciones en la señal producidas por diferentes condiciones fisiológicas. 
 
 <p align="center">
   <img src="../../Repositorio-Imágenes/Lab4_reposo.gif" alt="GIF de prueba" width="500" height="500"/>
 </p>
 
 ### 4.1.3. Prueba 2
-El participante mantuvo la respiración durante 30 segundos y luego descansó por 1 minuto. Este proceso se repitió 3 veces seguidas para poder registrar cómo variaba la señal durante el ejercicio.
+El participante mantuvo la respiración durante 30 segundos seguido de un periodo de recuperación de 1 minuto. Este procedimiento se repitió en tres ciclos consecutivos con el propósito de observar la influencia de la retención de la respiración sobre la actividad eléctrica cardíaca. De esta manera, fue posible registrar y comparar las variaciones en la señal ECG asociadas tanto al esfuerzo fisiológico como a la posterior fase de recuperación.
 
 <p align="center">
   <img src="../../Repositorio-Imágenes/Lab4_reposo1.gif" alt="GIF de prueba" width="500" height="500"/>
 </p>
 
 ### 4.1.4. Prueba 3
-El participante llevó a cabo una actividad física aeróbica consistente en subir y bajar escaleras durante un periodo aproximado de 15 minutos. 
+El participante llevó a cabo una actividad física aeróbica que consistió en subir y bajar escaleras durante un periodo aproximado de 15 minutos. Este tipo de ejercicio, al implicar un esfuerzo dinámico y sostenido, favorece el incremento de la frecuencia cardíaca y la demanda metabólica, generando así un estímulo adecuado para evaluar cómo la actividad eléctrica del corazón se modifica frente a condiciones de esfuerzo físico prolongado. 
 
 <p align="center">
   <img src="../../Repositorio-Imágenes/Lab4_ejercicio.gif" alt="GIF de prueba" width="300" height="500"/>
 </p>
 
-Finalizado el ejercicio, se procedió a la colocación de los electrodos y se registró la señal en condición de reposo durante 1 minuto.
+Finalizado el ejercicio, se procedió a la colocación de los electrodos y al registro de la señal en condición de reposo durante 1 minuto. Esta etapa permitió observar el proceso de recuperación fisiológica del participante y establecer un contraste entre la actividad eléctrica cardíaca posterior al esfuerzo y la línea de base previamente registrada, asegurando así un análisis más preciso de las variaciones inducidas por la actividad física.
 
 <p align="center">
   <img src="../../Repositorio-Imágenes/Lab4_reposo2.gif" alt="GIF de prueba" width="500" height="500"/>
