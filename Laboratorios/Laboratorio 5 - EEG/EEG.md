@@ -52,6 +52,10 @@ El montaje se realizó de la siguiente manera:
 - Electrodo de tierra (GND): ubicado en Fp2, región frontal derecha, con el fin de cerrar el circuito de adquisición y minimizar el ruido eléctrico.
 Previo a la colocación, se realizó limpieza de la piel con alcohol isopropílico y se verificó que el participante no tuviera objetos metálicos ni lesiones en las zonas de contacto. La impedancia fue medida y ajustada para mantenerse por debajo de los 20 kΩ, garantizando una señal estable y libre de artefactos por contacto deficiente.
 Este montaje permitió obtener registros confiables en condiciones de reposo, estimulación visual, actividad cognitiva y presencia de artefactos inducidos, facilitando el análisis comparativo entre diferentes estados fisiológicos.
+
+<p align="center">
+  <img src="../../Repositorio-Imágenes/Lab5_electrodos.jpeg" alt="Colocación de electrodos según el sistema internacional 10-20" width="400" height="400"/>
+</p>
  
 ## 4.1.2. Prueba 1 – Bloque repetido (reposo, fijación visual y ojos cerrados)
 Se registró la señal EEG del participante en tres ciclos consecutivos, cada uno compuesto por una fase de reposo con ojos cerrados y con aislamiento visual (30 segundos), una fase de fijación visual hacia un objeto (2 minutos) y una fase de descanso con ojos cerrados (30 segundos). Este bloque repetido tuvo como objetivo establecer una línea de base estable y observar la modulación de ritmos cerebrales, especialmente en la banda alfa, bajo condiciones de estimulación visual controlada y relajación. La repetición del ciclo permitió obtener datos consistentes y comparables entre estados de activación y reposo.
