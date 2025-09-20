@@ -57,25 +57,52 @@ El montaje se realizó de la siguiente manera:
 Previo a la colocación, se realizó limpieza de la piel con alcohol isopropílico y se verificó que el participante no tuviera objetos metálicos ni lesiones en las zonas de contacto. La impedancia fue medida y ajustada para mantenerse por debajo de los 20 kΩ, garantizando una señal estable y libre de artefactos por contacto deficiente.
 Este montaje permitió obtener registros confiables en condiciones de reposo, estimulación visual, actividad cognitiva y presencia de artefactos inducidos, facilitando el análisis comparativo entre diferentes estados fisiológicos.
 
-<p align="center">
-  <img src="../../Repositorio-Imágenes/Lab5_electrodos.jpg" alt="Colocación de electrodos según sitema 10-20" width="400" height="400"/>
-</p>
+<figure style="text-align: center;">
+  <img src="../../Repositorio-Imágenes/Lab5_electrodos.jpg" alt="Reposo 1" width="500" height="500"/>
+  <figcaption>Imagen 1. Posicionamiento de los electrodos según sistema 10-20</figcaption>
+</figure>
  
 ## 4.1.2. Prueba 1 – Bloque repetido (reposo, fijación visual y ojos cerrados)
 Se registró la señal EEG del participante en tres ciclos consecutivos, cada uno compuesto por una fase de reposo con ojos cerrados y con aislamiento visual (30 segundos), una fase de fijación visual hacia un objeto (2 minutos) y una fase de descanso con ojos cerrados (30 segundos). Este bloque repetido tuvo como objetivo establecer una línea de base estable y observar la modulación de ritmos cerebrales, especialmente en la banda alfa, bajo condiciones de estimulación visual controlada y relajación. La repetición del ciclo permitió obtener datos consistentes y comparables entre estados de activación y reposo.
 
-<p align="center">
-  <img src="../../Repositorio-Imágenes/Lab45_reposo1.gif" alt="GIF de prueba" width="500" height="500"/>
-</p>
+<figure style="text-align: center;">
+  <img src="../../Repositorio-Imágenes/Lab5_reposo1.gif" alt="Reposo 1" width="500" height="500"/>
+  <figcaption>GIF 1. Estado de reposo inicial</figcaption>
+</figure>
 
+<figure style="text-align: center;">
+  <img src="../../Repositorio-Imágenes/Lab5_fijar.gif" alt="Fijación" width="500" height="500"/>
+  <figcaption>GIF 2. Fijación del Objeto</figcaption>
+</figure>
+
+<figure style="text-align: center;">
+  <img src="../../Repositorio-Imágenes/Lab5_reposo2.gif" alt="Reposo 1" width="500" height="500"/>
+  <figcaption>GIF 3. Estado de reposo final</figcaption>
+</figure>
+ 
 ## 4.1.3. Prueba 2 – Tarea cognitiva (resta de 100–7)
 El participante realizó una tarea de cálculo mental que consistió en restar secuencialmente el número 7 desde 100, de forma mental, evitando gestos lo cual implica un movimiento muscular y por ende un artefacto para el experimento. Esta actividad se llevó a cabo 1 vez, con el propósito de inducir una mayor exigencia y evaluar el incremento de potencia en bandas rápidas, particularmente beta, la encargada de la actividad cognitiva. Se registró el número final alcanzado por el participante como referencia para trazabilidad cognitiva.
 
+<figure style="text-align: center;">
+  <img src="../../Repositorio-Imágenes/Lab5_resta.gif" alt="Reposo 1" width="500" height="500"/>
+  <figcaption>GIF 4. Resta de 100 - 7 consecutivade manera mental</figcaption>
+</figure>
+
 ## 4.1.4. Prueba 3 – Artefactos inducidos (parpadeo + masticación)
-Durante esta prueba, el participante realizó parpadeos voluntarios cada 2 segundos mientras masticaba de forma continua, sin alimento, durante tres bloques de 1 minuto cada uno. Esta combinación de movimientos oculares y musculares permitió generar artefactos complejos en la señal EEG, útiles para validar la sensibilidad del sistema y entrenar algoritmos de detección y limpieza. Se documentó la frecuencia de parpadeo y se verificó la presencia de interferencias en el canal frontal
+Durante esta prueba, el participante realizó parpadeos voluntarios cada 2 segundos mientras masticaba de forma continua, sin alimento, durante tres bloques de 1 minuto cada uno. Esta combinación de movimientos oculares y musculares permitió generar artefactos complejos en la señal EEG, útiles para validar la sensibilidad del sistema y entrenar algoritmos de detección y limpieza. Se documentó la frecuencia de parpadeo y se verificó la presencia de interferencias en el canal frontal.
+
+<figure style="text-align: center;">
+  <img src="../../Repositorio-Imágenes/Lab5_masticar.gif" alt="Reposo 1" width="500" height="500"/>
+  <figcaption>GIF 5. Ejercicio de parpadeo y masticación a la misma vez</figcaption>
+</figure>
 
 ## 4.1.5. Prueba 4 – Estimulación libre con música
 En esta etapa, se expuso al participante a dos condiciones auditivas contrastantes: primero, una canción de heavy metal con alta carga sensorial; luego, una pieza musical seleccionada por el propio participante según sus preferencias personales. Cada estímulo tuvo una duración aproximada de 2 a 4 minutos, dependiendo de la duración de la canción. El objetivo fue observar la modulación emocional y su impacto en bandas beta y gamma. Se registraron el tipo de música, el volumen y un auto-reporte emocional para complementar el análisis.
+
+<figure style="text-align: center;">
+  <img src="../../Repositorio-Imágenes/Lab5_musica.gif" alt="Reposo 1" width="500" height="500"/>
+  <figcaption>GIF 6. Ejercicio de estimulación según el tipo de música</figcaption>
+</figure>
 
 
 # 5. Señales ploteadas en Python
