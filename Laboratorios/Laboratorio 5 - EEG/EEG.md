@@ -2,6 +2,23 @@
 - [2. Objetivos del laboratorio](#2-objetivos-del-laboratorio)
 
 - [5. Señales ploteadas en Python](#5-señales-ploteadas-en-python)
+- # Índice
+
+- [5. Señales ploteadas en Python](#5-señales-ploteadas-en-python)
+  - [Señales EEG obtenidas del BITalino](#señales-eeg-obtenidas-del-bitalino)
+    - [Señal EEG basal (Reposo)](#señal-eeg-basal-reposo)
+    - [Señal EEG con ojos abiertos](#señal-eeg-con-ojos-abiertos)
+    - [Señal EEG con ojos cerrados](#señal-eeg-con-ojos-cerrados)
+    - [Señal EEG restando 7 desde 100](#señal-eeg-restando-7-desde-100)
+    - [Señal EEG con artefactos](#señal-eeg-con-artefactos)
+    - [Señal EEG escuchando música](#señal-eeg-escuchando-música)
+      - [Rock](#rock)
+      - [Pop](#pop)
+  - [Gráficas de OpenBCI](#gráficas-de-openbci)
+    - [Gráfica de las señales de los 8 canales](#gráfica-de-las-señales-de-los-8-canales)
+    - [Frecuencias de los 8 canales](#frecuencias-de-los-8-canales)
+    - [Frecuencias de los 8 canales superpuestas](#frecuencias-de-los-8-canales-superpuestas)
+
 - [7. Referencias](#7-referencias)
 
 # 1. Introducción 
@@ -184,8 +201,21 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 </p>
 
 ## Gráficas de OpenBCI
+### Gráfica de las señales de los 8 canales
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/30dc3ec60751fa2ed8001b767dbbae8b83a732a7/Repositorio-Im%C3%A1genes/se%C3%B1alesBCI.jpg?raw=true" 
+       alt="MILimb_2a" >
+</p>
+
+### Frecuencias de los 8 canales
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/7599216c21ee284c7f949140bd29338d69a1b80b/Repositorio-Im%C3%A1genes/frecuencias_openBCI.jpg?raw=true" 
+       alt="MILimb_2a" >
+</p>
+
+#### Frecuencias de los 8 canales superpuestas
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/7599216c21ee284c7f949140bd29338d69a1b80b/Repositorio-Im%C3%A1genes/f_superpuestas_openBCI.jpg?raw=true" 
        alt="MILimb_2a" >
 </p>
 
@@ -201,6 +231,7 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 - [1] “Electroencefalograma | ¿Qué es un electroencefalograma”, Portal CLÍNIC, Hospital Clínic de Barcelona, 27 abril 2022; actualizado el 20 marzo 2025. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
 - [2] “Electroencefalografía (EEG) – Mayo Clinic,” Mayo Clinic, 18-sep-2024. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. 
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
+
 
 
 
