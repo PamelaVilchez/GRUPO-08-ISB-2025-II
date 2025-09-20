@@ -107,6 +107,7 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 
 
 # 5. Señales ploteadas en Python
+## Señales EEG obtenidas desde Bitalino
 #### Señal EEG basal (Reposo)
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/reposo1.jpg?raw=true" 
@@ -193,6 +194,7 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 - [1] “Electroencefalograma | ¿Qué es un electroencefalograma”, Portal CLÍNIC, Hospital Clínic de Barcelona, 27 abril 2022; actualizado el 20 marzo 2025. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
 - [2] “Electroencefalografía (EEG) – Mayo Clinic,” Mayo Clinic, 18-sep-2024. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. 
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
+
 
 
 
