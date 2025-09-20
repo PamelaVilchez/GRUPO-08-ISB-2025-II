@@ -172,7 +172,7 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 #### Señal EEG escuchando música 
 ###### Rock
 <p align="center">
-  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/pYm1.jpg?raw=true" 
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/873b99537a91122debbc6cf6e3359c13b741b7e5/Repositorio-Im%C3%A1genes/mRock.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
 </p>
 
@@ -193,6 +193,7 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 - [1] “Electroencefalograma | ¿Qué es un electroencefalograma”, Portal CLÍNIC, Hospital Clínic de Barcelona, 27 abril 2022; actualizado el 20 marzo 2025. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
 - [2] “Electroencefalografía (EEG) – Mayo Clinic,” Mayo Clinic, 18-sep-2024. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. 
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
+
 
 
 
