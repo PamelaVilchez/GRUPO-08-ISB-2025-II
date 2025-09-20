@@ -1,8 +1,6 @@
+ # Índice
 - [1. Introducción](#1-introducción)
 - [2. Objetivos del laboratorio](#2-objetivos-del-laboratorio)
-
-- [5. Señales ploteadas en Python](#5-señales-ploteadas-en-python)
-- # Índice
 
 - [5. Señales ploteadas en Python](#5-señales-ploteadas-en-python)
   - [Señales EEG obtenidas del BITalino](#señales-eeg-obtenidas-del-bitalino)
@@ -231,6 +229,7 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 - [1] “Electroencefalograma | ¿Qué es un electroencefalograma”, Portal CLÍNIC, Hospital Clínic de Barcelona, 27 abril 2022; actualizado el 20 marzo 2025. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
 - [2] “Electroencefalografía (EEG) – Mayo Clinic,” Mayo Clinic, 18-sep-2024. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. 
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
+
 
 
 
