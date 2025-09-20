@@ -1,6 +1,7 @@
 - [1. Introducción](#1-introducción)
 - [2. Objetivos del laboratorio](#2-objetivos-del-laboratorio)
 
+- [5. Señales ploteadas en Python](#5-señales-ploteadas-en-python)
 - [7. Referencias](#7-referencias)
 
 # 1. Introducción 
@@ -106,11 +107,84 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 
 
 # 5. Señales ploteadas en Python
+#### Señal EEG basal (Reposo)
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/reposo1.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/reposo2.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/reposo3.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
 
+#### Señal EEG con ojos abiertos
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/abierto1.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/abierto2.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/abierto3.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+
+#### Señal EEG con ojos cerrados
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/cerrado1.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/cerrado2.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/cerrado3.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+
+#### Señal EEG restando 7 desde 100 
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/restar100.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+
+#### Señal EEG con artifactos
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/pYm1.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/pYm2.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/pYm3.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+
+#### Señal EEG escuchando música 
+###### Rock
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/pYm1.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
+
+###### Pop
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/mFav.jpg?raw=true" 
+       alt="b_reposo" height="300" width="500">
+</p>
 
 
 ##### - Archivos EEG:
-
+[Archivos-Eeg](https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/tree/dea9ccd5c8fe10b70f42ff90bb250261a728159b/Repositorio-Im%C3%A1genes/Archivos_EEG)
 
 # 6. Discusión de resultados
 
@@ -119,6 +193,8 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 - [1] “Electroencefalograma | ¿Qué es un electroencefalograma”, Portal CLÍNIC, Hospital Clínic de Barcelona, 27 abril 2022; actualizado el 20 marzo 2025. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
 - [2] “Electroencefalografía (EEG) – Mayo Clinic,” Mayo Clinic, 18-sep-2024. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. 
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
+
+
 
 
 
