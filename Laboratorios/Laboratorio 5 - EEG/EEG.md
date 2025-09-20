@@ -10,8 +10,8 @@
     - [Señal EEG restando 7 desde 100](#señal-eeg-restando-7-desde-100)
     - [Señal EEG con artefactos](#señal-eeg-con-artefactos)
     - [Señal EEG escuchando música](#señal-eeg-escuchando-música)
-      - [Rock](#rock)
-      - [Pop](#pop)
+      - [Género Rock](#rock)
+      - [Género Pop](#pop)
   - [Gráficas de OpenBCI](#gráficas-de-openbci)
     - [Gráfica de las señales de los 8 canales](#gráfica-de-las-señales-de-los-8-canales)
     - [Frecuencias de los 8 canales](#frecuencias-de-los-8-canales)
@@ -124,6 +124,8 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 # 5. Señales ploteadas en Python
 ## Señales EEG obtenidas del BITalino
 #### Señal EEG basal (Reposo)
+Se cubrió al usario con una manta y se le cubrieron los oídos para evitar interferencias, como consecuencias de los potenciales generados, en la señal basal. 
+
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/reposo1.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
@@ -138,6 +140,8 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 </p>
 
 #### Señal EEG con ojos abiertos
+El usuario permaneció mirando fijamente la pared, aunque ya no llevaba los oídos cubiertos.
+
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/abierto1.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
@@ -152,6 +156,8 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 </p>
 
 #### Señal EEG con ojos cerrados
+El usuario permaneció con los ojos cerrados, aunque ya no llevaba los oídos ni los ojos cubiertos.
+
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/cerrado1.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
@@ -166,12 +172,15 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 </p>
 
 #### Señal EEG restando 7 desde 100 
+Se le solicitó al usuario restar mentalmente 7 desde el número 100. No se permitió que utilizará sus manos para contar ni que pudiera hablar.
+
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/restar100.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
 </p>
 
 #### Señal EEG con artefactos
+Se le solicitó al usuario masticar constantemente y pestañear cada 2 segundos aproximadamente, para observar la señal generada por dichos artefactos.
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/pYm1.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
@@ -186,13 +195,15 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 </p>
 
 #### Señal EEG escuchando música 
-###### Rock
+El usuario permaneció sentado con los ojos abiertos y utilizando audífonos, los  cuales reproducieron una canción de rock estruendosa y su canción favorita que pertenecía al género musical de pop.
+
+###### Género Rock
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/873b99537a91122debbc6cf6e3359c13b741b7e5/Repositorio-Im%C3%A1genes/mRock.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
 </p>
 
-###### Pop
+###### Género Pop
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/mFav.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
@@ -200,18 +211,21 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 
 ## Gráficas de OpenBCI
 ### Gráfica de las señales de los 8 canales
+Señales en uV leídas en los 8 canales del Ultracortex.
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/30dc3ec60751fa2ed8001b767dbbae8b83a732a7/Repositorio-Im%C3%A1genes/se%C3%B1alesBCI.jpg?raw=true" 
        alt="MILimb_2a" >
 </p>
 
 ### Frecuencias de los 8 canales
+Frecuencias de cada canal en Hz versus magnitud en dB.
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/7599216c21ee284c7f949140bd29338d69a1b80b/Repositorio-Im%C3%A1genes/frecuencias_openBCI.jpg?raw=true" 
        alt="MILimb_2a" >
 </p>
 
 #### Frecuencias de los 8 canales superpuestas
+Frecuencias de cada canal en Hz versus magnitud en dB superpuestas.
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/7599216c21ee284c7f949140bd29338d69a1b80b/Repositorio-Im%C3%A1genes/f_superpuestas_openBCI.jpg?raw=true" 
        alt="MILimb_2a" >
@@ -229,6 +243,7 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 - [1] “Electroencefalograma | ¿Qué es un electroencefalograma”, Portal CLÍNIC, Hospital Clínic de Barcelona, 27 abril 2022; actualizado el 20 marzo 2025. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
 - [2] “Electroencefalografía (EEG) – Mayo Clinic,” Mayo Clinic, 18-sep-2024. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. 
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
+
 
 
 
