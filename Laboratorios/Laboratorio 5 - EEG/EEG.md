@@ -54,7 +54,7 @@ Previo a la colocación, se realizó limpieza de la piel con alcohol isopropíli
 Este montaje permitió obtener registros confiables en condiciones de reposo, estimulación visual, actividad cognitiva y presencia de artefactos inducidos, facilitando el análisis comparativo entre diferentes estados fisiológicos.
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/Lab5_electrodos.jpeg" alt="Colocación de electrodos según el sistema internacional 10-20" width="400" height="400"/>
+  <img src="../../Repositorio-Imágenes/Lab5_electrodos.jpg" alt="Colocación de electrodos según sitema 10-20" width="400" height="400"/>
 </p>
  
 ## 4.1.2. Prueba 1 – Bloque repetido (reposo, fijación visual y ojos cerrados)
