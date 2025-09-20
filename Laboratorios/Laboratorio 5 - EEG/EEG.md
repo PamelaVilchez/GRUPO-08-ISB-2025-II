@@ -183,6 +183,11 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
        alt="b_reposo" height="300" width="500">
 </p>
 
+## Gráficas de OpenBCI
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/30dc3ec60751fa2ed8001b767dbbae8b83a732a7/Repositorio-Im%C3%A1genes/se%C3%B1alesBCI.jpg?raw=true" 
+       alt="MILimb_2a" >
+</p>
 
 ##### - Archivos EEG:
 [Archivos-Eeg](https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/tree/dea9ccd5c8fe10b70f42ff90bb250261a728159b/Repositorio-Im%C3%A1genes/Archivos_EEG)
@@ -194,6 +199,7 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 - [1] “Electroencefalograma | ¿Qué es un electroencefalograma”, Portal CLÍNIC, Hospital Clínic de Barcelona, 27 abril 2022; actualizado el 20 marzo 2025. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
 - [2] “Electroencefalografía (EEG) – Mayo Clinic,” Mayo Clinic, 18-sep-2024. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. 
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
+
 
 
 
