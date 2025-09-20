@@ -35,6 +35,10 @@ neurológicas [2].
 | Electrodos Ag/AgCl (gel) |    3     |
 | Ultracortex Mark IV (dry headset) |    1     |
 
+<p align="center">
+  <img src="../../Repositorio-Imágenes/Lab3_kit_BITalino.jpeg" alt="Kit BITalino" width="400" height="400"/>
+</p>
+
 ### Seguridad y buenas prácticas
 - Operar solo con batería (no mientras carga).
 - Evitar piel lesionada y pacientes con implantes.
@@ -59,6 +63,10 @@ Este montaje permitió obtener registros confiables en condiciones de reposo, es
  
 ## 4.1.2. Prueba 1 – Bloque repetido (reposo, fijación visual y ojos cerrados)
 Se registró la señal EEG del participante en tres ciclos consecutivos, cada uno compuesto por una fase de reposo con ojos cerrados y con aislamiento visual (30 segundos), una fase de fijación visual hacia un objeto (2 minutos) y una fase de descanso con ojos cerrados (30 segundos). Este bloque repetido tuvo como objetivo establecer una línea de base estable y observar la modulación de ritmos cerebrales, especialmente en la banda alfa, bajo condiciones de estimulación visual controlada y relajación. La repetición del ciclo permitió obtener datos consistentes y comparables entre estados de activación y reposo.
+
+<p align="center">
+  <img src="../../Repositorio-Imágenes/Lab45_reposo1.gif" alt="GIF de prueba" width="500" height="500"/>
+</p>
 
 ## 4.1.3. Prueba 2 – Tarea cognitiva (resta de 100–7)
 El participante realizó una tarea de cálculo mental que consistió en restar secuencialmente el número 7 desde 100, de forma mental, evitando gestos lo cual implica un movimiento muscular y por ende un artefacto para el experimento. Esta actividad se llevó a cabo 1 vez, con el propósito de inducir una mayor exigencia y evaluar el incremento de potencia en bandas rápidas, particularmente beta, la encargada de la actividad cognitiva. Se registró el número final alcanzado por el participante como referencia para trazabilidad cognitiva.
