@@ -81,6 +81,10 @@ Este montaje permitió obtener registros confiables en condiciones de reposo, es
 ## 4.1.2. Prueba 1 – Bloque repetido (reposo, fijación visual y ojos cerrados)
 Se registró la señal EEG del participante en tres ciclos consecutivos, cada uno compuesto por una fase de reposo con ojos cerrados y con aislamiento visual (30 segundos), una fase de fijación visual hacia un objeto (2 minutos) y una fase de descanso con ojos cerrados (30 segundos). Este bloque repetido tuvo como objetivo establecer una línea de base estable y observar la modulación de ritmos cerebrales, especialmente en la banda alfa, bajo condiciones de estimulación visual controlada y relajación. La repetición del ciclo permitió obtener datos consistentes y comparables entre estados de activación y reposo.
 
+| | Señal sin filtrar | Señal filtrada |
+| -- | -- | -- | 
+| 1 | <img src="../../Repositorio-Imágenes/Lab5_reposo1.gif" alt="Reposo 1" width="500" height="500"/> | <img src="../../Repositorio-Imágenes/Lab5_fijar.gif" alt="Fijación" width="500" height="500"/> |
+
 <figure style="text-align: center;">
   <img src="../../Repositorio-Imágenes/Lab5_reposo1.gif" alt="Reposo 1" width="500" height="500"/>
   <figcaption>GIF 1. Estado de reposo inicial</figcaption>
@@ -243,6 +247,7 @@ Frecuencias de cada canal en Hz versus magnitud en dB superpuestas.
 - [1] “Electroencefalograma | ¿Qué es un electroencefalograma”, Portal CLÍNIC, Hospital Clínic de Barcelona, 27 abril 2022; actualizado el 20 marzo 2025. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
 - [2] “Electroencefalografía (EEG) – Mayo Clinic,” Mayo Clinic, 18-sep-2024. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. 
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
+
 
 
 
