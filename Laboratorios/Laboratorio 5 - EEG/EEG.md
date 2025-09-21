@@ -252,7 +252,9 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 
 | Localización de los electrodos | Importancia |
 | -----|----|
-| <img src="../../Repositorio-Imágenes/Lab5_electrodos.png" alt="Kit BITalino" width="300" height="300"/> |  <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Kit BITalino" width="300" height="300"/> |
+| <img src="../../Repositorio-Imágenes/Lab5_electrodos.png" alt="Kit BITalino" width="300" height="300"/> |  <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Kit BITalino" width="400" height="400"/> |
+
+| ***Figura 1. Diagrama que muestra la colocación de los 19 electrodos en el cuero cabelludo usados para los registros electroencefalográficos (EEG). Extraído de Classification of Single Normal and Alzheimer’s Disease Individuals from Cortical Sources of Resting State EEG Rhythms (2016).***| ***Figura 2. Ubicación de los electrodos. Extraído de Manual básico para enfermeros en electroencefalografía (2011)*** |
 
 ## 6.1 Discusión de resultados OpenBCI - BITalino
 
@@ -287,6 +289,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
  - [5] Teresa Talamillo García. Manual básico para enfermeros en electroencefalografía [Internet]. Enfermera Docente. 2011;94:29-33. Disponible en: https://es.scribd.com/document/354810519/ED-094-07-pdf
  - [6] Jiang, X., Bian, G. B., & Tian, Z. (2019). Removal of Artifacts from EEG Signals: A Review. Sensors (Basel, Switzerland), 19(5), 987. https://doi.org/10.3390/s19050987
  - 
+
 
 
 
