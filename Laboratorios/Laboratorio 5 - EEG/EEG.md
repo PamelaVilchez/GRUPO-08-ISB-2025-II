@@ -259,10 +259,8 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 - **Señal EEG en reposo**: En el gráfico n° 3 se observan la presencia de picos alrededor de 3 Hz (ondas δ) y 9 Hz (ondas α). Es así, que el pico en 9 Hz es característico de un estado de relajación con los ojos cerrados. Sin embargo, el pico de 3 Hz es más probable que sea debido a un artefacto ya que esta última suele ser dominante en el sueño profundo. 
 - **Señal EEG de mirada fija con los ojos abiertos**: En el gráfico n° 3 se observan la presencia de picos alrededor de 15-30 Hz (ondas β) evidenciando un estado de alerta y procesamiento de la información ya que al mantener la mirada fija el cerebro se activa para procesar la información visual. Sin embargo, hay artefactos que contaminan la señal que pudo ser producto de movimientos oculares o parpadeo.
 - **Señal EEG con los ojos cerrados**: En el gráfico n° 2 se observa un patron oscilatorio alrededor de 8-12 Hz (ondas α).  La señal presenta fluctuaciones de alta amplitud que se repiten en el tiempo ocasionados por movimientos de los músculos oculares. Estos picos son dominantes en estado de reposo.
+- **Señal EEG restando 7 desde 100**: En el gráfico se evidencia la complejidad del registro de la actividad cerebral durante una actividad mental intensa. La señal sin filtrar es casi ilegible debido a la gran cantidad de ruido y artefactos. Este nivel de contaminación podría ser resultado de la tensión muscular facial que acompaña a una tarea cognitiva desafiante o al movimiento de los labios al momento de realizar la acción. A pesar del ruido, en la señal filtrada se puede observar un cambio en la señal en el dominio del tiempo, lo que sugiere un aumento en la actividad de alta frecuencia (ondas β y ondas γ ) asociada con la concentración y el procesamiento cognitivo. 
 - **Señal EEG 
-
-
-
 
 
 ## 6.2 Discusión de resultados OpenBCI - Ultracortex
@@ -286,6 +284,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
  - [5] Teresa Talamillo García. Manual básico para enfermeros en electroencefalografía [Internet]. Enfermera Docente. 2011;94:29-33. Disponible en: https://es.scribd.com/document/354810519/ED-094-07-pdf
  - [6] Jiang, X., Bian, G. B., & Tian, Z. (2019). Removal of Artifacts from EEG Signals: A Review. Sensors (Basel, Switzerland), 19(5), 987. https://doi.org/10.3390/s19050987
  - 
+
 
 
 
