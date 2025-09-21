@@ -257,10 +257,16 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 ## 6.1 Discusión de resultados OpenBCI - Ultracortex
 
 ### Análisis en el dominio del tiempo
-- **Canales frontales (FP1/FP2)**: Las señales presentan una forma ascendente, lo que indica un movimiento lento de la línea base. Esto se pudo haber generado debido a una mala adhesión del electrodo, sudoración o movimientos de los ojos. También se observan picos abruptos, posiblemente por interferencia de artefactos.
-- **Canales centrales (C3/C4)**: El canal C3 exhibe picos de alta frecuencia y amplitud. El cual pudo haber sido causado por parpadeo o movimiento ocular.
-- **Canales temporales (T5/T6)**: El canal T5 exibe pcicos de alta frecuencia y amplitud ...
-- **Canales occipitales (O1/O2)**: muestran una señal estable, aunque con una amplitud relativamente baja en el canal 8 (O2). La estabilidad de la línea base es un buen indicio de una conexión adecuada. Los picos observados en el canal 7 son artefactos que posiblemente corresponden a los mismos eventos que afectaron los canales centrales.
+- **Canales frontales (FP1/FP2)**: Las señales presentan una deriva ascendente de la línea base un fenómeno de baja frecuencia que genera que la señal se desplace hacia arriba o abajo gradualmente. Esto suele ser producto de una mala conexión de los electrodos frontales debido a movimientos oculares como parpadeos o movimientos oculares laterales [6].
+- **Canales centrales (C3/C4)**: El canal C3 exhibe picos de alta frecuencia y amplitud debido a artefactos de actividad muscular por lo que, se visualizan como fluctuaciones rápidas e irregulares. En contraste, el canal C4 exhibe una señal más estable, lo que sugiere una menor interferencia muscular [6].
+- **Canales temporales (T5/T6)**: El canal T5 exibe picos similares a los del canal C3 lo que podría indicar presencia de artefactos de actividad muscular o incluso artefactos oculares de movimientos laterales de los ojos. El canal T6, exhibe una señal relativamente estable facilitando el análisis cerebral del lóbulo temporal.
+- **Canales occipitales (O1/O2)**: El canal O1 exhibe picos similares al de los canales C3 y T5 sugiriendo que podrían ser eventos de origen común como un movimiento brusco de la cabeza o un parpadeo. La señal del canal O2 es de baja amplitud sugiriéndonos que se pudo dar por una mala conexión del electrodos.
+
+### Análisis en el dominio de la frecuencia
+- **Canales occipitales (O1/O2)**: Estos canales son los más relevantes para observar la actividad de las ondas α. Aunque el gráfico no es lo suficientemente detallado, se podría esperar un pico de potencia significativo en el rango de 8-12 Hz si el sujeto tenía los ojos cerrados y estaba en estado de relajación. En este caso, no se observa un pico de alpha prominente, lo que podría significar que el sujeto tenía los ojos abiertos.
+
+  
+
 
 # 7. Referencias
 - [1] de Riquer AI, Ventura CG. ¿Qué es un electroencefalograma [Internet]. Clínic Barcelona. [citado el 20 de septiembre de 2025]. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
@@ -268,7 +274,9 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
  - [4] Neuroscenter. Ondas Cerebrales: Tipos de Ondas, Desequilibrios y Tratamientos [Internet]. Barcelona/Girona: Neuroscenter; [citado 20 de septiembre de 2025]. Disponible en: https://neuroscenter.com/neurofeedback/ondas-cerebrales/
  - [5] Teresa Talamillo García. Manual básico para enfermeros en electroencefalografía [Internet]. Enfermera Docente. 2011;94:29-33. Disponible en: https://es.scribd.com/document/354810519/ED-094-07-pdf
- -  
+ - [6] Jiang, X., Bian, G. B., & Tian, Z. (2019). Removal of Artifacts from EEG Signals: A Review. Sensors (Basel, Switzerland), 19(5), 987. https://doi.org/10.3390/s19050987
+ - 
+
 
 
 
