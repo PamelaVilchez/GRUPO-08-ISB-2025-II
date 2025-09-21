@@ -246,15 +246,17 @@ La interpretación de las señales de electroencefalografía (EEG) se basa en la
 | Onda β | 12-30 Hz | Etapa de concentración (actividad mental intensa), resolución de problemas |
 | Onda γ | >30 Hz | Etapa de extrema concentración o momentos altamente estresantes |
 
+<p align="center">
 ***Tabla 1***
+</p>
 
 De esta manera, además de identificar las bandas cerebrales en el espectro de frecuencia, es importante considerar la localización de los electrodos, ya que distintas regiones corticales muestran patrones característicos. Por ejemplo, en FP1/FP2 la presencia de actividad en la banda beta puede asociarse con estrés o concentración; en C3/C4 la activación suele vincularse con tareas motoras, siendo relevante en neurorehabilitación. En la región temporal (T5/T6), los picos en la banda theta se relacionan con procesos de memoria o relajación profunda, mientras que en O1/O2 es común observar picos en la banda alpha (~10 Hz), característicos de un estado de reposo visual con los ojos cerrados [5].
 
 | Localización de los electrodos | Importancia |
-| -----|----|
-| <img src="../../Repositorio-Imágenes/Lab5_electrodos.png" alt="Kit BITalino" width="300" height="300"/> |  <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Kit BITalino" width="400" height="400"/> |
+| ----- | ----- |
+| <img src="../../Repositorio-Imágenes/Lab5_electrodos.png" alt="EEG 19 electrodos" width="300"/> | <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Electrodos ultracortex" width="300"/> |
+| ***Figura 1. Diagrama que muestra la colocación de los 19 electrodos en el cuero cabelludo usados para los registros EEG. Extraído de *Classification of Single Normal and Alzheimer’s Disease Individuals from Cortical Sources of Resting State EEG Rhythms* (2016).*** | ***Figura 2. Ubicación de los electrodos. Extraído de *Manual básico para enfermeros en electroencefalografía* (2011).*** |
 
-| ***Figura 1. Diagrama que muestra la colocación de los 19 electrodos en el cuero cabelludo usados para los registros electroencefalográficos (EEG). Extraído de Classification of Single Normal and Alzheimer’s Disease Individuals from Cortical Sources of Resting State EEG Rhythms (2016).***| ***Figura 2. Ubicación de los electrodos. Extraído de Manual básico para enfermeros en electroencefalografía (2011)*** |
 
 ## 6.1 Discusión de resultados OpenBCI - BITalino
 
@@ -289,6 +291,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
  - [5] Teresa Talamillo García. Manual básico para enfermeros en electroencefalografía [Internet]. Enfermera Docente. 2011;94:29-33. Disponible en: https://es.scribd.com/document/354810519/ED-094-07-pdf
  - [6] Jiang, X., Bian, G. B., & Tian, Z. (2019). Removal of Artifacts from EEG Signals: A Review. Sensors (Basel, Switzerland), 19(5), 987. https://doi.org/10.3390/s19050987
  - 
+
 
 
 
