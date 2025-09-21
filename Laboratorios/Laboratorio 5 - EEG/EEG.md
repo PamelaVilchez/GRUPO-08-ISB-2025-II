@@ -248,6 +248,9 @@ La interpretación de las señales de electroencefalografía (EEG) se basa en la
 
 ***Tabla 1***
 
+De esta manera, además de identificar las bandas cerebrales en el espectro de frecuencia, es importante considerar la localización de los electrodos, ya que distintas regiones corticales muestran patrones característicos. Por ejemplo, en FP1/FP2 la presencia de actividad en la banda beta puede asociarse con estrés o concentración; en C3/C4 la activación suele vincularse con tareas motoras, siendo relevante en neurorehabilitación. En la región temporal (T5/T6), los picos en la banda theta se relacionan con procesos de memoria o relajación profunda, mientras que en O1/O2 es común observar picos en la banda alpha (~10 Hz), característicos de un estado de reposo visual con los ojos cerrados [5].
+
+
 
 ## 6.1 Discusión de resultados OpenBCI - Ultracortex
 
@@ -259,6 +262,7 @@ La interpretación de las señales de electroencefalografía (EEG) se basa en la
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
  - [4] Neuroscenter. Ondas Cerebrales: Tipos de Ondas, Desequilibrios y Tratamientos [Internet]. Barcelona/Girona: Neuroscenter; [citado 20 de septiembre de 2025]. Disponible en: https://neuroscenter.com/neurofeedback/ondas-cerebrales/
  - 
+
 
 
 
