@@ -255,8 +255,8 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 
 | Localización de los electrodos | Importancia |
 | ----- | ----- |
-| <img src="../../Repositorio-Imágenes/Lab5_electrodos.png" alt="EEG 19 electrodos" width="300"/> | <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Electrodos ultracortex" width="300"/> |
-| ***Figura 1. Diagrama que muestra la colocación de los 19 electrodos en el cuero cabelludo usados para los registros EEG [6].*** | ***Figura 2. Ubicación de los electrodos. Extraído de *Manual básico para enfermeros en electroencefalografía [7]*** |
+| <img src="../../Repositorio-Imágenes/Lab5_electrodos.png" alt="EEG 19 electrodos" height="400" width="400"/> | <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Electrodos ultracortex" height="400" width="400"/> |
+| *Figura 1. Diagrama que muestra la colocación de los 19 electrodos en el cuero cabelludo usados para los registros EEG [6].* | *Figura 2. Ubicación de los electrodos. Extraído de *Manual básico para enfermeros en electroencefalografía [7].* |
 
 
 ## 6.1 Discusión de resultados OpenBCI - BITalino
@@ -294,6 +294,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
  - [7] Ed 094 07 PDF [Internet]. Scribd. [citado el 21 de septiembre de 2025]. Disponible en: https://www.scribd.com/document/354810519/ED-094-07-pdf
  - [8] Jiang, X., Bian, G. B., & Tian, Z. (2019). Removal of Artifacts from EEG Signals: A Review. Sensors (Basel, Switzerland), 19(5), 987. https://doi.org/10.3390/s19050987
  - 
+
 
 
 
