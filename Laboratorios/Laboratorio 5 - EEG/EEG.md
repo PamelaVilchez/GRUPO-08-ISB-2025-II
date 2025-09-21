@@ -16,9 +16,9 @@
     - [Gráfica de las señales de los 8 canales](#gráfica-de-las-señales-de-los-8-canales)
     - [Frecuencias de los 8 canales](#frecuencias-de-los-8-canales)
     - [Frecuencias de los 8 canales superpuestas](#frecuencias-de-los-8-canales-superpuestas)
-- [6. Discusión de resultados](#6-Discusion-de-resultados)
-  - [6.1 Discusión de resultados OpenBCI - BITalino](#62-Discusion-de-resultados-OpenBCI-BITalino)
-  - [6.2 Discusión de resultados OpenBCI - Ultracortex](#62-Discusion-de-resultados-OpenBCI-Ultracortex)
+- [6. Discusión de resultados](#6-discusion-de-resultados)
+  - [6.1 Discusión de resultados OpenBCI - BITalino](#61-discusion-de-resultados-openbci---bitalino)
+  - [6.2 Discusión de resultados OpenBCI - Ultracortex](#62-discusion-de-resultados-openbci---ultracortex)
 - [7. Referencias](#7-referencias)
 
 # 1. Introducción 
@@ -296,6 +296,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
  - [7] Ed 094 07 PDF [Internet]. Scribd. [citado el 21 de septiembre de 2025]. Disponible en: https://www.scribd.com/document/354810519/ED-094-07-pdf
  - [8] Jiang, X., Bian, G. B., & Tian, Z. (2019). Removal of Artifacts from EEG Signals: A Review. Sensors (Basel, Switzerland), 19(5), 987. https://doi.org/10.3390/s19050987
  - 
+
 
 
 
