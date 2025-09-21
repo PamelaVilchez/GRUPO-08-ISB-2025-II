@@ -256,11 +256,14 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 
 ## 6.1 Discusión de resultados OpenBCI - BITalino
 
-- **Señal EEG en reposo**: En el gráfico n° 3 se observan la presencia de picos alrededor de 3 Hz (ondas δ) y 9 Hz (ondas α). Es así, que el pico en 9 Hz es característico de un estado de relajación con los ojos cerrados. Sin embargo, el pico de 3 Hz es más probable que sea debido a un artefacto ya que esta última suele ser dominante en el sueño profundo. 
-- **Señal EEG de mirada fija con los ojos abiertos**: En el gráfico n° 3 se observan la presencia de picos alrededor de 15-30 Hz (ondas β) evidenciando un estado de alerta y procesamiento de la información ya que al mantener la mirada fija el cerebro se activa para procesar la información visual. Sin embargo, hay artefactos que contaminan la señal que pudo ser producto de movimientos oculares o parpadeo.
-- **Señal EEG con los ojos cerrados**: En el gráfico n° 2 se observa un patron oscilatorio alrededor de 8-12 Hz (ondas α).  La señal presenta fluctuaciones de alta amplitud que se repiten en el tiempo ocasionados por movimientos de los músculos oculares. Estos picos son dominantes en estado de reposo.
-- **Señal EEG restando 7 desde 100**: En el gráfico se evidencia la complejidad del registro de la actividad cerebral durante una actividad mental intensa. La señal sin filtrar es casi ilegible debido a la gran cantidad de ruido y artefactos. Este nivel de contaminación podría ser resultado de la tensión muscular facial que acompaña a una tarea cognitiva desafiante o al movimiento de los labios al momento de realizar la acción. A pesar del ruido, en la señal filtrada se puede observar un cambio en la señal en el dominio del tiempo, lo que sugiere un aumento en la actividad de alta frecuencia (ondas β y ondas γ ) asociada con la concentración y el procesamiento cognitivo. 
-- **Señal EEG 
+- **Señal EEG en reposo**: En el gráfico n° 3 se observan la presencia de picos alrededor de 3 Hz (ondas δ) y 9 Hz (ondas α). Es así, que el pico en 9 Hz es característico de un estado de relajación con los ojos cerrados. Sin embargo, el pico de 3 Hz es más probable que sea debido a un artefacto (movimiento corporal o interferencia externa) ya que esta última suele ser dominante en el sueño profundo. 
+- **Señal EEG con mirada fija y ojos abiertos**: En el gráfico n.° 3 se observa actividad predominante en el rango de 15–30 Hz (ondas β). Este patrón refleja un estado de alerta y atención sostenida, ya que al mantener la mirada fija el cerebro activa redes corticales vinculadas al procesamiento de la información visual. No obstante, la señal presenta cierta contaminación por artefactos, probablemente originados por movimientos oculares (parpadeo) o por la actividad muscular facial. Estos factores son comunes en registros EEG cuando se trabaja con tareas que requieren control ocular.
+- **Señal EEG con los ojos cerrados**: En el gráfico n.° 2 se aprecia un patrón oscilatorio en el rango de 8–12 Hz (ondas α), tal como se espera en condiciones de reposo y relajación. Además, la señal muestra oscilaciones abruptas, repetidas de alta amplitud probablemente originadas por artefactos en los músculos extraoculares.
+- **Señal EEG restando 7 desde 100**: En el gráfico, la señal EEG evidencia la complejidad de la actividad cerebral durante una tarea cognitiva demandante. La señal sin filtrar resulta prácticamente ilegible debido al alto nivel de ruido y artefactos, lo cual puede atribuirse a la tensión muscular facial, micro-movimientos de labios o incluso a la postura corporal mantenida bajo esfuerzo mental. Tras aplicar el filtrado, se distinguen variaciones en el dominio del tiempo que sugieren un incremento en la actividad de alta frecuencia (ondas β y γ). Estas oscilaciones están asociadas a procesos de atención, concentración y razonamiento lógico, lo cual respalda la hipótesis de que la tarea de cálculo activa circuitos corticales de mayor demanda.
+- **Señal EEG de música rock vs pop**: El registro muestra diferencias claras entre las condiciones musicales. Durante la escucha de música rock, la señal aparece más estable y menos contaminada por artefactos, lo que sugiere una menor participación de la musculatura facial y corporal, posiblemente porque el sujeto no experimentó una respuesta emocional significativa. En contraste, la señal registrada al escuchar música pop presenta picos de mayor amplitud distribuidos a lo largo del tiempo, lo que puede reflejar tanto una respuesta emocional intensa como la aparición de artefactos de movimiento (cabeceo, tarareo, gesticulación o activación muscular involuntaria). Este patrón sugiere que la experiencia subjetiva frente a distintos géneros musicales influye directamente en el nivel de ruido electromiográfico registrado por el EEG.
+
+
+
 
 
 ## 6.2 Discusión de resultados OpenBCI - Ultracortex
@@ -284,6 +287,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
  - [5] Teresa Talamillo García. Manual básico para enfermeros en electroencefalografía [Internet]. Enfermera Docente. 2011;94:29-33. Disponible en: https://es.scribd.com/document/354810519/ED-094-07-pdf
  - [6] Jiang, X., Bian, G. B., & Tian, Z. (2019). Removal of Artifacts from EEG Signals: A Review. Sensors (Basel, Switzerland), 19(5), 987. https://doi.org/10.3390/s19050987
  - 
+
 
 
 
