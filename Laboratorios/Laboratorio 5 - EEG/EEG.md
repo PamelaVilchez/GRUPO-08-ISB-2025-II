@@ -239,7 +239,7 @@ Frecuencias de cada canal en Hz versus magnitud en dB superpuestas.
 La interpretación de las señales de electroencefalografía (EEG) se basa en la identificación de las ondas cerebrales dentro del espectro de frecuencias. La clasificación en diferentes bandas como se resume en la Tabla 1, representan diversos estados de conciencia y actividad cognitiva. Mediante la Transformada Rápida de Fourier (FFT) es posible descomponer la señal y analizar la presencia de cada componente frecuencial, lo que resulta fundamental para relacionar la actividad cerebral registrada con los estados reportados en la literatura [4]
 
 | Ondas cerebrales |  Frecuencia | Descripción |
-|:-------------:|:-------------:|:-------------:|
+|:-------------:|:-------------:|-------------|
 | Onda δ | 1-4 Hz | Etapa de sueño profundo |
 | Onda θ | 4-8 Hz | Etapa de somnolencia, relajación profunda |
 | Onda α | 8-12 Hz | Etapa de reposo |
@@ -259,6 +259,7 @@ La interpretación de las señales de electroencefalografía (EEG) se basa en la
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
  - [4] Neuroscenter. Ondas Cerebrales: Tipos de Ondas, Desequilibrios y Tratamientos [Internet]. Barcelona/Girona: Neuroscenter; [citado 20 de septiembre de 2025]. Disponible en: https://neuroscenter.com/neurofeedback/ondas-cerebrales/
  - 
+
 
 
 
