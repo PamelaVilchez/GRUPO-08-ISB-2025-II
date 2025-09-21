@@ -45,6 +45,8 @@ neurológicas [2].
 - Implementar el análisis de señales EEG utilizando Python y el software OpenSignals, desarrollando un flujo de trabajo reproducible para la visualización e interpretación de los resultados.
 
 # 3. Materiales 
+<p align="center">
+
 | Equipo / material     | Cantidad |
 |:-----------:|:--------:|
 | BITalino Board BLE/BT |    1     |
@@ -53,7 +55,6 @@ neurológicas [2].
 | Electrodos Ag/AgCl (gel) |    3     |
 | Ultracortex Mark IV (dry headset) |    1     |
 
-<p align="center">
   <img src="../../Repositorio-Imágenes/Lab3_kit_BITalino.jpeg" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
@@ -301,6 +302,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 6. Babiloni C, Triggiani AI, Lizio R, Cordone S, Tattoli G, Bevilacqua V, et al. Classification of single normal and Alzheimer’s disease individuals from cortical sources of resting state EEG rhythms. Front Neurosci [Internet]. 2016;10:47. Disponible en: http://dx.doi.org/10.3389/fnins.2016.00047
 
 7. Jiang X, Bian GB, Tian Z. Removal of artifacts from EEG signals: a review. Sensors (Basel) [Internet]. 2019;19(5):987. Disponible en: https://doi.org/10.3390/s19050987
+
 
 
 
