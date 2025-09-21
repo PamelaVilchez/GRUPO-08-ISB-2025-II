@@ -16,7 +16,9 @@
     - [Gráfica de las señales de los 8 canales](#gráfica-de-las-señales-de-los-8-canales)
     - [Frecuencias de los 8 canales](#frecuencias-de-los-8-canales)
     - [Frecuencias de los 8 canales superpuestas](#frecuencias-de-los-8-canales-superpuestas)
-
+- [6. Discusión de resultados](#6-Discusion-de-resultados)
+  - [6.1 Discusión de resultados OpenBCI - BITalino](#62-Discusion-de-resultados-OpenBCI-BITalino)
+  - [6.2 Discusión de resultados OpenBCI - Ultracortex](#62-Discusion-de-resultados-OpenBCI-Ultracortex)
 - [7. Referencias](#7-referencias)
 
 # 1. Introducción 
@@ -248,7 +250,7 @@ La interpretación de las señales de electroencefalografía (EEG) se basa en la
 | Onda β | 12-30 Hz | Etapa de concentración (actividad mental intensa), resolución de problemas |
 | Onda γ | >30 Hz | Etapa de extrema concentración o momentos altamente estresantes |
 
- ***Tabla 1***
+ *Tabla 1*
 </p>
 
 De esta manera, además de identificar las bandas cerebrales en el espectro de frecuencia, es importante considerar la localización de los electrodos, ya que distintas regiones corticales muestran patrones característicos. Por ejemplo, en FP1/FP2 la presencia de actividad en la banda beta puede asociarse con estrés o concentración; en C3/C4 la activación suele vincularse con tareas motoras, siendo relevante en neurorehabilitación. En la región temporal (T5/T6), los picos en la banda theta se relacionan con procesos de memoria o relajación profunda, mientras que en O1/O2 es común observar picos en la banda alpha (~10 Hz), característicos de un estado de reposo visual con los ojos cerrados [5].
@@ -256,7 +258,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 | Localización de los electrodos | Importancia |
 | ----- | ----- |
 | <img src="../../Repositorio-Imágenes/Lab5_electrodos.png" alt="EEG 19 electrodos" height="400" width="400"/> | <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Electrodos ultracortex" height="400" width="400"/> |
-| *Figura 1. Diagrama que muestra la colocación de los 19 electrodos en el cuero cabelludo usados para los registros EEG [6].* | *Figura 2. Ubicación de los electrodos. Extraído de *Manual básico para enfermeros en electroencefalografía [7].* |
+| *Figura 1. Diagrama que muestra la colocación de los 19 electrodos en el cuero cabelludo usados para los registros EEG [6].* | *Figura 2. Ubicación de los electrodos. Extraído de Manual básico para enfermeros en electroencefalografía [7]* |
 
 
 ## 6.1 Discusión de resultados OpenBCI - BITalino
@@ -294,6 +296,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
  - [7] Ed 094 07 PDF [Internet]. Scribd. [citado el 21 de septiembre de 2025]. Disponible en: https://www.scribd.com/document/354810519/ED-094-07-pdf
  - [8] Jiang, X., Bian, G. B., & Tian, Z. (2019). Removal of Artifacts from EEG Signals: A Review. Sensors (Basel, Switzerland), 19(5), 987. https://doi.org/10.3390/s19050987
  - 
+
 
 
 
