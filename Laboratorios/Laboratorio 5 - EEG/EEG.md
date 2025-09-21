@@ -252,7 +252,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 
 | Localización de los electrodos | Importancia |
 | -----|----|
-| <img src="../../Repositorio-Imágenes/ultracortex_bci.png" alt="Kit BITalino" width="300" height="300"/> |  <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Kit BITalino" width="300" height="300"/> |
+| <img src="../../Repositorio-Imágenes/Lab5_electrodos.png" alt="Kit BITalino" width="300" height="300"/> |  <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Kit BITalino" width="300" height="300"/> |
 
 ## 6.1 Discusión de resultados OpenBCI - BITalino
 
