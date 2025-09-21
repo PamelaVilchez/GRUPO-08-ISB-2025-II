@@ -287,16 +287,20 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 
 
 # 7. Referencias
-- [1] de Riquer AI, Ventura CG. ¿Qué es un electroencefalograma [Internet]. Clínic Barcelona. [citado el 20 de septiembre de 2025]. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
-- [2] Electroencefalografía (EEG) [Internet]. Mayoclinic.org. [citado el 20 de septiembre de 2025]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875  
- - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
- - [4] Neuroscenter. Ondas Cerebrales: Tipos de Ondas, Desequilibrios y Tratamientos [Internet]. Barcelona/Girona: Neuroscenter; [citado 20 de septiembre de 2025]. Disponible en: https://neuroscenter.com/neurofeedback/ondas-cerebrales/
- - [5] Teresa Talamillo García. Manual básico para enfermeros en electroencefalografía [Internet]. Enfermera Docente. 2011;94:29-33. Disponible en: https://es.scribd.com/document/354810519/ED-094-07-pdf
- - [6] Babiloni C, Triggiani AI, Lizio R, Cordone S, Tattoli G, Bevilacqua V, et al. Classification of single normal and Alzheimer’s disease individuals from cortical sources of resting state EEG rhythms. Front Neurosci [Internet]. 2016;10:47. Disponible en: http://dx.doi.org/10.3389/fnins.2016.00047
- - [7] Ed 094 07 PDF [Internet]. Scribd. [citado el 21 de septiembre de 2025]. Disponible en: https://www.scribd.com/document/354810519/ED-094-07-pdf
- - [8] Jiang, X., Bian, G. B., & Tian, Z. (2019). Removal of Artifacts from EEG Signals: A Review. Sensors (Basel, Switzerland), 19(5), 987. https://doi.org/10.3390/s19050987
- - 
 
+1. de Riquer AI, Ventura CG. ¿Qué es un electroencefalograma? [Internet]. Clínic Barcelona; [citado 2025 sep 20]. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma
+
+2. Mayo Clinic. Electroencefalografía (EEG) [Internet]. 2023 [citado 2025 sep 20]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
+
+3. Proença M, Mrotzeck K. BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals. Lisbon: PLUX – Wireless Biosignals S.A.; 2021 Feb.
+
+4. Neuroscenter. Ondas cerebrales: tipos de ondas, desequilibrios y tratamientos [Internet]. Barcelona/Girona: Neuroscenter; [citado 2025 sep 20]. Disponible en: https://neuroscenter.com/neurofeedback/ondas-cerebrales/
+
+5. Talamillo García T. Manual básico para enfermeros en electroencefalografía [Internet]. Enfermera Docente. 2011;94:29-33 [citado 2025 sep 21]. Disponible en: https://www.scribd.com/document/354810519/ED-094-07-pdf
+
+6. Babiloni C, Triggiani AI, Lizio R, Cordone S, Tattoli G, Bevilacqua V, et al. Classification of single normal and Alzheimer’s disease individuals from cortical sources of resting state EEG rhythms. Front Neurosci [Internet]. 2016;10:47. Disponible en: http://dx.doi.org/10.3389/fnins.2016.00047
+
+7. Jiang X, Bian GB, Tian Z. Removal of artifacts from EEG signals: a review. Sensors (Basel) [Internet]. 2019;19(5):987. Disponible en: https://doi.org/10.3390/s19050987
 
 
 
