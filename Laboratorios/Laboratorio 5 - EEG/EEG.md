@@ -238,6 +238,8 @@ Frecuencias de cada canal en Hz versus magnitud en dB superpuestas.
 
 La interpretación de las señales de electroencefalografía (EEG) se basa en la identificación de las ondas cerebrales dentro del espectro de frecuencias. La clasificación en diferentes bandas como se resume en la Tabla 1, representan diversos estados de conciencia y actividad cognitiva. Mediante la Transformada Rápida de Fourier (FFT) es posible descomponer la señal y analizar la presencia de cada componente frecuencial, lo que resulta fundamental para relacionar la actividad cerebral registrada con los estados reportados en la literatura [4]
 
+<p align="center">
+
 | Ondas cerebrales |  Frecuencia | Descripción |
 |:-------------:|:-------------:|-------------|
 | Onda δ | 1-4 Hz | Etapa de sueño profundo |
@@ -246,8 +248,7 @@ La interpretación de las señales de electroencefalografía (EEG) se basa en la
 | Onda β | 12-30 Hz | Etapa de concentración (actividad mental intensa), resolución de problemas |
 | Onda γ | >30 Hz | Etapa de extrema concentración o momentos altamente estresantes |
 
-<p align="center">
-***Tabla 1***
+ ***Tabla 1***
 </p>
 
 De esta manera, además de identificar las bandas cerebrales en el espectro de frecuencia, es importante considerar la localización de los electrodos, ya que distintas regiones corticales muestran patrones característicos. Por ejemplo, en FP1/FP2 la presencia de actividad en la banda beta puede asociarse con estrés o concentración; en C3/C4 la activación suele vincularse con tareas motoras, siendo relevante en neurorehabilitación. En la región temporal (T5/T6), los picos en la banda theta se relacionan con procesos de memoria o relajación profunda, mientras que en O1/O2 es común observar picos en la banda alpha (~10 Hz), característicos de un estado de reposo visual con los ojos cerrados [5].
@@ -255,7 +256,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 | Localización de los electrodos | Importancia |
 | ----- | ----- |
 | <img src="../../Repositorio-Imágenes/Lab5_electrodos.png" alt="EEG 19 electrodos" width="300"/> | <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Electrodos ultracortex" width="300"/> |
-| ***Figura 1. Diagrama que muestra la colocación de los 19 electrodos en el cuero cabelludo usados para los registros EEG. Extraído de *Classification of Single Normal and Alzheimer’s Disease Individuals from Cortical Sources of Resting State EEG Rhythms* (2016).*** | ***Figura 2. Ubicación de los electrodos. Extraído de *Manual básico para enfermeros en electroencefalografía* (2011).*** |
+| ***Figura 1. Diagrama que muestra la colocación de los 19 electrodos en el cuero cabelludo usados para los registros EEG [6].*** | ***Figura 2. Ubicación de los electrodos. Extraído de *Manual básico para enfermeros en electroencefalografía [7]*** |
 
 
 ## 6.1 Discusión de resultados OpenBCI - BITalino
@@ -273,8 +274,8 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 ## 6.2 Discusión de resultados OpenBCI - Ultracortex
 
 ### Análisis en el dominio del tiempo
-- **Canales frontales (FP1/FP2)**: Las señales presentan una deriva ascendente de la línea base un fenómeno de baja frecuencia que genera que la señal se desplace hacia arriba o abajo gradualmente. Esto suele ser producto de una mala conexión de los electrodos frontales debido a movimientos oculares como parpadeos o movimientos oculares laterales [6].
-- **Canales centrales (C3/C4)**: El canal C3 exhibe picos de alta frecuencia y amplitud debido a artefactos de actividad muscular por lo que, se visualizan como fluctuaciones rápidas e irregulares. En contraste, el canal C4 exhibe una señal más estable, lo que sugiere una menor interferencia muscular [6].
+- **Canales frontales (FP1/FP2)**: Las señales presentan una deriva ascendente de la línea base un fenómeno de baja frecuencia que genera que la señal se desplace hacia arriba o abajo gradualmente. Esto suele ser producto de una mala conexión de los electrodos frontales debido a movimientos oculares como parpadeos o movimientos oculares laterales [8].
+- **Canales centrales (C3/C4)**: El canal C3 exhibe picos de alta frecuencia y amplitud debido a artefactos de actividad muscular por lo que, se visualizan como fluctuaciones rápidas e irregulares. En contraste, el canal C4 exhibe una señal más estable, lo que sugiere una menor interferencia muscular [8].
 - **Canales temporales (T5/T6)**: El canal T5 exibe picos similares a los del canal C3 lo que podría indicar presencia de artefactos de actividad muscular o incluso artefactos oculares de movimientos laterales de los ojos. El canal T6, exhibe una señal relativamente estable facilitando el análisis cerebral del lóbulo temporal.
 - **Canales occipitales (O1/O2)**: El canal O1 exhibe picos similares al de los canales C3 y T5 sugiriendo que podrían ser eventos de origen común como un movimiento brusco de la cabeza o un parpadeo. La señal del canal O2 es de baja amplitud sugiriéndonos que se pudo dar por una mala conexión del electrodos.
 
@@ -289,8 +290,11 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
  - [4] Neuroscenter. Ondas Cerebrales: Tipos de Ondas, Desequilibrios y Tratamientos [Internet]. Barcelona/Girona: Neuroscenter; [citado 20 de septiembre de 2025]. Disponible en: https://neuroscenter.com/neurofeedback/ondas-cerebrales/
  - [5] Teresa Talamillo García. Manual básico para enfermeros en electroencefalografía [Internet]. Enfermera Docente. 2011;94:29-33. Disponible en: https://es.scribd.com/document/354810519/ED-094-07-pdf
- - [6] Jiang, X., Bian, G. B., & Tian, Z. (2019). Removal of Artifacts from EEG Signals: A Review. Sensors (Basel, Switzerland), 19(5), 987. https://doi.org/10.3390/s19050987
+ - [6] Babiloni C, Triggiani AI, Lizio R, Cordone S, Tattoli G, Bevilacqua V, et al. Classification of single normal and Alzheimer’s disease individuals from cortical sources of resting state EEG rhythms. Front Neurosci [Internet]. 2016;10:47. Disponible en: http://dx.doi.org/10.3389/fnins.2016.00047
+ - [7] Ed 094 07 PDF [Internet]. Scribd. [citado el 21 de septiembre de 2025]. Disponible en: https://www.scribd.com/document/354810519/ED-094-07-pdf
+ - [8] Jiang, X., Bian, G. B., & Tian, Z. (2019). Removal of Artifacts from EEG Signals: A Review. Sensors (Basel, Switzerland), 19(5), 987. https://doi.org/10.3390/s19050987
  - 
+
 
 
 
