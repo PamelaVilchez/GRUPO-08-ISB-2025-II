@@ -255,18 +255,12 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 | <img src="../../Repositorio-Imágenes/ultracortex_bci.png" alt="Kit BITalino" width="300" height="300"/> |  <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Kit BITalino" width="300" height="300"/> |
 
 ## 6.1 Discusión de resultados OpenBCI - Ultracortex
-- Canales frontales (FP1 y FP2):
-- - Se identificaron picos de alta magnitud en las frecuencias bajas (0–5 Hz), consistentes con la presencia de artefactos oculares, principalmente asociados a parpadeos o movimientos de los ojos. Dichos artefactos presentan un rango espectral cercano a las ondas delta y theta, lo que sugiere que las señales obtenidas en esta región se encuentran altamente contaminadas, limitando su interpretación.
 
-Canales centrales (C3 y C4):
-En esta región la actividad registrada presenta un espectro más uniforme en comparación con la zona frontal; sin embargo, aún se observan picos en las frecuencias bajas. En teoría, un análisis detallado de la banda beta (13–30 Hz) podría evidenciar actividad motora, aunque la presencia de ruido dificulta una interpretación clara de los resultados.
-
-Canales temporales (T5 y T6):
-De forma similar a los electrodos frontales, los canales temporales muestran una marcada concentración de energía en las frecuencias bajas. Esto puede explicarse por la alta susceptibilidad de esta zona a artefactos oculares y musculares, lo que repercute directamente en la calidad de la señal registrada.
-
-Canales occipitales (O1 y O2):
-Estos canales resultan especialmente relevantes para la identificación del ritmo alfa (8–13 Hz), asociado a estados de relajación con los ojos cerrados. En los registros analizados se aprecia un pico leve en dicha banda, aunque la elevada magnitud en las frecuencias bajas y la presencia de ruido en el resto del espectro sugieren que la señal no está completamente depurada, lo que limita la detección robusta de este ritmo.
-
+### Análisis en el dominio del tiempo
+- **Canales frontales (FP1/FP2)**: Las señales presentan una forma ascendente, lo que indica un movimiento lento de la línea base. Esto se pudo haber generado debido a una mala adhesión del electrodo, sudoración o movimientos de los ojos. También se observan picos abruptos, posiblemente por interferencia de artefactos.
+- **Canales centrales (C3/C4)**: El canal C3 exhibe picos de alta frecuencia y amplitud. El cual pudo haber sido causado por parpadeo o movimiento ocular.
+- **Canales temporales (T5/T6)**: El canal T5 exibe pcicos de alta frecuencia y amplitud ...
+- **Canales occipitales (O1/O2)**: muestran una señal estable, aunque con una amplitud relativamente baja en el canal 8 (O2). La estabilidad de la línea base es un buen indicio de una conexión adecuada. Los picos observados en el canal 7 son artefactos que posiblemente corresponden a los mismos eventos que afectaron los canales centrales.
 
 # 7. Referencias
 - [1] de Riquer AI, Ventura CG. ¿Qué es un electroencefalograma [Internet]. Clínic Barcelona. [citado el 20 de septiembre de 2025]. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
@@ -275,6 +269,7 @@ Estos canales resultan especialmente relevantes para la identificación del ritm
  - [4] Neuroscenter. Ondas Cerebrales: Tipos de Ondas, Desequilibrios y Tratamientos [Internet]. Barcelona/Girona: Neuroscenter; [citado 20 de septiembre de 2025]. Disponible en: https://neuroscenter.com/neurofeedback/ondas-cerebrales/
  - [5] Teresa Talamillo García. Manual básico para enfermeros en electroencefalografía [Internet]. Enfermera Docente. 2011;94:29-33. Disponible en: https://es.scribd.com/document/354810519/ED-094-07-pdf
  -  
+
 
 
 
