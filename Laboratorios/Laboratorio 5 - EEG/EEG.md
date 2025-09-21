@@ -238,8 +238,6 @@ Frecuencias de cada canal en Hz versus magnitud en dB superpuestas.
 
 La interpretación de las señales de electroencefalografía (EEG) se basa en la identificación de las ondas cerebrales dentro del espectro de frecuencias. La clasificación en diferentes bandas como se resume en la Tabla 1, representan diversos estados de conciencia y actividad cognitiva. Mediante la Transformada Rápida de Fourier (FFT) es posible descomponer la señal y analizar la presencia de cada componente frecuencial, lo que resulta fundamental para relacionar la actividad cerebral registrada con los estados reportados en la literatura [4]
 
-
-
 | Ondas cerebrales |  Frecuencia | Descripción |
 |:-------------:|:-------------:|-------------|
 | Onda δ | 1-4 Hz | Etapa de sueño profundo |
@@ -250,17 +248,24 @@ La interpretación de las señales de electroencefalografía (EEG) se basa en la
 
 ***Tabla 1***
 
-
 De esta manera, además de identificar las bandas cerebrales en el espectro de frecuencia, es importante considerar la localización de los electrodos, ya que distintas regiones corticales muestran patrones característicos. Por ejemplo, en FP1/FP2 la presencia de actividad en la banda beta puede asociarse con estrés o concentración; en C3/C4 la activación suele vincularse con tareas motoras, siendo relevante en neurorehabilitación. En la región temporal (T5/T6), los picos en la banda theta se relacionan con procesos de memoria o relajación profunda, mientras que en O1/O2 es común observar picos en la banda alpha (~10 Hz), característicos de un estado de reposo visual con los ojos cerrados [5].
 
 | Localización de los electrodos | Importancia |
 | -----|----|
 | <img src="../../Repositorio-Imágenes/ultracortex_bci.png" alt="Kit BITalino" width="300" height="300"/> |  <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Kit BITalino" width="300" height="300"/> |
 
-
-
 ## 6.1 Discusión de resultados OpenBCI - Ultracortex
+- Canales frontales (FP1 y FP2):
+- - Se identificaron picos de alta magnitud en las frecuencias bajas (0–5 Hz), consistentes con la presencia de artefactos oculares, principalmente asociados a parpadeos o movimientos de los ojos. Dichos artefactos presentan un rango espectral cercano a las ondas delta y theta, lo que sugiere que las señales obtenidas en esta región se encuentran altamente contaminadas, limitando su interpretación.
 
+Canales centrales (C3 y C4):
+En esta región la actividad registrada presenta un espectro más uniforme en comparación con la zona frontal; sin embargo, aún se observan picos en las frecuencias bajas. En teoría, un análisis detallado de la banda beta (13–30 Hz) podría evidenciar actividad motora, aunque la presencia de ruido dificulta una interpretación clara de los resultados.
+
+Canales temporales (T5 y T6):
+De forma similar a los electrodos frontales, los canales temporales muestran una marcada concentración de energía en las frecuencias bajas. Esto puede explicarse por la alta susceptibilidad de esta zona a artefactos oculares y musculares, lo que repercute directamente en la calidad de la señal registrada.
+
+Canales occipitales (O1 y O2):
+Estos canales resultan especialmente relevantes para la identificación del ritmo alfa (8–13 Hz), asociado a estados de relajación con los ojos cerrados. En los registros analizados se aprecia un pico leve en dicha banda, aunque la elevada magnitud en las frecuencias bajas y la presencia de ruido en el resto del espectro sugieren que la señal no está completamente depurada, lo que limita la detección robusta de este ritmo.
 
 
 # 7. Referencias
@@ -268,7 +273,9 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 - [2] Electroencefalografía (EEG) [Internet]. Mayoclinic.org. [citado el 20 de septiembre de 2025]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875  
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
  - [4] Neuroscenter. Ondas Cerebrales: Tipos de Ondas, Desequilibrios y Tratamientos [Internet]. Barcelona/Girona: Neuroscenter; [citado 20 de septiembre de 2025]. Disponible en: https://neuroscenter.com/neurofeedback/ondas-cerebrales/
- - 
+ - [5] Teresa Talamillo García. Manual básico para enfermeros en electroencefalografía [Internet]. Enfermera Docente. 2011;94:29-33. Disponible en: https://es.scribd.com/document/354810519/ED-094-07-pdf
+ -  
+
 
 
 
