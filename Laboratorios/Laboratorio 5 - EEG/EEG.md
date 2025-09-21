@@ -236,13 +236,30 @@ Frecuencias de cada canal en Hz versus magnitud en dB superpuestas.
 
 # 6. Discusión de resultados
 
-| | | |
-|--|--|--|
+La interpretación de las señales de electroencefalografía (EEG) se basa en la identificación de las ondas cerebrales dentro del espectro de frecuencias. La clasificación en diferentes bandas como se resume en la Tabla 1, representan diversos estados de conciencia y actividad cognitiva. Mediante la Transformada Rápida de Fourier (FFT) es posible descomponer la señal y analizar la presencia de cada componente frecuencial, lo que resulta fundamental para relacionar la actividad cerebral registrada con los estados reportados en la literatura [4]
+
+| Ondas cerebrales |  Frecuencia | Descripción |
+|:-------------:|:-------------:|:-------------:|
+| Onda δ | 1-4 Hz | Etapa de sueño profundo |
+| Onda θ | 4-8 Hz | Etapa de somnolencia, relajación profunda |
+| Onda α | 8-12 Hz | Etapa de reposo |
+| Onda β | 12-30 Hz | Etapa de concentración (actividad mental intensa), resolución de problemas |
+| Onda γ | >30 Hz | Etapa de extrema concentración o momentos altamente estresantes |
+
+***Tabla 1***
+
+
+## 6.1 Discusión de resultados OpenBCI - Ultracortex
+
+
 
 # 7. Referencias
-- [1] “Electroencefalograma | ¿Qué es un electroencefalograma”, Portal CLÍNIC, Hospital Clínic de Barcelona, 27 abril 2022; actualizado el 20 marzo 2025. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
-- [2] “Electroencefalografía (EEG) – Mayo Clinic,” Mayo Clinic, 18-sep-2024. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. 
+- [1] de Riquer AI, Ventura CG. ¿Qué es un electroencefalograma [Internet]. Clínic Barcelona. [citado el 20 de septiembre de 2025]. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
+- [2] Electroencefalografía (EEG) [Internet]. Mayoclinic.org. [citado el 20 de septiembre de 2025]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875  
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
+ - [4] Neuroscenter. Ondas Cerebrales: Tipos de Ondas, Desequilibrios y Tratamientos [Internet]. Barcelona/Girona: Neuroscenter; [citado 20 de septiembre de 2025]. Disponible en: https://neuroscenter.com/neurofeedback/ondas-cerebrales/
+ - 
+
 
 
 
