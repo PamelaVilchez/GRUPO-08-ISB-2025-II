@@ -1,7 +1,13 @@
  # Índice
-- [1. Introducción](#1-introducción)
-- [2. Objetivos del laboratorio](#2-objetivos-del-laboratorio)
-
+- [1. Introducción](#1-introducción)  
+- [2. Objetivos del laboratorio](#2-objetivos-del-laboratorio)  
+- [3. Materiales](#3-materiales)  
+- [4. Metodología](#4-metodología)  
+  - [4.1.1. Conexión de los electrodos](#411-conexión-de-los-electrodos)  
+  - [4.1.2. Prueba 1 – Bloque repetido (reposo, fijación visual y ojos cerrados)](#412-prueba-1--bloque-repetido-reposo-fijación-visual-y-ojos-cerrados)  
+  - [4.1.3. Prueba 2 – Tarea cognitiva (resta de 100–7)](#413-prueba-2--tarea-cognitiva-resta-de-1007)  
+  - [4.1.4. Prueba 3 – Artefactos inducidos (parpadeo y masticación)](#414-prueba-3--artefactos-inducidos-parpadeo-y-masticación)  
+  - [4.1.5. Prueba 4 – Estimulación libre con música](#415-prueba-4--estimulación-libre-con-música)  
 - [5. Señales ploteadas en Python](#5-señales-ploteadas-en-python)
   - [Señales EEG obtenidas del BITalino](#señales-eeg-obtenidas-del-bitalino)
     - [Señal EEG basal (Reposo)](#señal-eeg-basal-reposo)
@@ -302,6 +308,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 6. Babiloni C, Triggiani AI, Lizio R, Cordone S, Tattoli G, Bevilacqua V, et al. Classification of single normal and Alzheimer’s disease individuals from cortical sources of resting state EEG rhythms. Front Neurosci [Internet]. 2016;10:47. Disponible en: http://dx.doi.org/10.3389/fnins.2016.00047
 
 7. Jiang X, Bian GB, Tian Z. Removal of artifacts from EEG signals: a review. Sensors (Basel) [Internet]. 2019;19(5):987. Disponible en: https://doi.org/10.3390/s19050987
+
 
 
 
