@@ -255,7 +255,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 
 | Localización de los electrodos | Importancia |
 | -----|----|
-| <img src="../../Repositorio-Imágenes/ultracortex_bci.png" alt="Kit BITalino" width="200" height="200"/> |  <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Kit BITalino" width="400" height="400"/> |
+| <img src="../../Repositorio-Imágenes/ultracortex_bci.png" alt="Kit BITalino" width="300" height="300"/> |  <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Kit BITalino" width="300" height="300"/> |
 
 
 
@@ -269,6 +269,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
  - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
  - [4] Neuroscenter. Ondas Cerebrales: Tipos de Ondas, Desequilibrios y Tratamientos [Internet]. Barcelona/Girona: Neuroscenter; [citado 20 de septiembre de 2025]. Disponible en: https://neuroscenter.com/neurofeedback/ondas-cerebrales/
  - 
+
 
 
 
