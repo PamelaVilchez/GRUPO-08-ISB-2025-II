@@ -110,7 +110,7 @@ El participante realizó una tarea de cálculo mental que consistió en restar s
 
 <figure style="text-align: center;">
   <img src="../../Repositorio-Imágenes/Lab5_resta.gif" alt="Reposo 1" width="500" height="500"/>
-  <figcaption>GIF 4. Resta de 100 - 7 consecutivade manera mental</figcaption>
+  <figcaption>GIF 4. Resta de 100 - 7 consecutivamente de manera mental</figcaption>
 </figure>
 
 ## 4.1.4. Prueba 3 – Artefactos inducidos (parpadeo + masticación)
@@ -308,6 +308,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 6. Babiloni C, Triggiani AI, Lizio R, Cordone S, Tattoli G, Bevilacqua V, et al. Classification of single normal and Alzheimer’s disease individuals from cortical sources of resting state EEG rhythms. Front Neurosci [Internet]. 2016;10:47. Disponible en: http://dx.doi.org/10.3389/fnins.2016.00047
 
 7. Jiang X, Bian GB, Tian Z. Removal of artifacts from EEG signals: a review. Sensors (Basel) [Internet]. 2019;19(5):987. Disponible en: https://doi.org/10.3390/s19050987
+
 
 
 
