@@ -261,7 +261,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 | *Figura 1. Diagrama que muestra la colocación de los 19 electrodos en el cuero cabelludo usados para los registros EEG [6].* | *Figura 2. Ubicación de los electrodos. Extraído de Manual básico para enfermeros en electroencefalografía [7]* |
 
 
-## 6.1 Discusión de resultados OpenBCI - BITalino
+## 6.1. Discusión de resultados OpenBCI - BITalino
 
 - **Señal EEG en reposo**: En el gráfico n° 3 se observan la presencia de picos alrededor de 3 Hz (ondas δ) y 9 Hz (ondas α). Es así, que el pico en 9 Hz es característico de un estado de relajación con los ojos cerrados. Sin embargo, el pico de 3 Hz es más probable que sea debido a un artefacto (movimiento corporal o interferencia externa) ya que esta última suele ser dominante en el sueño profundo. 
 - **Señal EEG con mirada fija y ojos abiertos**: En el gráfico n.° 3 se observa actividad predominante en el rango de 15–30 Hz (ondas β). Este patrón refleja un estado de alerta y atención sostenida, ya que al mantener la mirada fija el cerebro activa redes corticales vinculadas al procesamiento de la información visual. No obstante, la señal presenta cierta contaminación por artefactos, probablemente originados por movimientos oculares (parpadeo) o por la actividad muscular facial. Estos factores son comunes en registros EEG cuando se trabaja con tareas que requieren control ocular.
@@ -273,7 +273,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
 
 
 
-## 6.2 Discusión de resultados OpenBCI - Ultracortex
+## 6.2. Discusión de resultados OpenBCI - Ultracortex
 
 ### Análisis en el dominio del tiempo
 - **Canales frontales (FP1/FP2)**: Las señales presentan una deriva ascendente de la línea base un fenómeno de baja frecuencia que genera que la señal se desplace hacia arriba o abajo gradualmente. Esto suele ser producto de una mala conexión de los electrodos frontales debido a movimientos oculares como parpadeos o movimientos oculares laterales [8].
@@ -296,6 +296,7 @@ De esta manera, además de identificar las bandas cerebrales en el espectro de f
  - [7] Ed 094 07 PDF [Internet]. Scribd. [citado el 21 de septiembre de 2025]. Disponible en: https://www.scribd.com/document/354810519/ED-094-07-pdf
  - [8] Jiang, X., Bian, G. B., & Tian, Z. (2019). Removal of Artifacts from EEG Signals: A Review. Sensors (Basel, Switzerland), 19(5), 987. https://doi.org/10.3390/s19050987
  - 
+
 
 
 
