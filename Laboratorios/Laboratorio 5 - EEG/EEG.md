@@ -110,7 +110,7 @@ El participante realizó una tarea de cálculo mental que consistió en restar s
 
 <figure style="text-align: center;">
   <img src="../../Repositorio-Imágenes/Lab5_resta.gif" alt="Reposo 1" width="500" height="500"/>
-  <figcaption>GIF 4. Resta de 100 - 7 consecutivade manera mental</figcaption>
+  <figcaption>GIF 4. Resta de 100 - 7 consecutivamente de manera mental</figcaption>
 </figure>
 
 ## 4.1.4. Prueba 3 – Artefactos inducidos (parpadeo + masticación)
