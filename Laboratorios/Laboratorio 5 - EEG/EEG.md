@@ -1,7 +1,22 @@
+ # Índice
 - [1. Introducción](#1-introducción)
 - [2. Objetivos del laboratorio](#2-objetivos-del-laboratorio)
 
 - [5. Señales ploteadas en Python](#5-señales-ploteadas-en-python)
+  - [Señales EEG obtenidas del BITalino](#señales-eeg-obtenidas-del-bitalino)
+    - [Señal EEG basal (Reposo)](#señal-eeg-basal-reposo)
+    - [Señal EEG con ojos abiertos](#señal-eeg-con-ojos-abiertos)
+    - [Señal EEG con ojos cerrados](#señal-eeg-con-ojos-cerrados)
+    - [Señal EEG restando 7 desde 100](#señal-eeg-restando-7-desde-100)
+    - [Señal EEG con artefactos](#señal-eeg-con-artefactos)
+    - [Señal EEG escuchando música](#señal-eeg-escuchando-música)
+      - [Género Rock](#rock)
+      - [Género Pop](#pop)
+  - [Gráficas de OpenBCI](#gráficas-de-openbci)
+    - [Gráfica de las señales de los 8 canales](#gráfica-de-las-señales-de-los-8-canales)
+    - [Frecuencias de los 8 canales](#frecuencias-de-los-8-canales)
+    - [Frecuencias de los 8 canales superpuestas](#frecuencias-de-los-8-canales-superpuestas)
+
 - [7. Referencias](#7-referencias)
 
 # 1. Introducción 
@@ -107,7 +122,10 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 
 
 # 5. Señales ploteadas en Python
+## Señales EEG obtenidas del BITalino
 #### Señal EEG basal (Reposo)
+Se cubrió al usario con una manta y se le cubrieron los oídos para evitar interferencias, como consecuencias de los potenciales generados, en la señal basal. 
+
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/reposo1.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
@@ -122,6 +140,8 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 </p>
 
 #### Señal EEG con ojos abiertos
+El usuario permaneció mirando fijamente la pared, aunque ya no llevaba los oídos cubiertos.
+
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/abierto1.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
@@ -136,6 +156,8 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 </p>
 
 #### Señal EEG con ojos cerrados
+El usuario permaneció con los ojos cerrados, aunque ya no llevaba los oídos ni los ojos cubiertos.
+
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/cerrado1.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
@@ -150,12 +172,15 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 </p>
 
 #### Señal EEG restando 7 desde 100 
+Se le solicitó al usuario restar mentalmente 7 desde el número 100. No se permitió que utilizará sus manos para contar ni que pudiera hablar.
+
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/restar100.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
 </p>
 
-#### Señal EEG con artifactos
+#### Señal EEG con artefactos
+Se le solicitó al usuario masticar constantemente y pestañear cada 2 segundos aproximadamente, para observar la señal generada por dichos artefactos.
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/pYm1.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
@@ -170,30 +195,87 @@ En esta etapa, se expuso al participante a dos condiciones auditivas contrastant
 </p>
 
 #### Señal EEG escuchando música 
-###### Rock
+El usuario permaneció sentado con los ojos abiertos y utilizando audífonos, los  cuales reproducieron una canción de rock estruendosa y su canción favorita que pertenecía al género musical de pop.
+
+###### Género Rock
 <p align="center">
-  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/pYm1.jpg?raw=true" 
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/873b99537a91122debbc6cf6e3359c13b741b7e5/Repositorio-Im%C3%A1genes/mRock.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
 </p>
 
-###### Pop
+###### Género Pop
 <p align="center">
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/4d90058c1213571f1e10639ba62aceb412aabfc6/Repositorio-Im%C3%A1genes/mFav.jpg?raw=true" 
        alt="b_reposo" height="300" width="500">
 </p>
 
+## Gráficas de OpenBCI
+### Gráfica de las señales de los 8 canales
+Señales en uV leídas en los 8 canales del Ultracortex.
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/30dc3ec60751fa2ed8001b767dbbae8b83a732a7/Repositorio-Im%C3%A1genes/se%C3%B1alesBCI.jpg?raw=true" 
+       alt="MILimb_2a" >
+</p>
+
+### Frecuencias de los 8 canales
+Frecuencias de cada canal en Hz versus magnitud en dB.
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/7599216c21ee284c7f949140bd29338d69a1b80b/Repositorio-Im%C3%A1genes/frecuencias_openBCI.jpg?raw=true" 
+       alt="MILimb_2a" >
+</p>
+
+#### Frecuencias de los 8 canales superpuestas
+Frecuencias de cada canal en Hz versus magnitud en dB superpuestas.
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/7599216c21ee284c7f949140bd29338d69a1b80b/Repositorio-Im%C3%A1genes/f_superpuestas_openBCI.jpg?raw=true" 
+       alt="MILimb_2a" width="500">
+</p>
 
 ##### - Archivos EEG:
 [Archivos-Eeg](https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/tree/dea9ccd5c8fe10b70f42ff90bb250261a728159b/Repositorio-Im%C3%A1genes/Archivos_EEG)
 
 # 6. Discusión de resultados
 
+La interpretación de las señales de electroencefalografía (EEG) se basa en la identificación de las ondas cerebrales dentro del espectro de frecuencias. La clasificación en diferentes bandas como se resume en la Tabla 1, representan diversos estados de conciencia y actividad cognitiva. Mediante la Transformada Rápida de Fourier (FFT) es posible descomponer la señal y analizar la presencia de cada componente frecuencial, lo que resulta fundamental para relacionar la actividad cerebral registrada con los estados reportados en la literatura [4]
+
+| Ondas cerebrales |  Frecuencia | Descripción |
+|:-------------:|:-------------:|-------------|
+| Onda δ | 1-4 Hz | Etapa de sueño profundo |
+| Onda θ | 4-8 Hz | Etapa de somnolencia, relajación profunda |
+| Onda α | 8-12 Hz | Etapa de reposo |
+| Onda β | 12-30 Hz | Etapa de concentración (actividad mental intensa), resolución de problemas |
+| Onda γ | >30 Hz | Etapa de extrema concentración o momentos altamente estresantes |
+
+***Tabla 1***
+
+De esta manera, además de identificar las bandas cerebrales en el espectro de frecuencia, es importante considerar la localización de los electrodos, ya que distintas regiones corticales muestran patrones característicos. Por ejemplo, en FP1/FP2 la presencia de actividad en la banda beta puede asociarse con estrés o concentración; en C3/C4 la activación suele vincularse con tareas motoras, siendo relevante en neurorehabilitación. En la región temporal (T5/T6), los picos en la banda theta se relacionan con procesos de memoria o relajación profunda, mientras que en O1/O2 es común observar picos en la banda alpha (~10 Hz), característicos de un estado de reposo visual con los ojos cerrados [5].
+
+| Localización de los electrodos | Importancia |
+| -----|----|
+| <img src="../../Repositorio-Imágenes/ultracortex_bci.png" alt="Kit BITalino" width="300" height="300"/> |  <img src="../../Repositorio-Imágenes/electrodos_ultracortex.png" alt="Kit BITalino" width="300" height="300"/> |
+
+## 6.1 Discusión de resultados OpenBCI - BITalino
+
+
+
+
+## 6.2 Discusión de resultados OpenBCI - Ultracortex
+
+### Análisis en el dominio del tiempo
+- **Canales frontales (FP1/FP2)**: Las señales presentan una deriva ascendente de la línea base un fenómeno de baja frecuencia que genera que la señal se desplace hacia arriba o abajo gradualmente. Esto suele ser producto de una mala conexión de los electrodos frontales debido a movimientos oculares como parpadeos o movimientos oculares laterales [6].
+- **Canales centrales (C3/C4)**: El canal C3 exhibe picos de alta frecuencia y amplitud debido a artefactos de actividad muscular por lo que, se visualizan como fluctuaciones rápidas e irregulares. En contraste, el canal C4 exhibe una señal más estable, lo que sugiere una menor interferencia muscular [6].
+- **Canales temporales (T5/T6)**: El canal T5 exibe picos similares a los del canal C3 lo que podría indicar presencia de artefactos de actividad muscular o incluso artefactos oculares de movimientos laterales de los ojos. El canal T6, exhibe una señal relativamente estable facilitando el análisis cerebral del lóbulo temporal.
+- **Canales occipitales (O1/O2)**: El canal O1 exhibe picos similares al de los canales C3 y T5 sugiriendo que podrían ser eventos de origen común como un movimiento brusco de la cabeza o un parpadeo. La señal del canal O2 es de baja amplitud sugiriéndonos que se pudo dar por una mala conexión del electrodos.
+
+### Análisis en el dominio de la frecuencia
+- **Canales occipitales (O1/O2)**: Estos canales son los más relevantes para analizar la actividad cerebral de las ondas α cuando una persona se encuentra en estado de reposo con los ojos cerrados por lo que se esperaría un pico de potencia significativo en el rango de 8-12 Hz. En este caso, no se visualiza un pico prominente, lo que podría significar que el sujeto tenía los ojos abiertos al momento de registrar la señal.
+
+
 
 # 7. Referencias
 - [1] “Electroencefalograma | ¿Qué es un electroencefalograma”, Portal CLÍNIC, Hospital Clínic de Barcelona, 27 abril 2022; actualizado el 20 marzo 2025. Disponible en: https://www.clinicbarcelona.org/asistencia/pruebas-y-procedimientos/electroencefalograma.
 - [2] “Electroencefalografía (EEG) – Mayo Clinic,” Mayo Clinic, 18-sep-2024. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. 
-- [3] Proença M, Mrotzeck K. BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals. Lisbon: PLUX – Wireless Biosignals, S.A.; 2021 Feb.
-
+ - [3] M. Proença and K. Mrotzeck, BITalino Home Guide #3 – Electroencephalography (EEG): Exploring Brain Signals, PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Feb. 2021.
 
 
 
