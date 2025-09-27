@@ -237,7 +237,7 @@ La respuesta de fase es principalmente lineal en la banda de interés (10–40 H
   <img src="../../Repositorio-Imágenes/ecg_reposo_dolph_chebyshev_3.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
-En el diagrama de polos y ceros del filtro FIR con ventana Dolph–Chebyshev, todos los polos se encuentran en el origen y los ceros se distribuyen de manera simétrica, con un cero ubicado fuera del círculo unitario pero cercano a él, lo que genera una banda de rechazo con oscilaciones relativamente marcadas. En contraste, en el filtro con ventana Blackman–Harris, aunque algunos ceros (aprox. 3) también se ubican fuera del círculo unitario, la mayoría se concentra cerca de él, produciendo transiciones más suaves en la respuesta en frecuencia y una banda de rechazo más plana, con menor amplitud de oscilaciones.
+En el diagrama de polos y ceros del filtro FIR con ventana Dolph–Chebyshev, todos los polos se encuentran en el origen y los ceros se distribuyen de manera simétrica, con un cero ubicado más alejado del círculo unitario, lo que genera una banda de rechazo con oscilaciones relativamente marcadas. En contraste, en el filtro con ventana Blackman–Harris, aunque algunos ceros también se ubican fuera del círculo unitario, la mayoría se concentra cerca de él, produciendo transiciones más suaves en la respuesta en frecuencia y una banda de rechazo más plana, con menor amplitud de oscilaciones.
 
 #### Filtro FIR - Blackman
 
