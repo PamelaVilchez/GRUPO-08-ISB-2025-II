@@ -210,14 +210,14 @@ La respuesta de fase es principalmente lineal en la banda de interés (10–40 H
   <img src="../../Repositorio-Imágenes/ecg_reposo_equiripple_3.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
-El diagrama de polos y ceros del filtro FIR Equiripple muestra todos los polos en el origen, lo que garantiza estabilidad, y ceros distribuidos simétricamente, algunos incluso fuera del círculo unitario. Esta disposición permite transiciones más abruptas y un control uniforme del ripple. En contraste, el diseño con ventana Blackman–Harris también presenta polos en el origen y ceros simétricos, pero distribuidos de manera que suavizan las transiciones y reducen las oscilaciones en la banda de parada. 
+El diagrama de polos y ceros del filtro FIR Equiripple se evidencia todos los polos en el origen y ceros distribuidos simétricamente, algunos ubicados más alejados del círculo unitario. Esta disposición genera transiciones más abruptas y un control uniforme del ripple. En contraste, en el filtro con ventana Blackman–Harris los ceros también son simétricos, pero se concentran más cerca del círculo unitario, lo que produce transiciones más suaves y una banda de parada con menos oscilaciones.
 
 #### Filtro FIR - Dolph Shevychev
 
 ##### Respuesta de magnitud
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/ecg_reposo_dolph_shevychev_1.png" alt="Kit BITalino" width="400" height="400"/>
+  <img src="../../Repositorio-Imágenes/ecg_reposo_dolph_chebyshev_1.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
 La respuesta en magnitud muestra una banda pasante estable entre las frecuencias normalizadas correspondientes a 10 Hz (0.04) y 40 Hz (0.16), con ripple controlado cercano a 0 dB. Tras la frecuencia de corte, la atenuación supera –70 dB, aunque con oscilaciones entre –70 y –80 dB. Este “ruido residual” es característico del método Equiripple, que distribuye el ripple en todas las bandas. A diferencia del filtro con ventana Blackman–Harris, ofrece menor orden y transiciones más abruptas, pero con un stopband menos limpio.
@@ -225,7 +225,7 @@ La respuesta en magnitud muestra una banda pasante estable entre las frecuencias
 ##### Respuesta de fase
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/ecg_reposo_dolph_shevychev_2.png" alt="Kit BITalino" width="400" height="400"/>
+  <img src="../../Repositorio-Imágenes/ecg_reposo_dolph_chebyshev_2.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
   
 La respuesta de fase es principalmente lineal en la banda de interés (10–40 Hz), garantizando un retardo constante y preservando la morfología de las ondas ECG. Fuera de esta región aparecen oscilaciones periódicas con leves desviaciones alrededor de –90 rad, propias del diseño Equiripple. A diferencia del filtro con ventana Blackman–Harris, cuya fase se extiende hasta –105 rad con transiciones más suaves. Por lo que, este método optimiza el ripple a costa de un stopband menos limpio y una fase con más irregularidades.
@@ -233,7 +233,7 @@ La respuesta de fase es principalmente lineal en la banda de interés (10–40 H
 ##### Gráfico P/Z
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/ecg_reposo_dolph_shevychev_2.png" alt="Kit BITalino" width="400" height="400"/>
+  <img src="../../Repositorio-Imágenes/ecg_reposo_dolph_chebyshev_3.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
 El diagrama de polos y ceros del filtro FIR Equiripple muestra todos los polos en el origen, lo que garantiza estabilidad, y ceros distribuidos simétricamente, algunos incluso fuera del círculo unitario. Esta disposición permite transiciones más abruptas y un control uniforme del ripple. En contraste, el diseño con ventana Blackman–Harris también presenta polos en el origen y ceros simétricos, pero distribuidos de manera que suavizan las transiciones y reducen las oscilaciones en la banda de parada. 
