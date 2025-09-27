@@ -147,3 +147,35 @@ Se valida que:
   <img src="../../Repositorio-Imágenes/Captura de pantalla 2025-09-27 102308.png" alt="Kit BITalino" width="800" height="400"/>
 </p>
 
+
+## Señal ECG:
+
+Se empleó la señal **ECG en reposo** y **ECG después de realizar una actividad aeróbica**, en ambos se observa el espectro de frecuencias el cual señala que hay mayor información en un ancho de banda entre 0.5 Hz y 40 Hz [5]. Es por ello que la frecuencia de muestreo utilizada en la práctica, aplicando el teorema de Nyquist el cual estable que la frecuencia de muestreo (fs) debe ser mayor a 2 veces la frecuencia máxima. Por lo que, la frecuencia de muestreo utilizada fue de **250 Hz**.  
+
+Considerando que se empleó una frecuencia de sampleo de 250 Hz, debido a que no se iba a poder obtener una buena visualización de la gráfica se estableció como ancho de banda entre 10 Hz y 40 Hz. Dichos valores se convirtieron las frecuencias de corte como **fnorm = f/fs**, dichos valores fueron colocados en la configuración de ***Target Specification*** en pyFDA. De esta forma el filtro tiene una banda pasante plana entre 0.04 y 0.16 (normalizado) lo que corresponde a **10 Hz - 4 Hz**.
+
+### Elección de filtro: FIR o IIR
+En el procesamiento de la señal ECG se suele preferir un filtro FIR antes que un IIR porque el FIR asegura una fase lineal, no deforma la forma de las ondas (P, QRS y T), preservando la morfología de la señal crucial para interpretaciones clínicas. En cambio, el filtro IIR introduce una fase no lineal lo cual puede distorsionar la señal ECG [6]. 
+
+#### Filtro FIR - Blackman Harris
+Este fue el filtro elegido para filtrar las señales ECG, asimismo fue comparado con otros 3 filtros. Se detalló las principales características que lo vuelven un buen filtro para este tipo de señal.
+
+##### Respuesta de magnitud
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/e45f1b74272b0034ff20d99f260f6c6286d16e6c/Repositorio-Im%C3%A1genes/ecg_reposo_blackman_harris_1.png?raw=true" width="500">
+</p>
+En el gráfico de magnitud, la banda de paso tiene una respuesta plana sin ondulaciones lo cual evita distorsiones en amplitud dentro del rango útil establecido (20–450 Hz), preservando así la forma original de la señal muscular. Cabe resaltar que no presenta una caída abrupta a la banda de rechazo.
+
+##### Respuesta de fase
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/e45f1b74272b0034ff20d99f260f6c6286d16e6c/Repositorio-Im%C3%A1genes/ecg_reposo_blackman_harris_2.png?raw=true" width="500">
+</p>  
+Presenta una transición de fase suave lo cual reduce el group delay.
+
+##### Gráfico P/Z
+<p align="center">
+  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/e45f1b74272b0034ff20d99f260f6c6286d16e6c/Repositorio-Im%C3%A1genes/ecg_reposo_blackman_harris_3.png?raw=true" width="500">
+</p>  
+Los polos están dentro del círculo unitario, lo cual garantiza la estabilidad.
+
+
