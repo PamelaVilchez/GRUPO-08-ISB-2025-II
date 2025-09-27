@@ -161,21 +161,27 @@ En el procesamiento de la señal ECG se suele preferir un filtro FIR antes que u
 Este fue el filtro elegido para filtrar las señales ECG, asimismo fue comparado con otros 3 filtros. Se detalló las principales características que lo vuelven un buen filtro para este tipo de señal.
 
 ##### Respuesta de magnitud
+
 <p align="center">
-  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/e45f1b74272b0034ff20d99f260f6c6286d16e6c/Repositorio-Im%C3%A1genes/ecg_reposo_blackman_harris_1.png?raw=true" width="500">
+  <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_harris_1.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
+
 En el gráfico de magnitud, la banda de paso tiene una respuesta plana sin ondulaciones lo cual evita distorsiones en amplitud dentro del rango útil establecido (20–450 Hz), preservando así la forma original de la señal muscular. Cabe resaltar que no presenta una caída abrupta a la banda de rechazo.
 
 ##### Respuesta de fase
+
 <p align="center">
-  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/e45f1b74272b0034ff20d99f260f6c6286d16e6c/Repositorio-Im%C3%A1genes/ecg_reposo_blackman_harris_2.png?raw=true" width="500">
-</p>  
+  <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_harris_2.png" alt="Kit BITalino" width="400" height="400"/>
+</p>
+  
 Presenta una transición de fase suave lo cual reduce el group delay.
 
 ##### Gráfico P/Z
+
 <p align="center">
-  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/e45f1b74272b0034ff20d99f260f6c6286d16e6c/Repositorio-Im%C3%A1genes/ecg_reposo_blackman_harris_3.png?raw=true" width="500">
-</p>  
+  <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_harris_3.png" alt="Kit BITalino" width="400" height="400"/>
+</p>
+
 Los polos están dentro del círculo unitario, lo cual garantiza la estabilidad.
 
 
