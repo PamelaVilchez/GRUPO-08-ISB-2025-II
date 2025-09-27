@@ -166,7 +166,8 @@ Este fue el filtro elegido para filtrar las señales ECG, asimismo fue comparado
   <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_harris_1.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
-En el gráfico de magnitud, la banda de paso tiene una respuesta plana sin ondulaciones lo cual evita distorsiones en amplitud dentro del rango útil establecido (20–450 Hz), preservando así la forma original de la señal muscular. Cabe resaltar que no presenta una caída abrupta a la banda de rechazo.
+La gráfica muestra la respuesta en magnitud del filtro FIR diseñado con ventana Blackman-Harris. Se observa una banda pasante plana entre las frecuencias normalizadas correspondientes a 10 Hz (0.04) y 40 Hz (0.16), lo que indica que las componentes útiles del ECG se conservan sin atenuación significativa. A partir de 0.16, la magnitud desciende de manera pronunciada hasta superar los 80 dB de atenuación en la banda de parada, garantizando una supresión eficiente del ruido fuera de banda
+
 
 ##### Respuesta de fase
 
@@ -174,7 +175,7 @@ En el gráfico de magnitud, la banda de paso tiene una respuesta plana sin ondul
   <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_harris_2.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
   
-Presenta una transición de fase suave lo cual reduce el group delay.
+La gráfica de fase muestra una caída lineal en la banda de interés (hasta ~0.16), indicando que el filtro posee fase lineal en esa región. Esta propiedad es esencial en el procesamiento de ECG, ya que asegura que todas las frecuencias sufran el mismo retardo, preservando la morfología original de las ondas P, QRS y T. De esta manera, se evitan distorsiones temporales que podrían comprometer la interpretación clínica.
 
 ##### Gráfico P/Z
 
@@ -182,6 +183,34 @@ Presenta una transición de fase suave lo cual reduce el group delay.
   <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_harris_3.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
-Los polos están dentro del círculo unitario, lo cual garantiza la estabilidad.
+El diagrama de polos y ceros muestra una distribución simétrica de ceros alrededor del origen, característica típica de filtros FIR con coeficientes reales y fase lineal. El único polo visible está ubicado fuera del círculo unitario, lo que indica que el sistema es estable y no tiene retroalimentación. Esta estructura garantiza que el filtro no introduzca resonancias ni distorsiones.
+
+#### Filtro FIR - Equiripple
+
+##### Respuesta de magnitud
+
+<p align="center">
+  <img src="../../Repositorio-Imágenes/ecg_reposo_equiripple_1.png" alt="Kit BITalino" width="400" height="400"/>
+</p>
+
+La gráfica muestra la respuesta en magnitud del filtro FIR diseñado con ventana Blackman-Harris. Se observa una banda pasante plana entre las frecuencias normalizadas correspondientes a 10 Hz (0.04) y 40 Hz (0.16), lo que indica que las componentes útiles del ECG se conservan sin atenuación significativa. A partir de 0.16, la magnitud desciende de manera pronunciada hasta superar los 80 dB de atenuación en la banda de parada, garantizando una supresión eficiente del ruido fuera de banda
+
+
+##### Respuesta de fase
+
+<p align="center">
+  <img src="../../Repositorio-Imágenes/ecg_reposo_equiripple_2.png" alt="Kit BITalino" width="400" height="400"/>
+</p>
+  
+La gráfica de fase muestra una caída lineal en la banda de interés (hasta ~0.16), indicando que el filtro posee fase lineal en esa región. Esta propiedad es esencial en el procesamiento de ECG, ya que asegura que todas las frecuencias sufran el mismo retardo, preservando la morfología original de las ondas P, QRS y T. De esta manera, se evitan distorsiones temporales que podrían comprometer la interpretación clínica.
+
+##### Gráfico P/Z
+
+<p align="center">
+  <img src="../../Repositorio-Imágenes/ecg_reposo_equiripple_3.png" alt="Kit BITalino" width="400" height="400"/>
+</p>
+
+El diagrama de polos y ceros muestra una distribución simétrica de ceros alrededor del origen, característica típica de filtros FIR con coeficientes reales y fase lineal. El único polo visible está ubicado fuera del círculo unitario, lo que indica que el sistema es estable y no tiene retroalimentación. Esta estructura garantiza que el filtro no introduzca resonancias ni distorsiones.
+
 
 
