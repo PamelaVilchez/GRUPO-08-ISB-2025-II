@@ -237,5 +237,32 @@ La respuesta de fase es principalmente lineal en la banda de interés (10–40 H
   <img src="../../Repositorio-Imágenes/ecg_reposo_dolph_chebyshev_3.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
-El diagrama de polos y ceros del filtro FIR Equiripple muestra todos los polos en el origen, lo que garantiza estabilidad, y ceros distribuidos simétricamente, algunos incluso fuera del círculo unitario. Esta disposición permite transiciones más abruptas y un control uniforme del ripple. En contraste, el diseño con ventana Blackman–Harris también presenta polos en el origen y ceros simétricos, pero distribuidos de manera que suavizan las transiciones y reducen las oscilaciones en la banda de parada. 
+En el diagrama de polos y ceros del filtro FIR con ventana Dolph–Chebyshev, todos los polos se encuentran en el origen y los ceros se distribuyen de manera simétrica, con un cero ubicado fuera del círculo unitario pero cercano a él, lo que genera una banda de rechazo con oscilaciones relativamente marcadas. En contraste, en el filtro con ventana Blackman–Harris, aunque algunos ceros (aprox. 3) también se ubican fuera del círculo unitario, la mayoría se concentra cerca de él, produciendo transiciones más suaves en la respuesta en frecuencia y una banda de rechazo más plana, con menor amplitud de oscilaciones.
+
+#### Filtro FIR - Blackman
+
+##### Respuesta de magnitud
+
+<p align="center">
+  <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_1.png" alt="Kit BITalino" width="400" height="400"/>
+</p>
+
+La gráfica muestra la respuesta en magnitud del filtro FIR diseñado con ventana Dolph Chebyshev. Se observa una banda pasante plana entre las frecuencias normalizadas correspondientes a 10 Hz (0.04) y 40 Hz (0.16), lo que indica que las componentes útiles del ECG se conservan sin atenuación significativa. A partir de 0.16, la magnitud desciende de manera pronunciada hasta superar los -80 dB de atenuación en la banda de parada, garantizando una supresión eficiente del ruido fuera de banda
+
+##### Respuesta de fase
+
+<p align="center">
+  <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_2.png" alt="Kit BITalino" width="400" height="400"/>
+</p>
+  
+La respuesta de fase es principalmente lineal en la banda de interés (10–40 Hz), garantizando un retardo constante y preservando la morfología de las ondas ECG. Fuera de esta región se observan oscilaciones periódicas con leves desviaciones alrededor de –90 rad, seguidas de un ascenso hasta –85 rad donde la fase se estabiliza, comportamiento característico de la ventana Dolph–Chebyshev. En contraste, el filtro con ventana Blackman–Harris presenta una fase más prolongada, llegando hasta –105 rad, con transiciones más suaves. De este modo, el diseño Chebyshev prioriza la optimización del ripple a costa de un stopband menos limpio y una fase con mayores irregularidades.
+
+
+##### Gráfico P/Z
+
+<p align="center">
+  <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_3.png" alt="Kit BITalino" width="400" height="400"/>
+</p>
+
+En el diagrama de polos y ceros del filtro FIR con ventana Dolph–Chebyshev, todos los polos se encuentran en el origen y los ceros se distribuyen de manera simétrica, con un cero ubicado fuera del círculo unitario pero cercano a él, lo que genera una banda de rechazo con oscilaciones relativamente marcadas. En contraste, en el filtro con ventana Blackman–Harris, aunque algunos ceros (aprox. 3) también se ubican fuera del círculo unitario, la mayoría se concentra cerca de él, produciendo transiciones más suaves en la respuesta en frecuencia y una banda de rechazo más plana, con menor amplitud de oscilaciones.
 
