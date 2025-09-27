@@ -93,3 +93,56 @@ Estos saltos indican que existirá un “group delay distortion”, lo que impli
   <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/e45f1b74272b0034ff20d99f260f6c6286d16e6c/Repositorio-Im%C3%A1genes/filtro_cheb_pz.jpg?raw=true" width="500">
 </p>   
 Se observa que el Chebyshev II tiene ceros en el círculo unitario. Ello puede provocar que la fase tenga discontinuidades al cruzar esos puntos, los cuales se evidencia en la gráfica de fase.
+
+# Filtrado de señales
+Se documenta el proceso de filtrado aplicado a las señales EMG obtenidas con el kit BITalino, empleando un filtro IIR Butterworth de orden 4 con banda pasante entre 20 Hz y 450 Hz. Este rango fue definido en función del espectro energético útil de la señal muscular y criterios de estabilidad y eficiencia computacional. A continuación se detallan las etapas para los dos gestos analizados: extensión de tríceps y flexión de bíceps
+ ## Extensión de tríceps
+1. Señal EMG cruda (sin filtrado)
+Se observa la señal original capturada por el sensor EMG. Son evidentes:
+- Componentes de baja frecuencia (<20 Hz), típicamente asociados a artefactos de movimiento.
+- Componentes de alta frecuencia (>450 Hz), posiblemente de origen electromagnético o ruido ambiental.
+Estas interferencias justifican el uso de un filtro pasabanda que preserve el rango útil de 20–450 Hz.
+
+  <img src="../../Repositorio-Imágenes/Captura de pantalla 2025-09-27 101825.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+
+  <img src="../../Repositorio-Imágenes/Captura de pantalla 2025-09-27 101913.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+
+2. Señal filtrada con Butterworth IIR (orden 4)
+Se aplicó el filtro diseñado en pyFDA. Se observa:
+- Eliminación efectiva de ruido fuera de banda.
+- Conservación de la morfología de los potenciales de acción musculares.
+- Mejora en la relación señal/ruido, facilitando la detección de picos.
+3. FFT antes y después del filtrado
+Se comparan los espectros de frecuencia:
+- Antes del filtrado: energía dispersa, incluyendo ruido fuera del rango útil.
+- Después del filtrado: concentración energética entre 25 Hz y 120 Hz, como se esperaba según literatura.
+
+  <img src="../../Repositorio-Imágenes/Captura de pantalla 2025-09-27 102244.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+
+## Flexión de bíceps 
+1. Señal EMG cruda (sin filtrado)
+La señal presenta características similares al intento anterior:
+- Presencia de artefactos de baja frecuencia.
+- Ruido electromagnético en frecuencias altas.
+
+  <img src="../../Repositorio-Imágenes/Captura de pantalla 2025-09-27 102034.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+
+  <img src="../../Repositorio-Imágenes/Captura de pantalla 2025-09-27 102139.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+
+2. Señal filtrada con Butterworth IIR (orden 4)
+La señal procesada muestra:
+- Reducción significativa del ruido.
+- Conservación de la estructura temporal de los picos EMG.
+- Preparación adecuada para análisis cuantitativo (RMS, activación muscular, etc.).
+3. FFT antes y después del filtrado
+Se valida que:
+- La energía útil se concentra entre 25 Hz y 120 Hz.
+- El filtro elimina eficazmente las componentes fuera del rango de interés.
+  <img src="../../Repositorio-Imágenes/Captura de pantalla 2025-09-27 102308.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+
