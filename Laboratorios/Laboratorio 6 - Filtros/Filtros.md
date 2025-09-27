@@ -143,6 +143,7 @@ La señal procesada muestra:
 Se valida que:
 - La energía útil se concentra entre 25 Hz y 120 Hz.
 - El filtro elimina eficazmente las componentes fuera del rango de interés.
+
   <img src="../../Repositorio-Imágenes/Captura de pantalla 2025-09-27 102308.png" alt="Kit BITalino" width="800" height="400"/>
 </p>
 
