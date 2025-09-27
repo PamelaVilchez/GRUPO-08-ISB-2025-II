@@ -183,7 +183,8 @@ La gráfica de fase muestra una caída lineal en la banda de interés (hasta ~0.
   <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_harris_3.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
-El diagrama de polos y ceros muestra una distribución simétrica de ceros alrededor del origen, característica típica de filtros FIR con coeficientes reales y fase lineal. El único polo visible está ubicado fuera del círculo unitario, lo que indica que el sistema es estable y no tiene retroalimentación. Esta estructura garantiza que el filtro no introduzca resonancias ni distorsiones.
+El diagrama de polos y ceros evidencia una distribución simétrica de ceros alrededor del origen, algunos extendiéndose más allá del círculo unitario, mientras que todos los polos se encuentran en el origen. Esta configuración refuerza la capacidad del filtro para producir transiciones abruptas sin comprometer la estabilidad ni introducir distorsiones en la señal.
+
 
 #### Filtro FIR - Equiripple
 
