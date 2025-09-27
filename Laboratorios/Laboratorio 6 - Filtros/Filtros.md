@@ -150,9 +150,9 @@ Se valida que:
 
 ## Señal ECG:
 
-Se empleó la señal **ECG en reposo** y **ECG después de realizar una actividad aeróbica**, en ambos se observa el espectro de frecuencias el cual señala que hay mayor información en un ancho de banda entre 0.5 Hz y 40 Hz [5]. Es por ello que la frecuencia de muestreo utilizada en la práctica, aplicando el teorema de Nyquist el cual estable que la frecuencia de muestreo (fs) debe ser mayor a 2 veces la frecuencia máxima. Por lo que, la frecuencia de muestreo utilizada fue de **250 Hz**.  
+Se utilizaron dos tipos de señal ECG: en reposo y después de realizar actividad aeróbica. En ambos casos, el análisis del espectro de frecuencias muestra que la mayor parte de la información útil se encuentra en un rango de 0.5 Hz a 40 Hz [5]. Por ello, aplicando el teorema de Nyquist, que establece que la frecuencia de muestreo (fs) debe ser al menos el doble de la frecuencia máxima de interés, se eligió una frecuencia de muestreo de 250 Hz.
 
-Considerando que se empleó una frecuencia de sampleo de 250 Hz, debido a que no se iba a poder obtener una buena visualización de la gráfica se estableció como ancho de banda entre 10 Hz y 40 Hz. Dichos valores se convirtieron las frecuencias de corte como **fnorm = f/fs**, dichos valores fueron colocados en la configuración de ***Target Specification*** en pyFDA. De esta forma el filtro tiene una banda pasante plana entre 0.04 y 0.16 (normalizado) lo que corresponde a **10 Hz - 4 Hz**.
+Dado que la visualización y análisis de las señales era más efectiva en un rango reducido, se decidió trabajar con un ancho de banda de 10 Hz a 40 Hz, que abarca las componentes principales del ECG y atenúa las bajas frecuencias que pueden corresponder a ruido de línea base o artefactos de movimiento. Estas frecuencias de corte se normalizaron mediante la relación 𝑓norm = f/fs y se ingresaron en la configuración de Target Specification en pyFDA. Así, el filtro resultante presenta una banda pasante plana entre 0.04 y 0.16 (normalizado), equivalente a 10–40 Hz, lo que garantiza la preservación de las ondas características del ECG mientras se atenúa el ruido fuera de banda.
 
 ### Elección de filtro: FIR o IIR
 En el procesamiento de la señal ECG se suele preferir un filtro FIR antes que un IIR porque el FIR asegura una fase lineal, no deforma la forma de las ondas (P, QRS y T), preservando la morfología de la señal crucial para interpretaciones clínicas. En cambio, el filtro IIR introduce una fase no lineal lo cual puede distorsionar la señal ECG [6]. 
@@ -247,7 +247,7 @@ En el diagrama de polos y ceros del filtro FIR con ventana Dolph–Chebyshev, to
   <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_1.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
-La gráfica muestra la respuesta en magnitud del filtro FIR diseñado con ventana Dolph Chebyshev. Se observa una banda pasante plana entre las frecuencias normalizadas correspondientes a 10 Hz (0.04) y 40 Hz (0.16), lo que indica que las componentes útiles del ECG se conservan sin atenuación significativa. A partir de 0.16, la magnitud desciende de manera pronunciada hasta superar los -80 dB de atenuación en la banda de parada, garantizando una supresión eficiente del ruido fuera de banda
+La gráfica muestra la respuesta en magnitud del filtro FIR diseñado con ventana Blackman. Se observa una banda pasante plana entre las frecuencias normalizadas correspondientes a 10 Hz (0.04) y 40 Hz (0.16), lo que indica que las componentes útiles del ECG se conservan sin atenuación significativa. A partir de 0.16, la magnitud desciende de manera pronunciada hasta superar los –70 dB en la banda de rechazo, lo que asegura una supresión eficiente del ruido fuera de banda; sin embargo, se observan pequeñas oscilaciones cercanas a –80 dB.
 
 ##### Respuesta de fase
 
@@ -255,8 +255,7 @@ La gráfica muestra la respuesta en magnitud del filtro FIR diseñado con ventan
   <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_2.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
   
-La respuesta de fase es principalmente lineal en la banda de interés (10–40 Hz), garantizando un retardo constante y preservando la morfología de las ondas ECG. Fuera de esta región se observan oscilaciones periódicas con leves desviaciones alrededor de –90 rad, seguidas de un ascenso hasta –85 rad donde la fase se estabiliza, comportamiento característico de la ventana Dolph–Chebyshev. En contraste, el filtro con ventana Blackman–Harris presenta una fase más prolongada, llegando hasta –105 rad, con transiciones más suaves. De este modo, el diseño Chebyshev prioriza la optimización del ripple a costa de un stopband menos limpio y una fase con mayores irregularidades.
-
+La respuesta de fase es principalmente lineal en la banda de interés (10–40 Hz), garantizando un retardo constante y preservando la morfología de las ondas ECG. Fuera de esta región se observan oscilaciones periódicas con leves desviaciones alrededor de –90 rad. En contraste, el filtro con ventana Blackman–Harris presenta una fase más prolongada, llegando hasta –105 rad, con transiciones más suaves. De este modo, el diseño Chebyshev prioriza la optimización del ripple a costa de un stopband menos limpio y una fase con mayores irregularidades.
 
 ##### Gráfico P/Z
 
@@ -264,5 +263,14 @@ La respuesta de fase es principalmente lineal en la banda de interés (10–40 H
   <img src="../../Repositorio-Imágenes/ecg_reposo_blackman_3.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
-En el diagrama de polos y ceros del filtro FIR con ventana Dolph–Chebyshev, todos los polos se encuentran en el origen y los ceros se distribuyen de manera simétrica, con un cero ubicado fuera del círculo unitario pero cercano a él, lo que genera una banda de rechazo con oscilaciones relativamente marcadas. En contraste, en el filtro con ventana Blackman–Harris, aunque algunos ceros (aprox. 3) también se ubican fuera del círculo unitario, la mayoría se concentra cerca de él, produciendo transiciones más suaves en la respuesta en frecuencia y una banda de rechazo más plana, con menor amplitud de oscilaciones.
+En el diagrama de polos y ceros del filtro FIR con ventana Blackman, todos los polos se sitúan en el origen y los ceros se distribuyen de manera simétrica, con dos ceros alejados del círculo unitario, lo que provoca una banda de rechazo con oscilaciones relativamente pronunciadas. En contraste, en el filtro con ventana Blackman–Harris, aunque algunos ceros también se ubican fuera del círculo unitario, la mayoría se concentra cerca de él, generando transiciones más suaves en la respuesta en frecuencia y una banda de rechazo más plana, con menor amplitud de oscilaciones.
+
+## Referencias
+1. a
+2. b
+3. c
+4. d
+5. Equibiomedic, "DESFIBRILADOR COMEN S5 V2," Archivo de diseño en CorelDRAW, disponible en: [https://share.google/2t6TcNHI1mN6FgopA ](https://equibiomedic.com/wp-content/uploads/2022/08/FICHA-TECNICA-DESFIBRILADOR-COMEN-S5-V2.pdf) 
+6. S. Sarpal, "Difference between IIR and FIR filters: a practical design guide," Advanced Solutions Nederland, 28 Apr. 2020. [Online]. Available: https://www.advsolned.com/difference-between-iir-and-fir-filters-a-practical-design-guide/  
+
 
