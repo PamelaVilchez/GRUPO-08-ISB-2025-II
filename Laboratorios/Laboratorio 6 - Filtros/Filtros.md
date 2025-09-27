@@ -150,12 +150,12 @@ Se valida que:
 
 ## Señal ECG:
 
-Se utilizaron dos tipos de señal ECG: en reposo y después de realizar actividad aeróbica. En ambos casos, el análisis del espectro de frecuencias muestra que la mayor parte de la información útil se encuentra en un rango de 0.5 Hz a 40 Hz [5]. Por ello, aplicando el teorema de Nyquist, que establece que la frecuencia de muestreo (fs) debe ser al menos el doble de la frecuencia máxima de interés, se eligió una frecuencia de muestreo de 250 Hz.
+Se utilizaron dos tipos de señal ECG: en reposo y después de realizar actividad aeróbica. En ambos casos, el análisis del espectro de frecuencias muestra que la mayor parte de la información útil se encuentra en un rango de 0.5 Hz a 40 Hz [4]. Por ello, aplicando el teorema de Nyquist, que establece que la frecuencia de muestreo (fs) debe ser al menos el doble de la frecuencia máxima de interés, se eligió una frecuencia de muestreo de 250 Hz.
 
 Dado que la visualización y análisis de las señales era más efectiva en un rango reducido, se decidió trabajar con un ancho de banda de 10 Hz a 40 Hz, que abarca las componentes principales del ECG y atenúa las bajas frecuencias que pueden corresponder a ruido de línea base o artefactos de movimiento. Estas frecuencias de corte se normalizaron mediante la relación 𝑓norm = f/fs y se ingresaron en la configuración de Target Specification en pyFDA. Así, el filtro resultante presenta una banda pasante plana entre 0.04 y 0.16 (normalizado), equivalente a 10–40 Hz, lo que garantiza la preservación de las ondas características del ECG mientras se atenúa el ruido fuera de banda.
 
 ### Elección de filtro: FIR o IIR
-En el procesamiento de la señal ECG se suele preferir un filtro FIR antes que un IIR porque el FIR asegura una fase lineal, no deforma la forma de las ondas (P, QRS y T), preservando la morfología de la señal crucial para interpretaciones clínicas. En cambio, el filtro IIR introduce una fase no lineal lo cual puede distorsionar la señal ECG [6]. 
+En el procesamiento de la señal ECG se suele preferir un filtro FIR antes que un IIR porque el FIR asegura una fase lineal, no deforma la forma de las ondas (P, QRS y T), preservando la morfología de la señal crucial para interpretaciones clínicas. En cambio, el filtro IIR introduce una fase no lineal lo cual puede distorsionar la señal ECG [5]. 
 
 #### Filtro FIR - Blackman Harris
 Este fue el filtro elegido para filtrar las señales ECG, asimismo fue comparado con otros 3 filtros. Se detalló las principales características que lo vuelven un buen filtro para este tipo de señal.
@@ -266,11 +266,10 @@ La respuesta de fase es principalmente lineal en la banda de interés (10–40 H
 En el diagrama de polos y ceros del filtro FIR con ventana Blackman, todos los polos se sitúan en el origen y los ceros se distribuyen de manera simétrica, con dos ceros alejados del círculo unitario, lo que provoca una banda de rechazo con oscilaciones relativamente pronunciadas. En contraste, en el filtro con ventana Blackman–Harris, aunque algunos ceros también se ubican fuera del círculo unitario, la mayoría se concentra cerca de él, generando transiciones más suaves en la respuesta en frecuencia y una banda de rechazo más plana, con menor amplitud de oscilaciones.
 
 ## Referencias
-1. a
-2. b
-3. c
-4. d
-5. Equibiomedic, "DESFIBRILADOR COMEN S5 V2," Archivo de diseño en CorelDRAW, disponible en: [https://share.google/2t6TcNHI1mN6FgopA ](https://equibiomedic.com/wp-content/uploads/2022/08/FICHA-TECNICA-DESFIBRILADOR-COMEN-S5-V2.pdf) 
-6. S. Sarpal, "Difference between IIR and FIR filters: a practical design guide," Advanced Solutions Nederland, 28 Apr. 2020. [Online]. Available: https://www.advsolned.com/difference-between-iir-and-fir-filters-a-practical-design-guide/  
+1. H. A. Romo, J. C. Realpe, and P. E. Jojoa, “Análisis de señales EMG superficiales y su aplicación en control de prótesis de mano,” Universidad del Cauca, Mar. 2007. [Online]. Available: https://www.redalyc.org/pdf/1331/133116856017.pdf
+2. D. Mayor Tomillo, Diseño de filtros digitales FIR mediante técnicas de computación evolutiva y estudio de su aplicación al procesado de señales biomédicas, TFG, Univ. de Valladolid, Escuela Técnica Superior de Ingenieros de Telecomunicación, Valladolid, España, Oct. 2016. [Online]. Available: https://uvadoc.uva.es/bitstream/handle/10324/20958/TFG-G2270.pdf?sequence=1
+3. K. D. Shinde and C. Vijaya, “Optimizing Parallel FIR Filter Architecture for Time-Sensitive Applications: A Design Approach for High-Throughput and Area Efficiency,” International Journal of Intelligent Engineering and Systems, vol. 16, no. 4, pp. 289–303, Aug. 2023. [Online]. Available: https://inass.org/wp-content/uploads/2023/05/2023083124-3.pdf
+4. Equibiomedic, "DESFIBRILADOR COMEN S5 V2," Archivo de diseño en CorelDRAW, disponible en: [https://share.google/2t6TcNHI1mN6FgopA ](https://equibiomedic.com/wp-content/uploads/2022/08/FICHA-TECNICA-DESFIBRILADOR-COMEN-S5-V2.pdf) 
+5. S. Sarpal, "Difference between IIR and FIR filters: a practical design guide," Advanced Solutions Nederland, 28 Apr. 2020. [Online]. Available: https://www.advsolned.com/difference-between-iir-and-fir-filters-a-practical-design-guide/ 
 
 
