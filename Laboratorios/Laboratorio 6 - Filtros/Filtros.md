@@ -94,9 +94,9 @@ Estos saltos indican que existirá un “group delay distortion”, lo que impli
 </p>   
 Se observa que el Chebyshev II tiene ceros en el círculo unitario. Ello puede provocar que la fase tenga discontinuidades al cruzar esos puntos, los cuales se evidencia en la gráfica de fase.
 
-# Filtrado de señal EMG
+## Filtrado de señal EMG
 Se documenta el proceso de filtrado aplicado a las señales EMG obtenidas con el kit BITalino, empleando un filtro IIR Butterworth de orden 4 con banda pasante entre 20 Hz y 450 Hz. Este rango fue definido en función del espectro energético útil de la señal muscular y criterios de estabilidad y eficiencia computacional. A continuación se detallan las etapas para los dos gestos analizados: extensión de tríceps y flexión de bíceps
- ## Extensión de tríceps
+ ### Extensión de tríceps
 1. Señal EMG cruda (sin filtrado)
 Se observa la señal original capturada por el sensor EMG. Son evidentes:
 - Componentes de baja frecuencia (<20 Hz), típicamente asociados a artefactos de movimiento.
@@ -121,8 +121,10 @@ Se comparan los espectros de frecuencia:
 
   <img src="../../Repositorio-Imágenes/Captura de pantalla 2025-09-27 102244.png" alt="Kit BITalino" width="800" height="400"/>
 </p>
+  <img src="../../Repositorio-Imágenes/comparacion1.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
 
-## Flexión de bíceps 
+### Flexión de bíceps 
 1. Señal EMG cruda (sin filtrado)
 La señal presenta características similares al intento anterior:
 - Presencia de artefactos de baja frecuencia.
@@ -145,6 +147,8 @@ Se valida que:
 - El filtro elimina eficazmente las componentes fuera del rango de interés.
 
   <img src="../../Repositorio-Imágenes/Captura de pantalla 2025-09-27 102308.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+  <img src="../../Repositorio-Imágenes/comparacion2.png" alt="Kit BITalino" width="800" height="400"/>
 </p>
 
 
@@ -265,8 +269,60 @@ La respuesta de fase es principalmente lineal en la banda de interés (10–40 H
 
 En el diagrama de polos y ceros del filtro FIR con ventana Blackman, todos los polos se sitúan en el origen y los ceros se distribuyen de manera simétrica, con dos ceros alejados del círculo unitario, lo que provoca una banda de rechazo con oscilaciones relativamente pronunciadas. En contraste, en el filtro con ventana Blackman–Harris, aunque algunos ceros también se ubican fuera del círculo unitario, la mayoría se concentra cerca de él, generando transiciones más suaves en la respuesta en frecuencia y una banda de rechazo más plana, con menor amplitud de oscilaciones.
 
-# Filtrado de señal ECG
+## Filtrado de señal ECG
+Se documenta el proceso de filtrado aplicado a las señales ECG obtenidas con el kit BITalino, empleando un filtro FIR diseñado con ventana Blackman–Harris y banda pasante entre 10 Hz y 40 Hz. Este rango fue definido en función del espectro energético útil de la señal cardíaca y criterios clínicos de preservación morfológica. A continuación se detallan las etapas para los dos estados analizados: reposo y post-actividad física.
 
+### ECG en reposo
+1. Señal ECG cruda (sin filtrado)
+Se observa la señal original capturada por el sensor ECG. Son evidentes:
+- Componentes de baja frecuencia (<10 Hz), típicamente asociadas a desplazamiento de electrodos o respiración.
+- Componentes de alta frecuencia (>40 Hz), posiblemente de origen electromagnético o interferencias musculares.
+Estas interferencias justifican el uso de un filtro pasabanda que preserve el rango útil de 10–40 Hz.
+
+  <img src="../../Repositorio-Imágenes/ecg_reposo_crudo.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+  <img src="../../Repositorio-Imágenes/ecg_reposo_ft.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+
+2. Señal filtrada con FIR Blackman–Harris
+Se aplicó el filtro diseñado en pyFDA. Se observa:
+- Eliminación efectiva de ruido fuera de banda.
+- Conservación de la morfología de las ondas P, QRS y T.
+- Mejora en la relación señal/ruido, facilitando la detección de eventos cardíacos.
+
+3. FFT antes y después del filtrado
+Se comparan los espectros de frecuencia:
+- Antes del filtrado: energía dispersa, incluyendo ruido fuera del rango útil.
+- Después del filtrado: concentración energética entre 10 Hz y 40 Hz, como se esperaba según literatura.
+
+  <img src="../../Repositorio-Imágenes/comparacion_ecg_ft.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+  <img src="../../Repositorio-Imágenes/comparacion1ecg.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+
+### ECG post-actividad física
+1. Señal ECG cruda (sin filtrado)
+La señal presenta características similares al estado en reposo, pero con mayor presencia de:
+- Artefactos de baja frecuencia (<10 Hz) por movimiento corporal.
+- Ruido electromagnético en frecuencias altas (>40 Hz), posiblemente por contracción muscular o interferencias externas.
+  <img src="../../Repositorio-Imágenes/ecg_actividad_crudo.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+  <img src="../../Repositorio-Imágenes/ecg_actividad_ft.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+
+2. Señal filtrada con FIR Blackman–Harris
+La señal procesada muestra:
+- Reducción significativa del ruido fuera de banda.
+- Conservación de la estructura temporal de las ondas ECG.
+- Preparación adecuada para análisis clínico (detección de arritmias, variabilidad cardíaca, etc.).
+3. FFT antes y después del filtrado
+Se valida que:
+- La energía útil se concentra entre 10 Hz y 40 Hz.
+- El filtro elimina eficazmente las componentes fuera del rango de interés, mejorando la calidad diagnóstica.
+  <img src="../../Repositorio-Imágenes/comparacion_ecg2_ft.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
+  <img src="../../Repositorio-Imágenes/comparacion2ecg.png" alt="Kit BITalino" width="800" height="400"/>
+</p>
 
 ## Referencias
 1. H. A. Romo, J. C. Realpe, and P. E. Jojoa, “Análisis de señales EMG superficiales y su aplicación en control de prótesis de mano,” Universidad del Cauca, Mar. 2007. [Online]. Available: https://www.redalyc.org/pdf/1331/133116856017.pdf
