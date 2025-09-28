@@ -94,7 +94,7 @@ Estos saltos indican que existirá un “group delay distortion”, lo que impli
 </p>   
 Se observa que el Chebyshev II tiene ceros en el círculo unitario. Ello puede provocar que la fase tenga discontinuidades al cruzar esos puntos, los cuales se evidencia en la gráfica de fase.
 
-# Filtrado de señales
+# Filtrado de señal EMG
 Se documenta el proceso de filtrado aplicado a las señales EMG obtenidas con el kit BITalino, empleando un filtro IIR Butterworth de orden 4 con banda pasante entre 20 Hz y 450 Hz. Este rango fue definido en función del espectro energético útil de la señal muscular y criterios de estabilidad y eficiencia computacional. A continuación se detallan las etapas para los dos gestos analizados: extensión de tríceps y flexión de bíceps
  ## Extensión de tríceps
 1. Señal EMG cruda (sin filtrado)
@@ -264,6 +264,9 @@ La respuesta de fase es principalmente lineal en la banda de interés (10–40 H
 </p>
 
 En el diagrama de polos y ceros del filtro FIR con ventana Blackman, todos los polos se sitúan en el origen y los ceros se distribuyen de manera simétrica, con dos ceros alejados del círculo unitario, lo que provoca una banda de rechazo con oscilaciones relativamente pronunciadas. En contraste, en el filtro con ventana Blackman–Harris, aunque algunos ceros también se ubican fuera del círculo unitario, la mayoría se concentra cerca de él, generando transiciones más suaves en la respuesta en frecuencia y una banda de rechazo más plana, con menor amplitud de oscilaciones.
+
+# Filtrado de señal ECG
+
 
 ## Referencias
 1. H. A. Romo, J. C. Realpe, and P. E. Jojoa, “Análisis de señales EMG superficiales y su aplicación en control de prótesis de mano,” Universidad del Cauca, Mar. 2007. [Online]. Available: https://www.redalyc.org/pdf/1331/133116856017.pdf
