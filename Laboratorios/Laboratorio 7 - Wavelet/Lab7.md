@@ -72,11 +72,13 @@ Asimismo, en este mismo estudio se demuestra que el db-8 fue capaz de reconstrui
 ### 3.3. EEG
 Se eligió un wavelet de Debauchies (DB4) y un nivel de descomposición de 5, pues a partir de esta se puede establecer una relación entre la señal descompuesta con las subbandas de EEG tales como delta, theta, alfa, beta y gamma [8]. Cabe resaltar que en dicho estudio emplearon un EEG de 14 canales (AF3, AF4, F3, F4, F7, F8, FC5, FC6, P7, P8, T7, T8, O1, O2) denominado «EMOTIVE EPOC». A diferencia de la señal que nosotros obtuvimos a partir del Ultracortex que consta de 8 canales (FP1, FP2, C3, C4, T5, T6, O1, O2).  
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/721ceb98650ec76784b690648eea85dd3430d56b/Repositorio-Im%C3%A1genes/eeg_d4.png?raw=true" 
-       alt="MILimb_2a" width="300">
-  <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/2e2002a99b936d818712289928bb403889a90209/Repositorio-Im%C3%A1genes/eeg_d4_2.png?raw=true" 
-       alt="MILimb_2a" width="250">
+<div style="width: 100%; display: flex; justify-content: center; align-items: center; margin-top: 20px; margin-bottom: 20px;">
+  <div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/721ceb98650ec76784b690648eea85dd3430d56b/Repositorio-Im%C3%A1genes/eeg_d4.png?raw=true" 
+         alt="MILimb_2a" width="400">
+    <img src="https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/2e2002a99b936d818712289928bb403889a90209/Repositorio-Im%C3%A1genes/eeg_d4_2.png?raw=true" 
+         alt="MILimb_2a" width="400">
+  </div>
 </div>
 ---
 
@@ -107,3 +109,4 @@ Se obtuvieron ..
 6. Poornachandra, “Wavelet-based denoising using subband dependent threshold for ECG signals,” Digital Signal Processing, vol. 17, no. 3, pp. 572–588, 2007, doi: 10.1016/j.dsp.2007.09.006.
 7. Singh and A. K. Tiwari, “Optimal selection of wavelet basis function applied to ECG signal denoising,” Digital Signal Processing, vol. 16, pp. 275–287, 2006, doi: 10.1016/j.dsp.2005.12.003.
 8. Kumari and A. Vaish, “Brainwave’s based user authentication system: A pilot study in robotic environment,” Robotics and Autonomous Systems, 2014, doi: 10.1016/j.robot.2014.11.015.
+
