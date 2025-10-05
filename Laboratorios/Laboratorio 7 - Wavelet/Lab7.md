@@ -1,7 +1,6 @@
 
 
 ## Índice
-
 1. [Introducción](#1-introducción)  
 2. [Objetivos Específicos](#2-objetivos-específicos)  
 3. [Elección de la familia de Wavelet](#3-elección-de-la-familia-de-wavelet)  
@@ -11,10 +10,11 @@
 4. [Resultados](#4-resultados)  
    - [Parámetros del Filtro](#41-parámetros-del-filtro)  
 5. [Discusión](#5-discusión)  
-   - [Señal ECG](#discusión-de-la-señal-ecg)  
-   - [Señal EEG](#discusión-de-la-señal-eeg)  
-   - [Señal EMG](#discusión-de-la-señal-emg)  
+   - [Señal ECG](#51-discusión-de-la-señal-ecg)  
+   - [Señal EEG](#52-discusión-de-la-señal-eeg)  
+   - [Señal EMG](#53-discusión-de-la-señal-emg)  
 6. [Bibliografía](#6-bibliografía)
+
 ---
 
 ## 1. Introducción
@@ -108,7 +108,7 @@ La detección de picos en la señal reconstruida mantuvo una concordancia elevad
 La metodología empleada es reproducible y compatible con entornos de adquisición en campo. El uso de PyWavelets y Matplotlib permitió documentar cada paso del procesamiento, asegurando trazabilidad. Si bien la señal fue adquirida post-ejercicio, lo que introduce artefactos musculares, el enfoque aplicado demostró ser robusto frente a estas condiciones. Se recomienda complementar el procesamiento con técnicas de corrección de línea base y validar con métodos alternativos como EMD o wavelet scattering para escenarios clínicos más exigentes.
 En conclusión, el uso de Daubechies-8 con umbral adaptativo ofrece una solución eficaz para el procesamiento de señales ECG, combinando reducción de ruido, preservación morfológica y eficiencia computacional. Esta estrategia puede ser replicada en otros tipos de señales biológicas, adaptando los parámetros según las características espectrales de cada caso.
 
-### 5.1. Discusión de la señal EEG:
+### 5.2. Discusión de la señal EEG:
 La señal EEG registrada durante una tarea cognitiva fue procesada mediante transformadas wavelet y análisis espectral para evaluar su estructura, reducir ruido y extraer componentes fisiológicos relevantes. La señal original mostró oscilaciones de baja amplitud con presencia de artefactos, lo que justifica la necesidad de filtrado multibanda y descomposición temporal.
 El espectro de frecuencias reveló componentes distribuidos hasta ±100 Hz, con predominancia en bandas bajas, mientras que el espectrograma STFT permitió visualizar la evolución temporal de la energía, destacando zonas de mayor actividad entre los 10 y 25 segundos. La transformada wavelet continua (CWT) con Morlet mostró concentraciones de energía en escalas medias, lo que sugiere actividad cerebral sostenida en rangos Theta y Alpha.
 La descomposición discreta (DWT) con Daubechies-4 permitió segmentar la señal en niveles de detalle y aproximación. Al conservar únicamente los coeficientes de aproximación, se logró una reconstrucción suave de la señal, útil para compresión y análisis de tendencia. El filtrado por umbral suave (0.4) permitió atenuar el ruido sin eliminar componentes relevantes, como se evidenció en la superposición entre señal original y reconstruida.
@@ -116,7 +116,7 @@ La señal denoised mostró una mejora en la claridad de los patrones oscilatorio
 Finalmente, se aplicaron filtros pasa banda para extraer las bandas cerebrales clásicas (Delta, Theta, Alpha, Beta, Gamma bajo y alto). La distribución de energía mostró predominancia en Theta y Beta, coherente con la realización de una tarea cognitiva de concentración moderada. Aunque se reportaron advertencias de overflow en el cálculo de energía, esto puede corregirse normalizando la señal o ajustando el rango dinámico antes de aplicar operaciones cuadráticas.
 En conjunto, el procesamiento aplicado permitió caracterizar la señal EEG en tiempo, frecuencia y escala, con resultados coherentes con la literatura sobre actividad cognitiva. La metodología es reproducible y adaptable a otros sujetos o tareas, y puede integrarse en pipelines de análisis EEG para investigación o aplicaciones clínicas.
 
-### 5.1. Discusión de la señal EMG:
+### 5.3. Discusión de la señal EMG:
 La señal EMG registrada durante la activación del tríceps fue procesada mediante transformadas wavelet y análisis espectral con el objetivo de reducir ruido, identificar patrones musculares y evaluar la eficiencia de compresión. La señal original mostró oscilaciones de alta frecuencia y variabilidad, propias de la actividad muscular voluntaria, pero también evidenció componentes espurios que justifican la aplicación de técnicas de filtrado multiescala.
 El espectro de frecuencias reveló una distribución energética amplia, con componentes significativos por encima de los 50 Hz, lo que sugiere presencia de ruido electromagnético y actividad muscular secundaria. El espectrograma STFT permitió visualizar la evolución temporal de la energía, destacando zonas de mayor intensidad entre los 7 y 14 segundos, coincidentes con la contracción sostenida del músculo.
 La transformada wavelet continua (CWT) con Morlet mostró concentraciones de energía en escalas bajas y medias, lo que indica la presencia de transitorios rápidos y actividad muscular localizada. La descomposición discreta (DWT) con Daubechies-4 permitió segmentar la señal en niveles de detalle y aproximación. Al conservar únicamente los coeficientes de aproximación, se logró una reconstrucción suave de la señal, útil para compresión y análisis de tendencia.
