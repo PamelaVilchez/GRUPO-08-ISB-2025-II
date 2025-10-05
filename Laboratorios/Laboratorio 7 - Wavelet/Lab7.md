@@ -1,5 +1,7 @@
 
+
 ## Índice
+
 1. [Introducción](#1-introducción)  
 2. [Objetivos Específicos](#2-objetivos-específicos)  
 3. [Elección de la familia de Wavelet](#3-elección-de-la-familia-de-wavelet)  
@@ -9,11 +11,10 @@
 4. [Resultados](#4-resultados)  
    - [Parámetros del Filtro](#41-parámetros-del-filtro)  
 5. [Discusión](#5-discusión)  
-   - [Señal ECG](#51-discusión-de-la-señal-ecg)  
-   - [Señal EEG](#52-discusión-de-la-señal-eeg)  
-   - [Señal EMG](#53-discusión-de-la-señal-emg)  
+   - [Señal ECG](#discusión-de-la-señal-ecg)  
+   - [Señal EEG](#discusión-de-la-señal-eeg)  
+   - [Señal EMG](#discusión-de-la-señal-emg)  
 6. [Bibliografía](#6-bibliografía)
-
 ---
 
 ## 1. Introducción
