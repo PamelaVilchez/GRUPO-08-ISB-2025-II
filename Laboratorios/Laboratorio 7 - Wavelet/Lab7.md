@@ -130,25 +130,25 @@ Se eligió un wavelet de Debauchies (DB4) y un nivel de descomposición de 5, pu
 # Señal ECG con los niveles de descomposición 
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/emg_niveles.png" alt="Kit BITalino" width="400" height="400"/>
+  <img src="../../Repositorio-Imágenes/ecg_niveles.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
 # Señal ECG reconstruida 
 
 <p align="center">
-   <img src="../../Repositorio-Imágenes/emg_reconstruida.png" alt="Kit BITalino" width="400" height="400"/>
+   <img src="../../Repositorio-Imágenes/ecg_reconstruida.png" alt="Kit BITalino" width="400" height="400"/>
 </p><p align="center">
 
-# Señal ECG aplicando el filtro DB4
+# Señal ECG aplicando el filtro DB8
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/emg_db4.png" alt="Kit BITalino" width="400" height="400"/>
+  <img src="../../Repositorio-Imágenes/ecg_db8.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
 # Señal ECG comprimida 
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/emg_comprimida.png" alt="Kit BITalino" width="400" height="400"/>
+  <img src="../../Repositorio-Imágenes/ecg_comprimida.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
 ### 4.3 Parámetros del Filtro a EEG
@@ -158,28 +158,28 @@ Se eligió un wavelet de Debauchies (DB4) y un nivel de descomposición de 5, pu
 - **Frecuencia de muestreo:** 1000 Hz  
 - **Duración de la señal:** 0.001 segundos  
 
-# Señal ECG con los niveles de descomposición 
+# Señal EEG con los niveles de descomposición 
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/emg_niveles.png" alt="Kit BITalino" width="400" height="400"/>
+  <img src="../../Repositorio-Imágenes/eeg_niveles.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
-# Señal ECG reconstruida 
+# Señal EEG reconstruida 
 
 <p align="center">
-   <img src="../../Repositorio-Imágenes/emg_reconstruida.png" alt="Kit BITalino" width="400" height="400"/>
+   <img src="../../Repositorio-Imágenes/eeg_reconstruida.png" alt="Kit BITalino" width="400" height="400"/>
 </p><p align="center">
 
-# Señal ECG aplicando el filtro DB4
+# Señal EEG aplicando el filtro DB4
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/emg_db4.png" alt="Kit BITalino" width="400" height="400"/>
+  <img src="../../Repositorio-Imágenes/eeg_db4.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
-# Señal ECG comprimida 
+# Señal EEG comprimida 
 
 <p align="center">
-  <img src="../../Repositorio-Imágenes/emg_comprimida.png" alt="Kit BITalino" width="400" height="400"/>
+  <img src="../../Repositorio-Imágenes/eeg_comprimida.png" alt="Kit BITalino" width="400" height="400"/>
 </p>
 
 ## 5. Discusión
@@ -216,5 +216,6 @@ En conjunto, el procesamiento aplicado permitió caracterizar la señal EMG en t
 6. Poornachandra, “Wavelet-based denoising using subband dependent threshold for ECG signals,” Digital Signal Processing, vol. 17, no. 3, pp. 572–588, 2007, doi: 10.1016/j.dsp.2007.09.006.
 7. Singh and A. K. Tiwari, “Optimal selection of wavelet basis function applied to ECG signal denoising,” Digital Signal Processing, vol. 16, pp. 275–287, 2006, doi: 10.1016/j.dsp.2005.12.003.
 8. Kumari and A. Vaish, “Brainwave’s based user authentication system: A pilot study in robotic environment,” Robotics and Autonomous Systems, 2014, doi: 10.1016/j.robot.2014.11.015.
+
 
 
