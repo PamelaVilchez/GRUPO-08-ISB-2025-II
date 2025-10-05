@@ -5,7 +5,11 @@
 3. [Elección de la familia de Wavelet](#elección-de-la-familia-de-wavelet)
 4. [Resultados](#resultados)
    - [Parámetros del Filtro](#parámetros-del-filtro)
-5. [Discusión](#discusión)
+5. [Discusión](#5-discusión)  
+   - [Señal ECG](#51-discusión-de-la-señal-ecg)  
+   - [Señal EEG](#52-discusión-de-la-señal-eeg)  
+   - [Señal EMG](#53-discusión-de-la-señal-emg)  
+
 6. [Bibliografía](#bibliografía)
 
 ---
