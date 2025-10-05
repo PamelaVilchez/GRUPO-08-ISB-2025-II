@@ -8,9 +8,9 @@
    - [ECG](#32-ecg)  
    - [EEG](#33-eeg)  
 4. [Resultados](#4-resultados)  
-   - [Parámetros del Filtro a EMG](#41-parámetros-del-filtro_a_emg)
-   - [Parámetros del Filtro a ECG](#42-parámetros-del-filtro_a_ecg)
-   - [Parámetros del Filtro a EEG](#43-parámetros-del-filtro_a_eeg)
+   - [Parámetros del Filtro a EMG](#41-parámetros-del-filtro-a-emg)
+   - [Parámetros del Filtro a ECG](#42-parámetros-del-filtro-a-ecg)
+   - [Parámetros del Filtro a EEG](#43-parámetros-del-filtro-a-eeg)
 
 5. [Discusión](#5-discusión)  
    - [Señal ECG](#51-discusión-de-la-señal-ecg)  
@@ -219,6 +219,7 @@ En conjunto, el procesamiento aplicado permitió caracterizar la señal EMG en t
 6. Poornachandra, “Wavelet-based denoising using subband dependent threshold for ECG signals,” Digital Signal Processing, vol. 17, no. 3, pp. 572–588, 2007, doi: 10.1016/j.dsp.2007.09.006.
 7. Singh and A. K. Tiwari, “Optimal selection of wavelet basis function applied to ECG signal denoising,” Digital Signal Processing, vol. 16, pp. 275–287, 2006, doi: 10.1016/j.dsp.2005.12.003.
 8. Kumari and A. Vaish, “Brainwave’s based user authentication system: A pilot study in robotic environment,” Robotics and Autonomous Systems, 2014, doi: 10.1016/j.robot.2014.11.015.
+
 
 
 
