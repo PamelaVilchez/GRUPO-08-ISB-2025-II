@@ -1,0 +1,1 @@
+Este proyecto tiene como objetivo desarrollar una Interfaz Cerebro-Computadora (BCI) que permita la detección en tiempo real de parpadeos oculares mediante señales EEG (Electroencefalografía), con el fin de controlar dispositivos externos de forma no invasiva.
