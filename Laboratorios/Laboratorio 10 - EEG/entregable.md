@@ -1,5 +1,8 @@
 ## Evaluación de componentes ICA
-
+INTEGRANTES
+- Pamela Vilchez
+- Franco Peralta
+- Mariel Sánchez
 
 ### Criterios a evaluar
 
@@ -24,6 +27,7 @@ En el componente **ICA007**, se observa que las zonas de mayor activación (repr
 Esta distribución espacial sugiere un **foco periférico**, típico de artefactos musculares o señales no neuronales. La concentración de actividad en regiones laterales o cercanas a la cara refuerza esta hipótesis.
 
 La imagen del topomap correspondiente muestra claramente esta configuración periférica, con los máximos y mínimos localizados en zonas externas del cuero cabelludo.
+
 ![ICA000](https://github.com/PamelaVilchez/GRUPO-08-ISB-2025-II/blob/853d4118efc5cba81d2f582ad9d5edcd3fee1bbd/Repositorio-Im%C3%A1genes/7.png?raw=true)
 
 
