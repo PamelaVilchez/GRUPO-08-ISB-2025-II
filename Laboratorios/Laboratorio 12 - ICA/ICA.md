@@ -131,7 +131,7 @@ Esto garantiza que ICA opere sobre un conjunto de datos adecuado y no intente se
 
 ## 5. Método de Punto Fijo para Maximizar la No-Gaussianidad
 
-El algoritmo FastICA constituye una de las aproximaciones más eficientes para la estimación de componentes independientes [1]. Su fundamento se basa en la maximización de la no-gaussianidad de las combinaciones lineales de las señales observadas, utilizando un esquema iterativo de punto fijo.
+El algoritmo FastICA constituye una de las aproximaciones más eficientes para la estimación de componentes independientes. Su fundamento se basa en la maximización de la no-gaussianidad de las combinaciones lineales de las señales observadas, utilizando un esquema iterativo de punto fijo.
 
 ### 5.1 Principios del algoritmo
 - **Preprocesamiento**: los datos se centran (media cero) y se blanquean (decorrelación y varianza unitaria).
