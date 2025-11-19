@@ -53,6 +53,13 @@ El marco de ICA, y en particular el algoritmo FastICA, ha demostrado utilidad en
 - Identificación y mitigación de interferencias.
 
 ---
+## 7. Repositorio
+El repositorio desarrollado por Kevin Tan presenta un pipeline de procesamiento de EEG basado en **Independent Component Analysis (ICA)**, diseñado principalmente para estudios de potenciales relacionados con eventos (ERP), aunque adaptable a otros análisis M/EEG como ERSP y clasificación de ensayos individuales. El flujo de trabajo se organiza en tres etapas: 
+1.  **PREP**, que realiza el preprocesamiento inicial de las señales; 
+2.  **ICA y localización de fuentes**, donde se descomponen las señales en componentes independientes y se estiman sus posibles orígenes corticales; y 
+3. **Preprocesamiento final**, que incluye la sustracción de componentes artefactuales (oculares, musculares, entre otros) y prepara los datos para análisis posteriores. Este pipeline, probado en registros de 128 canales BioSemi, ha demostrado ser eficaz en la limpieza de artefactos y en la mejora de la calidad de los datos, aunque requiere recursos computacionales intensivos y no se encuentra actualmente en mantenimiento activo.
+
+link del repositorio: https://github.com/kevmtan/EEG-ICA-pipeline/wiki 
 
 ## Referencias
 
