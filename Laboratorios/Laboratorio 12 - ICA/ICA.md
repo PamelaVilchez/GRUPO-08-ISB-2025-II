@@ -1,4 +1,56 @@
 # Independent Component Analysis (ICA)
+## 1. Motivación del Análisis de Componentes Independientes (ICA)
+La motivación fundamental para el desarrollo de ICA es el problema del "cocktail-party".
+
+Esta describe una situación en la que un individuo está en una sala donde dos personas hablan simultáneamente. Se utilizan dos micrófonos en ubicaciones diferentes para grabar dos señales temporales observadas, x1(t) y x2(t).
+Cada señal grabada (x1(t) y x2(t)) es una suma ponderada lineal de las señales de voz originales emitidas por los dos hablantes, s1(t) y s2(t). 
+El objetivo es estimar las dos señales de voz originales, utilizando solo las mezclas registradas. Si los parámetros de mezcla fueran conocidos, la ecuación lineal se podría resolver con métodos clásicos. Sin embargo, la dificultad clave radica en que los parámetros de mezcla se asumen desconocidos. 
+
+La solución novedosa a este problema se encuentra al asumir que las señales de origen, son estadísticamente independientes en cada instante de tiempo t. La técnica de ICA permite estimar estos parámetros a_ij basándose en la información de su independencia, lo que a su vez permite la separación de las señales originales.
+
+### 1.2. Otras Aplicaciones Impulsoras
+Aunque ICA se desarrolló originalmente para el problema del cocktail-party, el principio tiene muchas otras aplicaciones relevntes en el ámbito biomédico. 
+#### 1.2.1. Análisis de Señales Biomédicas:
+ En grabaciones eléctricas de la actividad cerebral, como el electroencefalograma (EEG) y la magnetoencefalografía (MEG), los datos observados son mezclas de componentes subyacentes de la actividad cerebral. ICA puede revelar información relevante al aislar los componentes independientes de la actividad cerebral o, también, para separar los artefactos como movimientos oculares, parpadeos, actividad cardiaca o muscular de las señales cerebrales deseadas.
+#### 1.2.2. Extracción de Características (Feature Extraction): 
+ICA es útil para encontrar representaciones adecuadas de datos de imágenes o audio para tareas como la compresión y la eliminación de ruido. Por ejemplo, al aplicar ICA a parches de imágenes naturales, se pueden obtener funciones de base que actúan como "características independientes" de las imágenes.
+#### 1.2.3. Finanzas y Econometría: 
+ICA se aplica a series temporales paralelas, como datos de flujo de caja o tasas de cambio, para revelar factores subyacentes comunes que podrían estar afectando los datos, como variaciones estacionales o tendencias.
+
+## 2. Concepto y Definición Rigurosa de ICA
+El Análisis de Componentes Independientes (ICA) se formula matemáticamente como un modelo estadístico de variables latentes.
+
+##### El Modelo Generativo
+La definición rigurosa de ICA asume que observamos n mezclas lineales x1,…,xn de n componentes independientes s1,…,sn. En notación matricial, el modelo de mezcla se escribe como: x=As.
+- x es el vector aleatorio de las mezclas observadas.
+- s es el vector de los componentes independientes (variables latentes).
+- A es la matriz de mezcla, la cual se asume desconocida.
+
+ICA es un modelo generativo porque describe cómo los datos observados "x" son generados por un proceso de mezcla de los componentes s_i. 
+El **objetivo del ICA** es estimar tanto la matriz de mezcla A como los componentes s, utilizando únicamente x. Una vez estimada A, los componentes independientes se recuperan mediante la matriz inversa W (la matriz separadora): s=Wx.
+
+#### Principios Fundamentales del ICA
+El concepto de ICA se basa en tres principios estadísticos y una restricción crucial:
+
+1. Independencia Estadística: 
+El punto de partida de ICA es la asunción de que los componentes si son estadísticamente independientes. Dos variables y1 y y2 son independientes si la información sobre el valor de y1 no proporciona ninguna información sobre y2. Técnicamente, esto se define si la función de densidad de probabilidad conjunta se puede factorizar como el producto de sus densidades marginales.
+
+2. La Necesidad de la No-Gaussianidad: 
+La restricción fundamental del ICA es que los componentes independientes deben tener distribuciones no-gaussianas para que el ICA sea posible.
+Si los componentes fueran gaussianos, la distribución de cualquier transformación ortogonal de las mezclas gaussianas sería exactamente la misma. Una distribución gaussiana es completamente simétrica y no contiene información sobre las direcciones de los vectores de la matriz de mezcla A, lo que hace que A no sea identificable. En resumen, la distribución gaussiana es la "más aleatoria" o la menos estructurada de todas las distribuciones con igual varianza.
+3. El Principio de Máxima No-Gaussianidad: 
+La clave para estimar el modelo ICA es la no-gaussianidad.
+El **Teorema del Límite Central** establece que la distribución de una suma de variables aleatorias independientes tiende a ser gaussiana. Por lo tanto, una combinación lineal de componentes independientes será "más gaussiana" que cualquiera de sus componentes originales.
+El principio básico de la estimación de ICA se convierte en buscar un vector de pesos w tal que la proyección w^T.x (una combinación lineal de las mezclas) maximice la no-gaussianidad. Cuando esta no-gaussianidad se maximiza, la proyección es igual a uno de los componentes independientes.
+4. Medidas de No-Gaussianidad (Conceptos de Contraste): 
+Para utilizar el principio de máxima no-gaussianidad, se requieren medidas cuantitativas, o funciones de contraste.
+E. Equivalencia Conceptual de Estimación: El enfoque de máxima no-gaussianidad se vincula rigurosamente con otros principios de estimación:
+
+El modelo de ICA presenta ambigüedades inherentes que no pueden resolverse:
+- Varianza/Energía y Signo: 
+No se puede determinar la varianza (o energía) ni el signo de los componentes independientes. Convencionalmente, se asume que cada componente tiene varianza unitaria para fijar la magnitud.
+- Orden de los Componentes:
+El orden de los componentes independientes no se puede determinar libremente, ya que una permutación simplemente resulta en una nueva matriz de mezcla desconocida que debe ser resuelta.
 
 ## 3. Principios de ICA
 ### 3.1 Objetivo matemático y fundamento estadístico
@@ -79,7 +131,7 @@ Esto garantiza que ICA opere sobre un conjunto de datos adecuado y no intente se
 
 ## 5. Método de Punto Fijo para Maximizar la No-Gaussianidad
 
-El algoritmo FastICA constituye una de las aproximaciones más eficientes para la estimación de componentes independientes [1]. Su fundamento se basa en la maximización de la no-gaussianidad de las combinaciones lineales de las señales observadas, utilizando un esquema iterativo de punto fijo.
+El algoritmo FastICA constituye una de las aproximaciones más eficientes para la estimación de componentes independientes. Su fundamento se basa en la maximización de la no-gaussianidad de las combinaciones lineales de las señales observadas, utilizando un esquema iterativo de punto fijo.
 
 ### 5.1 Principios del algoritmo
 - **Preprocesamiento**: los datos se centran (media cero) y se blanquean (decorrelación y varianza unitaria).
