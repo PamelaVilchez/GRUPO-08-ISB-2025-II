@@ -141,3 +141,4 @@ link del repositorio: https://github.com/kevmtan/EEG-ICA-pipeline/wiki
 ## Referencias
 
 [1] A. Hyvärinen and E. Oja, "Independent Component Analysis: Algorithms and Applications," *Neural Networks*, vol. 13, no. 4–5, pp. 411–430, 2000.
+[2] A. Delorme and S. Makeig, “EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis,” Journal of Neuroscience Methods, vol. 134, no. 1, pp. 9–21, 2004.
