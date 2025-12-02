@@ -1,4 +1,4 @@
-# Detección de gestos oculares voluntarios mediante EEG para control de dispositivos en personas con tetraplejia
+# Sistema BCI con Ultracortex para operar un teclado inalámbrico en personas con tetraplejia
 
 ## ⚠️ Problemática a abordar
 Las Interfaces Cerebro-Computadora (BCI) son sistemas que permiten establecer una conexión directa entre la actividad cerebral y el entorno, sin necesidad de recurrir a vías nerviosas o musculares convencionales. Estas tecnologías han surgido como alternativas de comunicación y control especialmente dirigidas a personas con limitaciones motoras severas, al traducir señales neurofisiológicas en comandos capaces de interactuar con dispositivos externos [1].
@@ -7,21 +7,17 @@ En el caso de las BCI basadas en electroencefalografía (EEG), las señales suel
 
 Para personas con tetraplejia, que conservan la capacidad de comunicarse verbalmente pero enfrentan limitaciones físicas severas, acciones cotidianas como encender el televisor, cambiar de canal o ajustar el volumen suelen requerir asistencia externa o tecnologías especializadas que no siempre están disponibles o adaptadas a sus necesidades. Esto limita su autonomía y dificulta la interacción directa con el entorno.
 
-La problemática técnica se centra en:
-- La diferenciación precisa entre gestos voluntarios e involuntarios
-- La adaptación del sistema a distintos niveles de sensibilidad muscular
-- La implementación en tiempo real con bajo costo y alta portabilidad
-
 ### 💡 Propuesta de solución
-Este proyecto propone el desarrollo de un sistema BCI no invasivo basado en EEG portátil (OpenBCI), capaz de registrar simultáneamente señales EEG y EOG mediante electrodos ubicados cerca de los músculos oculares. El sistema estará diseñado para detectar gestos oculares voluntarios —como parpadeos prolongados y guiños laterales— y traducirlos en comandos funcionales sin necesidad de movimiento corporal ni contacto físico.
+Sistema BCI no invasivo basado en el potencial P300, utilizando el Ultracortex Mark IV y OpenBCI para adquirir señales EEG que permiten a personas con tetraplejia operar un teclado inalámbrico sin movimiento corporal.
+El sistema presenta una matriz de números que se iluminan de forma secuencial (paradigma oddball). Cuando el usuario fija su atención en un número, el estímulo objetivo genera un P300, el cual se detecta en regiones parietales y se traduce en un comando. 
 
-Los gestos definidos para el control de dispositivos son:
-- Parpadeo voluntario prolongado → Encendido del televisor
-- Guiño del ojo derecho → Avanzar de canal
-- Guiño del ojo izquierdo → Retroceder de canal
+Para la implementación, se utilizará:
 
-Al integrar funciones domésticas en un sistema accesible y personalizado, se busca mejorar la autonomía de personas con movilidad reducida, promoviendo una experiencia más digna, eficiente y tecnológicamente inclusiva. Esta solución aprovecha señales tradicionalmente consideradas como ruido para convertirlas en una vía de interacción intuitiva y práctica con el entorno.
+- Hardware abierto-accesible: El Ultracortex Mark IV y la plataforma OpenBCI para la adquisición de señales EEG. La configuración de los electrodos se centrará estratégicamente en las regiones parietales y centrales (principalmente Pz, Cz), ya que estas áreas cerebrales son las responsables de la generación del P300, asegurando la captación óptima de la señal de interés.
+- **Paradigma Oddball**: El sistema presenta una matriz visual 6x6 que se iluminan en 2 fases secuencialmente (1. Iluminación secuencial de las 6 filas y 2. Iluminación secuencial de las 6 columnas). La atención focalizada del usuario en el carácter objetivo provoca una respuesta cerebral P300 de alta amplitud exclusivamente en el momento en que su fila y su columna son iluminadas (estímulo objetivo).
+- Traducción de comandos: La detección y clasificación de este potencial permite traducir la intención mental del usuario en un comando para la selección de un caracter.
 
+Al integrar hardware accesible (Ultracortex/OpenBCI) con una metodología robusta (P300 speller), esta solución no solo proporciona una vía de comunicación esencial sino que también sienta las bases para un sistema de control asistido integral. El objetivo es mejorar significativamente la autonomía, la dignidad y la inclusión tecnológica de las personas con movilidad reducida, convirtiendo la actividad cerebral intencional en una forma práctica y eficiente de interactuar con el mundo.
 
 ## 📊 Estadísticas
 
@@ -112,6 +108,7 @@ Además, se robustecerá el algoritmo de detección de ambos tipos de artefactos
 - [3] Naciones Unidas, "Día Internacional de las Personas con Discapacidad", Naciones Unidas, 2025. Disponible en: https://www.un.org/es/observances/day-of-persons-with-disabilities
 
 - [4] Observatorio Nacional de la Discapacidad, Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS), “Discapacidad en cifras”, disponible en: https://observatorio.conadisperu.gob.pe/
+
 
 
 
